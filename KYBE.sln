@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{A6C3B401-A460-4214-9D2E-8887A8BEF986}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{7B98E0D6-E18E-4E8A-B0E0-8C33D6A9EC7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infrastructure", "4 - Infrastructure", "{093C75B6-7F81-4FC6-B647-B05F53733A78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kybe-domain", "kybe-domain\kybe-domain.csproj", "{214670AF-6B20-4178-A328-D9B8D112ACC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kybe.infrastructure", "kybe.infrastructure\kybe.infrastructure.csproj", "{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{214670AF-6B20-4178-A328-D9B8D112ACC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{214670AF-6B20-4178-A328-D9B8D112ACC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{214670AF-6B20-4178-A328-D9B8D112ACC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{214670AF-6B20-4178-A328-D9B8D112ACC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{214670AF-6B20-4178-A328-D9B8D112ACC1} = {7B98E0D6-E18E-4E8A-B0E0-8C33D6A9EC7F}
+		{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959} = {093C75B6-7F81-4FC6-B647-B05F53733A78}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18CE23B9-9CAA-4730-B19D-8DE55C1CC10B}
+	EndGlobalSection
+EndGlobal

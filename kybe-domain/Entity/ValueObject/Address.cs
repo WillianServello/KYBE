@@ -1,5 +1,4 @@
 ﻿using kybe_domain.Common;
-using kybe_domain.Entity.Common;
 using System;
 using System.Collections.Generic;
 using System.Linq;

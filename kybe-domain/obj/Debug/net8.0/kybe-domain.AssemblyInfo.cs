@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kybe-domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bccb7a502da666e5d0afdf4d2e5d4770a9eca374")]
 [assembly: System.Reflection.AssemblyProductAttribute("kybe-domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kybe-domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

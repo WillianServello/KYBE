@@ -6,6 +6,12 @@ namespace kybe.presentation
         {
             var builder = WebApplication.CreateBuilder(args);
 
+            builder.Services
+                .AddControllersWithViews()
+                .AddRazorOptions(options =>
+                {
+                    options.ViewLocationFormats.Add("/Views/Pages/{1}/{0}.cshtml");
+                });
             // Add services to the container.
             builder.Services.AddControllersWithViews();
 

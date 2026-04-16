@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3vLTKZPkvEs=",
+  "dgSpecHash": "tnHbP4P6Q0Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\facec.lab04\\source\\repos\\WillianServello\\KYBE\\kybe.infrastructure\\kybe.infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\kybe.infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\facec.lab04\\.nuget\\packages\\bouncycastle.cryptography\\2.6.2\\bouncycastle.cryptography.2.6.2.nupkg.sha512",
     "C:\\Users\\facec.lab04\\.nuget\\packages\\google.protobuf\\3.32.0\\google.protobuf.3.32.0.nupkg.sha512",

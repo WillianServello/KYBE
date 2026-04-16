@@ -1,22 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\facec.lab04\\source\\repos\\WillianServello\\KYBE\\",
+  "WorkspaceRootPath": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\facec.lab04\\source\\repos\\willianservello\\kybe\\kybe.presentation\\views\\shared\\layout\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\views\\shared\\layout\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.presentation\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\facec.lab04\\source\\repos\\willianservello\\kybe\\kybe.presentation\\views\\shared\\partials\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\views\\shared\\partials\\_sidebar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\facec.lab04\\source\\repos\\willianservello\\kybe\\kybe.presentation\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\facec.lab04\\source\\repos\\willianservello\\kybe\\kybe.presentation\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,58 +18,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\facec.lab04\\source\\repos\\WillianServello\\KYBE\\kybe.presentation\\Views\\Shared\\Layout\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "kybe.presentation\\Views\\Shared\\Layout\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\facec.lab04\\source\\repos\\WillianServello\\KYBE\\kybe.presentation\\Views\\Shared\\Layout\\_Layout.cshtml",
-              "RelativeToolTip": "kybe.presentation\\Views\\Shared\\Layout\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAA==",
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "kybe.presentation\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\Views\\_ViewImports.cshtml*",
+              "RelativeToolTip": "kybe.presentation\\Views\\_ViewImports.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-15T23:08:50.468Z",
+              "WhenOpened": "2026-04-16T00:52:52.816Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "_Sidebar.cshtml",
-              "DocumentMoniker": "C:\\Users\\facec.lab04\\source\\repos\\WillianServello\\KYBE\\kybe.presentation\\Views\\Shared\\Partials\\_Sidebar.cshtml",
-              "RelativeDocumentMoniker": "kybe.presentation\\Views\\Shared\\Partials\\_Sidebar.cshtml",
-              "ToolTip": "C:\\Users\\facec.lab04\\source\\repos\\WillianServello\\KYBE\\kybe.presentation\\Views\\Shared\\Partials\\_Sidebar.cshtml",
-              "RelativeToolTip": "kybe.presentation\\Views\\Shared\\Partials\\_Sidebar.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-15T23:08:32.308Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\facec.lab04\\source\\repos\\WillianServello\\KYBE\\kybe.presentation\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "kybe.presentation\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\facec.lab04\\source\\repos\\WillianServello\\KYBE\\kybe.presentation\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "kybe.presentation\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-15T23:06:58.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\facec.lab04\\source\\repos\\WillianServello\\KYBE\\kybe.presentation\\Views\\Home\\Privacy.cshtml",
-              "RelativeDocumentMoniker": "kybe.presentation\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\facec.lab04\\source\\repos\\WillianServello\\KYBE\\kybe.presentation\\Views\\Home\\Privacy.cshtml",
-              "RelativeToolTip": "kybe.presentation\\Views\\Home\\Privacy.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-04-15T23:06:57.756Z",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "kybe.presentation\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "kybe.presentation\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAABwAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-16T00:52:41.193Z",
               "EditorCaption": ""
             }
           ]

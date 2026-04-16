@@ -1,4 +1,4 @@
-using kybe.presentation.Models;
+using kybe.presentation.EntityDTO.Error;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 

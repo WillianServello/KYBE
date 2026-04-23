@@ -1,50 +1,21 @@
 ﻿<div class="sidebar active" id="sidebar">
-	<div class="sidebar-conteiner-itens">
-		<div class="d-flex justify-content-end mb-2">
-			<button class="btnToggle"  onclick="toggleSidebar()">
+    <div class="sidebar-conteiner">
+
+        <div class="sidebar-conteiner-button">
+            <button class="sidebar-button-togle" onclick="toggleSidebar()">
                 <i class="fa-solid fa-bars"></i>
             </button>
-		</div>
-		<div class="sidebar-itens">
-			<div>
-				<i class="fa-regular fa-user"></i>
-			</div>
-			<span>
-				Usuário
-			</span>
-		</div>
-		<div class="sidebar-itens">
-			<div>
-				<i class="fa-regular fa-address-book"></i>
-			</div>
-			<span>
-				Perfil
-				
-			</span>
-		</div>
-		
+        </div>
 
-		
+        <a class="sidebar-conteiner-itens sidebar-link"
+           asp-controller="Home"
+           asp-action="Index">
 
+            <i class="fa-solid fa-house-chimney sidebar-icone "></i>
+            <span class="fontPoppins">
+                Home
+            </span>
 
-	</div>
-	
-	<div class="d-flex mt-auto flex-column">
-		<hr class="w-100 bg-white" />
-
-	
-	<div class="sidebar-itens ">
-		<div>
-			<i class="fa-solid fa-right-from-bracket"></i>
-		</div>
-		<span>
-			Sair
-
-		</span>
-	</div>
-	</div>
+        </a>
+    </div>
 </div>
-<style>
-	
-</style>
-

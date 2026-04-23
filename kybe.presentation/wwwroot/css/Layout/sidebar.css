@@ -1,0 +1,94 @@
+﻿body {
+}
+.sidebar {
+    position: fixed;
+    flex-direction: column;
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 280px;
+    padding: 20px;
+    color: white;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+    -webkit-overflow-scrolling: touch;
+    background: #0d1117;
+    z-index: 10;
+    box-shadow: 1px 1px 1px #2F3A4A;
+    transition: width 0.5s ease, filter 0.5s ease, opacity 0.5s ease;
+}
+
+    .sidebar.active {
+        width: 85px;
+    }
+        .sidebar.active span {
+            opacity: 0;
+            width: 0;
+            overflow: hidden;
+        }
+
+        
+.sidebar-conteiner {
+    display: flex;
+    flex-direction: column;
+}
+
+.sidebar-conteiner-button {
+    display: flex;
+}
+
+.sidebar-button-togle {
+    background: transparent;
+    color: white;
+    border: none;
+    font-size: 24px;
+    margin-left: auto;
+}
+.sidebar-conteiner-itens {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: 1px solid rgba(255,255,255,0.08);
+    color: inherit;
+    text-decoration-line: none;
+    text-decoration: none;
+    transition: 0.5s all ease;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.sidebar.active .sidebar-conteiner-itens {
+    justify-content: center;
+    gap: 0px;
+}
+.sidebar-conteiner-itens:hover {
+    transform: translateY(-1px);
+    background: #1c2128;
+}
+.sidebar-icone {
+    text-align: center;
+    width: 30px;
+    font-size: 14px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+span.fontPoppins {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    width: 100%;
+    transition: 0.5s all ease
+}
+
+.sidebar-conteiner-itens span {
+    transition: opacity 0.8s, width 1s ease, transform 0.5s;
+    white-space: nowrap;
+}
+.sidebar-link:hover{
+    color: white;
+}

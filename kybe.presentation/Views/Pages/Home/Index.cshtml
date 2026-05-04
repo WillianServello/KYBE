@@ -4,37 +4,77 @@
 
 <div class="inteface-conteiner">
     <div class="info-page">
-        <span>
-            Home
+        <span class="title tootips" data-title="▲ tela inicial do usuário">
+            home | tela inicial
         </span>
     </div>
     <div class="inteface">
-        <div>
-            <span>
-                cadastrar usuário?
-            </span>
-            <a asp-action="Privacy" class="link-primary">
-                clique aqui.
-            </a>
+        <div class="home-user tooltips-user" data-title-user="sessão usuário">
+            <div class="home-user-icon">
+                <i class="fa-regular fa-user"></i>
+            </div>
+            <div class="home-user-name" >
+                user
+            </div>
+            <div class="home-arrow-icon">
+                <i class="fa-solid fa-chevron-down"></i>
+            </div>
         </div>
     </div>
 </div>
 
 <style>
-    .inteface-conteiner{
-        
+    .home-user{
+        display: flex;
+        position: relative;
+        justify-content: end;
+        align-items: center;
+        overflow: hidden;
+        padding-bottom: 10px;
+        gap: 5px
     }
 
-    .info-page{
-        margin-left: 20px;
-        margin-bottom: -3px;
-        font-size: 14px;
-        
+    .home-user-icon{
+        font-size: 20px;
+        cursor: pointer;
     }
-    .inteface{
-        border-radius: 10px;
-        height: calc(100vh - 40px);
-        background: white;
-        padding: 20px;
+
+    .home-user-name{
+        font-weight: 400;
+        letter-spacing: 1px;
+        cursor: pointer;
+    }
+
+        .home-user-name:hover{
+            text-decoration: underline;
+        }
+
+    .home-arrow-icon{
+        font-size: 10px;
+        cursor: pointer;
+    }
+
+    .tooltips-user::after {
+        content: attr(data-title-user);
+        position: absolute;
+        color: #000000ff;
+        padding: 4px 8px;
+        top: 50%;
+        right: 10px;
+        border-radius: 5px;
+        font-size: 12px;
+        width: max-content;
+        visibility: hidden;
+        opacity: 0;
+        letter-spacing: 0.5px;
+        transition: opacity 0.2s ease-in-out, visibility 0.1s ease-in-out;
+        z-index: 10;
+    }
+
+    /* Exibe o balão e a seta ao passar o mouse */
+    .tooltips-user:hover::after,
+    .tooltips-user::before {
+        opacity: 1;
+        visibility: visible;
     }
 </style>

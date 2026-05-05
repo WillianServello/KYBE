@@ -9,72 +9,20 @@
         </span>
     </div>
     <div class="inteface">
-        <div class="home-user tooltips-user" data-title-user="sessão usuário">
-            <div class="home-user-icon">
-                <i class="fa-regular fa-user"></i>
+        <div class="home-conteiner-user">
+            <div class="home-user">
+                <div class="home-user-name tooltips-user" data-title-user="sessão usuário">
+                    Willian Servello
+                </div>
+                <div class="home-arrow-icon">
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
             </div>
-            <div class="home-user-name" >
-                user
-            </div>
-            <div class="home-arrow-icon">
-                <i class="fa-solid fa-chevron-down"></i>
+
+            <div class="home-user-menu">
+                a
             </div>
         </div>
     </div>
 </div>
 
-<style>
-    .home-user{
-        display: flex;
-        position: relative;
-        justify-content: end;
-        align-items: center;
-        overflow: hidden;
-        padding-bottom: 10px;
-        gap: 5px
-    }
-
-    .home-user-icon{
-        font-size: 20px;
-        cursor: pointer;
-    }
-
-    .home-user-name{
-        font-weight: 400;
-        letter-spacing: 1px;
-        cursor: pointer;
-    }
-
-        .home-user-name:hover{
-            text-decoration: underline;
-        }
-
-    .home-arrow-icon{
-        font-size: 10px;
-        cursor: pointer;
-    }
-
-    .tooltips-user::after {
-        content: attr(data-title-user);
-        position: absolute;
-        color: #000000ff;
-        padding: 4px 8px;
-        top: 50%;
-        right: 10px;
-        border-radius: 5px;
-        font-size: 12px;
-        width: max-content;
-        visibility: hidden;
-        opacity: 0;
-        letter-spacing: 0.5px;
-        transition: opacity 0.2s ease-in-out, visibility 0.1s ease-in-out;
-        z-index: 10;
-    }
-
-    /* Exibe o balão e a seta ao passar o mouse */
-    .tooltips-user:hover::after,
-    .tooltips-user::before {
-        opacity: 1;
-        visibility: visible;
-    }
-</style>

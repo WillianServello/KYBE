@@ -1,4 +1,6 @@
+wwwroot\css\Common\common-page.css
 wwwroot\css\Layout\sidebar.css
+wwwroot\css\Pages\Home\home-user.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\js\site.js
@@ -59,4 +61,3 @@ wwwroot\lib\jquery\dist\jquery.js
 wwwroot\lib\jquery\dist\jquery.min.js
 wwwroot\lib\jquery\dist\jquery.min.map
 wwwroot\lib\jquery\LICENSE.txt
-wwwroot\css\Common\common-page.css

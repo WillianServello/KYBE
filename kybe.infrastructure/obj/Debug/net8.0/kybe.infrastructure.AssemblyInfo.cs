@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kybe.infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+50cc6dcf4fe1f1f60db756e5140993308c80f7b4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+352b9ba431a7d974a9f71409ac6851fd470654a1")]
 [assembly: System.Reflection.AssemblyProductAttribute("kybe.infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kybe.infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

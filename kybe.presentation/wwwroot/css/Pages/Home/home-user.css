@@ -1,0 +1,79 @@
+﻿.home-conteiner-user {
+    display: flex;
+    position: relative;
+    min-height: 0;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 15px;
+}
+
+.home-user {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    background: #f6f8fa;
+    border: 1px solid #d1d9e0;
+    gap: 5px;
+    cursor: pointer;
+    transition: 0.3s background ease;
+}
+
+    .home-user:hover {
+        background: #eaeef2
+    }
+
+.home-user-icon {
+    font-size: 20px;
+    font-weight: 200
+}
+
+.home-user-name {
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+    .home-user-name:hover {
+        text-decoration: underline;
+        text-decoration-color: rgba(0, 0, 0, 0.8);
+    }
+
+.home-arrow-icon {
+    font-size: 10px;
+}
+
+.tooltips-user::after {
+    content: attr(data-title-user);
+    position: absolute;
+    color: #000000ff;
+    padding: 4px 8px;
+    top: 70%;
+    right: 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    width: max-content;
+    visibility: hidden;
+    opacity: 0;
+    letter-spacing: 0.5px;
+    transition: opacity 0.2s ease-in-out, visibility 0.1s ease-in-out;
+    z-index: 10;
+}
+
+/* Exibe o balão e a seta ao passar o mouse */
+.tooltips-user:hover::after,
+.tooltips-user::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+.home-user-menu {
+    position: absolute;
+    background: #f6f8fa;
+    border: 1px solid #d1d9e0;
+    top: 40px;
+    width: 300px;
+    height: 300px;
+    border-radius: 5px;
+    padding: 10px;
+}
+

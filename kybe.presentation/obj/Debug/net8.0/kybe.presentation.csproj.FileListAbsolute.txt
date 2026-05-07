@@ -41,7 +41,6 @@ C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\kybe.presen
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\kybe.presentation.runtimeconfig.json
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\kybe.presentation.dll
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\kybe.presentation.pdb
-C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\rpswa.dswa.cache.json
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\kybe.presentation.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\kybe.presentation.AssemblyInfoInputs.cache
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\kybe.presentation.AssemblyInfo.cs
@@ -50,14 +49,10 @@ C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\kybe.presen
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\kybe.presentation.RazorAssemblyInfo.cache
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\kybe.presentation.RazorAssemblyInfo.cs
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\kybe.presentation.sourcelink.json
-C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\rjimswa.dswa.cache.json
-C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
-C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\scopedcss\Views\Shared\Layout\_Layout.cshtml.rz.scp.css
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\scopedcss\bundle\kybe.presentation.styles.css
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\scopedcss\projectbundle\kybe.presentation.bundle.scp.css
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\staticwebassets.build.json
-C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\staticwebassets.development.json
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\staticwebassets.build.endpoints.json
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
@@ -66,3 +61,9 @@ C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\refint\kybe
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\kybe.presentation.pdb
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\kybe.presentation.genruntimeconfig.cache
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\ref\kybe.presentation.dll
+C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\staticwebassets\msbuild.kybe.presentation.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\staticwebassets\msbuild.kybe.presentation.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\staticwebassets\msbuild.build.kybe.presentation.props
+C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.kybe.presentation.props
+C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.kybe.presentation.props
+C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\staticwebassets.pack.json

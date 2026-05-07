@@ -9,3 +9,11 @@ function toggleSidebar() {
     sidebar.classList.toggle("active");
 
 }
+
+function toggleMenuUser() {
+
+    const menuUser = document.getElementById("home-user-menu");
+
+    menuUser.classList.toggle("user-active");
+
+}

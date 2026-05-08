@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\kybe.presentation.props" />
-</Project>

@@ -45,6 +45,14 @@
     font-size: 24px;
     margin-left: auto;
 }
+    .sidebar-button-togle i {
+        transition: 0.5s all ease;
+    }
+
+.sidebar.active .sidebar-button-togle i {
+    transform: rotate(-90deg);
+}
+
 .sidebar-conteiner-itens {
     display: flex;
     flex-direction: row;

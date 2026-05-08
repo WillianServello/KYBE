@@ -13,7 +13,9 @@ function toggleSidebar() {
 function toggleMenuUser() {
 
     const menuUser = document.getElementById("home-user-menu");
+    const arrowUser = document.getElementById("user-arrow");
 
     menuUser.classList.toggle("user-active");
+    arrowUser.classList.toggle("arrow-rotate");
 
 }

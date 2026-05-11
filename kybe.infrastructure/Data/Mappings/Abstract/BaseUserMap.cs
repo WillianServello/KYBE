@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace kybe.infrastructure.Data.Mappings.Abstract
 {
-    internal abstract class UserMap<T> : EntityMap<T> where T : AbstractUser
+    internal abstract class BaseUserMap<T> : BaseEntityMap<T> where T : GenericUser
     {
         public override void Configure(EntityTypeBuilder<T> builder)
         {

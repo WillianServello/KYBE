@@ -10,8 +10,8 @@ using System.Threading.Tasks;
 
 namespace kybe.infrastructure.Repository.Roles
 {
-    internal sealed class UserRepository : GenericUser<UserEntity>, IUser
+    public sealed class UserRepository : GenericUser<UserEntity>, IUser
     {
-        public UserRepository(AppContextSQL context) : base(context){}
+        public UserRepository(DatabaseContext context) : base(context){}
     }
 }

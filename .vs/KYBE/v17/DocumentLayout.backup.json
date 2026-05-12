@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.infrastructure\\repository\\abstract\\genericentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|solutionrelative:kybe.infrastructure\\repository\\abstract\\genericentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.infrastructure\\migrations\\20260512012307_createuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|solutionrelative:kybe.infrastructure\\migrations\\20260512012307_createuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{214670AF-6B20-4178-A328-D9B8D112ACC1}|kybe-domain\\kybe-domain.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe-domain\\roles\\abstract\\genericuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{214670AF-6B20-4178-A328-D9B8D112ACC1}|kybe-domain\\kybe-domain.csproj|solutionrelative:kybe-domain\\roles\\abstract\\genericuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.infrastructure\\data\\mappings\\abstract\\baseusermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|solutionrelative:kybe.infrastructure\\data\\mappings\\abstract\\baseusermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{214670AF-6B20-4178-A328-D9B8D112ACC1}|kybe-domain\\kybe-domain.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe-domain\\roles\\abstract\\genericentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{214670AF-6B20-4178-A328-D9B8D112ACC1}|kybe-domain\\kybe-domain.csproj|solutionrelative:kybe-domain\\roles\\abstract\\genericentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.presentation\\kybe.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\kybe.presentation.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.infrastructure\\data\\mappings\\abstract\\baseentitymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|solutionrelative:kybe.infrastructure\\data\\mappings\\abstract\\baseentitymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.infrastructure\\data\\mappings\\roles\\usermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|solutionrelative:kybe.infrastructure\\data\\mappings\\roles\\usermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,40 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GenericEntity.cs",
-              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\Repository\\Abstract\\GenericEntity.cs",
-              "RelativeDocumentMoniker": "kybe.infrastructure\\Repository\\Abstract\\GenericEntity.cs",
-              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\Repository\\Abstract\\GenericEntity.cs",
-              "RelativeToolTip": "kybe.infrastructure\\Repository\\Abstract\\GenericEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Title": "20260512012307_CreateUser.cs",
+              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\Migrations\\20260512012307_CreateUser.cs",
+              "RelativeDocumentMoniker": "kybe.infrastructure\\Migrations\\20260512012307_CreateUser.cs",
+              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\Migrations\\20260512012307_CreateUser.cs",
+              "RelativeToolTip": "kybe.infrastructure\\Migrations\\20260512012307_CreateUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T23:21:11.853Z",
+              "WhenOpened": "2026-05-12T01:23:07.648Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "GenericUser.cs",
-              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe-domain\\Roles\\Abstract\\GenericUser.cs",
-              "RelativeDocumentMoniker": "kybe-domain\\Roles\\Abstract\\GenericUser.cs",
-              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe-domain\\Roles\\Abstract\\GenericUser.cs",
-              "RelativeToolTip": "kybe-domain\\Roles\\Abstract\\GenericUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAlAAAAAAAAAA==",
+              "Title": "BaseUserMap.cs",
+              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\Abstract\\BaseUserMap.cs",
+              "RelativeDocumentMoniker": "kybe.infrastructure\\Data\\Mappings\\Abstract\\BaseUserMap.cs",
+              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\Abstract\\BaseUserMap.cs",
+              "RelativeToolTip": "kybe.infrastructure\\Data\\Mappings\\Abstract\\BaseUserMap.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAAAEQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T23:18:07.643Z",
+              "WhenOpened": "2026-05-12T01:18:11.049Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BaseEntityMap.cs",
+              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\Abstract\\BaseEntityMap.cs",
+              "RelativeDocumentMoniker": "kybe.infrastructure\\Data\\Mappings\\Abstract\\BaseEntityMap.cs",
+              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\Abstract\\BaseEntityMap.cs",
+              "RelativeToolTip": "kybe.infrastructure\\Data\\Mappings\\Abstract\\BaseEntityMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAQwCgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T01:17:42.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserMap.cs",
+              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\Roles\\UserMap.cs",
+              "RelativeDocumentMoniker": "kybe.infrastructure\\Data\\Mappings\\Roles\\UserMap.cs",
+              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\Roles\\UserMap.cs",
+              "RelativeToolTip": "kybe.infrastructure\\Data\\Mappings\\Roles\\UserMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T01:17:40.191Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GenericEntity.cs",
-              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe-domain\\Roles\\Abstract\\GenericEntity.cs",
-              "RelativeDocumentMoniker": "kybe-domain\\Roles\\Abstract\\GenericEntity.cs",
-              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe-domain\\Roles\\Abstract\\GenericEntity.cs",
-              "RelativeToolTip": "kybe-domain\\Roles\\Abstract\\GenericEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-11T23:17:57.085Z",
+              "Title": "kybe.presentation",
+              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\kybe.presentation.csproj",
+              "RelativeDocumentMoniker": "kybe.presentation\\kybe.presentation.csproj",
+              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\kybe.presentation.csproj",
+              "RelativeToolTip": "kybe.presentation\\kybe.presentation.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-05-12T01:15:43.973Z",
               "EditorCaption": ""
             }
           ]

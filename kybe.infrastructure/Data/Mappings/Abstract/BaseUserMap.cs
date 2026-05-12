@@ -27,6 +27,50 @@ namespace kybe.infrastructure.Data.Mappings.Abstract
                 .HasColumnName("PHONE_NUMBER")
                 .IsRequired();
 
+            builder.OwnsOne(x => x.Address, address =>
+            {
+
+                address
+                    .Property(a => a.Street)
+                    .HasColumnName("STREET")
+                    .HasMaxLength(128)
+                    .IsRequired();
+
+                address
+                    .Property(a => a.City)
+                    .HasColumnName("CITY")
+                    .HasMaxLength(128)
+                    .IsRequired();
+
+                address
+                    .Property(a => a.Neighborhood)
+                    .HasColumnName("NEIGHBORHOOD")
+                    .HasMaxLength(128);
+
+                address
+                    .Property(a => a.Number)
+                    .HasColumnName("NUMBER")
+                    .HasMaxLength(10)
+                    .IsRequired();
+
+                address
+                    .Property(a => a.State)
+                    .HasColumnName("STATE")
+                    .HasMaxLength(20)
+                    .IsRequired();
+
+                address
+                    .Property(a => a.ZipCode)
+                    .HasColumnName("ZIPCODE")
+                    .HasMaxLength(20)
+                    .IsRequired();
+
+                address
+                    .Property(a => a.Complementary)
+                    .HasColumnName("COMPLEMENT")
+                    .HasMaxLength(128);
+            });
+
             builder
                 .Property(x => x.Email)
                 .HasMaxLength(256)

@@ -5,13 +5,13 @@ using Microsoft.EntityFrameworkCore;
 
 namespace kybe.infrastructure.Repository.Abstract
 {
-    internal abstract class GenericEntity<T> : IGenericEntity<T> where T : GenericEntity
+    public abstract class GenericEntity<T> : IGenericEntity<T> where T : GenericEntity
     {
-        private readonly AppContextSQL _context;
+        private readonly DatabaseContext _context;
 
         public DbSet<T> Entity => _context.Set<T>();
 
-        protected GenericEntity(AppContextSQL context)
+        public GenericEntity(DatabaseContext context)
             => _context = context ?? throw new ArgumentNullException(nameof(context)); 
 
         public virtual async Task AddAsync(T entity)

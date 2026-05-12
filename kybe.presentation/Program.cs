@@ -1,3 +1,5 @@
+using kybe.presentation.Extensions;
+
 namespace kybe.presentation
 {
     public class Program
@@ -12,8 +14,10 @@ namespace kybe.presentation
                 {
                     options.ViewLocationFormats.Add("/Views/Pages/{1}/{0}.cshtml");
                 });
-
+            builder.Services.AddDatabase(builder.Configuration);
+            builder.Services.AddScoped();
             builder.Services.AddControllersWithViews();
+            
 
             var app = builder.Build();
 

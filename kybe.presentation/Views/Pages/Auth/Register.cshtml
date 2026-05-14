@@ -1,0 +1,109 @@
+﻿@{
+    Layout = "~/Views/Shared/Layout/_AuthLayout.cshtml";
+    ViewData["Title"] = "Cadastrar";
+}
+
+<div class="auth">
+    <div class="auth-border auth-border-lg">
+        <div class="auth-conteiner-image">
+            <img class="auth-image" src="/img/kzbe-logo.png" />
+        </div>
+
+        <div class="row">
+            
+
+            <div class="col-sm-12">
+                <label for="name" class="auth-label">
+                    <span>
+                        Nome
+                    </span>
+                </label>
+
+                <div class="auth-conteiner-input">
+                    <input type="text" name="name" placeholder="Informe seu nome" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <label for="email" class="auth-label">
+                    <span>
+                        Email
+                    </span>
+                </label>
+
+                <div class="auth-conteiner-input">
+                    <input type="email" name="email" placeholder="Informe seu email" />
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <label for="cpf" class="auth-label">
+                    <span>
+                        CPF
+                    </span>
+                </label>
+
+                <div class="auth-conteiner-input">
+                    <input type="text" name="cpf" placeholder="Informe seu CPF"/>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-3 mb-2">
+            <div class="col-sm-12" style="letter-spacing: 0.5px; line-height: 13px;">
+                <i class="fa-solid fa-key" style="font-size: 12px; padding-left: 5px;"></i>
+                <span style="font-size: 12px;">crendênciais</span>
+                <hr class="m-auto" />
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-6">
+                <label for="user" class="auth-label">
+                    <span>
+                        Usuário
+                    </span>
+                </label>
+
+                <div class="auth-conteiner-input">
+                    <input type="text" name="user" placeholder="Informe seu usuário" />
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <label for="password" class="auth-label">
+                    <span>
+                        Senha
+                    </span>
+                </label>
+
+                <div class="auth-conteiner-input">
+                    <input type="password" name="password" placeholder="Informe a senha" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-auto">
+            <div class="col-sm-8 auth-conteiner-register">
+                <span>
+                    ja possui conta?
+                </span>
+
+                <a class="auth-button-register" asp-action="Login" asp-controller="Auth">
+                    clique aqui
+                </a>
+            </div>
+
+            <div class="col-sm-4 auth-button-sign">
+                <button>
+                    Cadastrar
+                </button>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+

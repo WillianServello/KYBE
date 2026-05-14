@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.36705.20
+# Visual Studio Version 18
+VisualStudioVersion = 18.5.11723.231 stable
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{A6C3B401-A460-4214-9D2E-8887A8BEF986}"
 EndProject
@@ -16,6 +16,8 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kybe.presentation", "kybe.presentation\kybe.presentation.csproj", "{D0D99B42-80C3-4B69-93A8-3391E70C87F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "kybe-application", "kybe-application\kybe-application.csproj", "{774113D9-E649-4E21-919D-1EDFEF586BF3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +37,10 @@ Global
 		{D0D99B42-80C3-4B69-93A8-3391E70C87F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0D99B42-80C3-4B69-93A8-3391E70C87F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0D99B42-80C3-4B69-93A8-3391E70C87F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{774113D9-E649-4E21-919D-1EDFEF586BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{774113D9-E649-4E21-919D-1EDFEF586BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{774113D9-E649-4E21-919D-1EDFEF586BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{774113D9-E649-4E21-919D-1EDFEF586BF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{214670AF-6B20-4178-A328-D9B8D112ACC1} = {7B98E0D6-E18E-4E8A-B0E0-8C33D6A9EC7F}
 		{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959} = {093C75B6-7F81-4FC6-B647-B05F53733A78}
 		{D0D99B42-80C3-4B69-93A8-3391E70C87F3} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{774113D9-E649-4E21-919D-1EDFEF586BF3} = {A6C3B401-A460-4214-9D2E-8887A8BEF986}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {18CE23B9-9CAA-4730-B19D-8DE55C1CC10B}

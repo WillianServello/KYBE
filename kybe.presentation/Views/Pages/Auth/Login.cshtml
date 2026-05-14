@@ -1,0 +1,62 @@
+﻿@{
+    Layout = "~/Views/Shared/Layout/_AuthLayout.cshtml";
+    ViewData["Title"] = "Login";
+}
+<div class="auth">
+    <div class="auth-border">
+        <div class="auth-conteiner-image" > 
+            <img class="auth-image" src="/img/kzbe-logo.png" />
+        </div>
+        <div class="row">
+            <div class="col-sm-12">
+                <label for="user" class="auth-label">
+                    <span>
+                        Usuário
+                    </span>
+                </label>
+
+                <div class="auth-conteiner-input">
+                    <input type="text" name="user" placeholder="Informe seu usuário" />
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <label for="password" class="auth-label">
+                    <span>
+                        Senha
+                    </span>
+                </label>
+
+                <div class="auth-conteiner-input">
+                    <input type="password" name="password" placeholder="Informe a senha" />
+                </div>
+                <div class="auth-recovery-acess">
+                    <a>recuperar acesso</a>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="row mt-auto">
+            <div class="col-sm-8 auth-conteiner-register">
+                <span>
+                    não tem conta?
+                </span>
+
+                <a class="auth-button-register" asp-action="Register" asp-controller="Auth">
+                    clique aqui
+                </a>
+            </div>
+
+            <div class="col-sm-4 auth-button-sign">
+                <button>
+                    Entrar
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+

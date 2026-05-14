@@ -1,0 +1,16 @@
+﻿.auth-recovery-acess {
+    font-size: 12px;
+    text-align: end;
+    color: white;
+}
+
+    .auth-recovery-acess a {
+        color: white;
+        cursor: pointer
+    }
+
+        .auth-recovery-acess a:hover {
+            color: white;
+            text-decoration: underline !important;
+        }
+

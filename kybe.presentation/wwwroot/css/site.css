@@ -15,7 +15,8 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background: linear-gradient(90deg,#ecf1fe 65%, #258cfb12 100%);
 }
 
 * {
@@ -24,9 +25,16 @@ body {
     font-style: normal;
     
 }
-body {
+main.custom {
     padding-top: 10px;
     padding-left: 100px;
     overflow-y: hidden;
-    background: linear-gradient(90deg,#ecf1fe 65%, #258cfb12 100%);
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: black;
 }

@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\kybe-application\kybe-application.csproj" />
     <ProjectReference Include="..\kybe-domain\kybe-domain.csproj" />
     <ProjectReference Include="..\kybe.infrastructure\kybe.infrastructure.csproj" />
   </ItemGroup>

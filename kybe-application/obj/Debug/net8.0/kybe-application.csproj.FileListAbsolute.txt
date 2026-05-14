@@ -1,0 +1,16 @@
+C:\Users\WillianRafael\Desktop\KYBE\kybe-application\bin\Debug\net8.0\kybe-application.deps.json
+C:\Users\WillianRafael\Desktop\KYBE\kybe-application\bin\Debug\net8.0\kybe-application.dll
+C:\Users\WillianRafael\Desktop\KYBE\kybe-application\bin\Debug\net8.0\kybe-application.pdb
+C:\Users\WillianRafael\Desktop\KYBE\kybe-application\bin\Debug\net8.0\kybe-domain.dll
+C:\Users\WillianRafael\Desktop\KYBE\kybe-application\bin\Debug\net8.0\kybe-domain.pdb
+C:\Users\WillianRafael\Desktop\KYBE\kybe-application\obj\Debug\net8.0\kybe-application.csproj.AssemblyReference.cache
+C:\Users\WillianRafael\Desktop\KYBE\kybe-application\obj\Debug\net8.0\kybe-application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\WillianRafael\Desktop\KYBE\kybe-application\obj\Debug\net8.0\kybe-application.AssemblyInfoInputs.cache
+C:\Users\WillianRafael\Desktop\KYBE\kybe-application\obj\Debug\net8.0\kybe-application.AssemblyInfo.cs
+C:\Users\WillianRafael\Desktop\KYBE\kybe-application\obj\Debug\net8.0\kybe-application.csproj.CoreCompileInputs.cache
+C:\Users\WillianRafael\Desktop\KYBE\kybe-application\obj\Debug\net8.0\kybe-application.sourcelink.json
+C:\Users\WillianRafael\Desktop\KYBE\kybe-application\obj\Debug\net8.0\kybe-app.18D18340.Up2Date
+C:\Users\WillianRafael\Desktop\KYBE\kybe-application\obj\Debug\net8.0\kybe-application.dll
+C:\Users\WillianRafael\Desktop\KYBE\kybe-application\obj\Debug\net8.0\refint\kybe-application.dll
+C:\Users\WillianRafael\Desktop\KYBE\kybe-application\obj\Debug\net8.0\kybe-application.pdb
+C:\Users\WillianRafael\Desktop\KYBE\kybe-application\obj\Debug\net8.0\ref\kybe-application.dll

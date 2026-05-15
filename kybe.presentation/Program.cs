@@ -16,7 +16,6 @@ namespace kybe.presentation
                 });
             builder.Services.AddDatabase(builder.Configuration);
             builder.Services.AddScoped();
-            builder.Services.AddControllersWithViews();
             
 
             var app = builder.Build();

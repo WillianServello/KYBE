@@ -1,4 +1,4 @@
-namespace kybe.presentation.EntityDTO.Error
+namespace kybe.presentation.ViewModels.Error
 {
     public class ErrorViewModel
     {

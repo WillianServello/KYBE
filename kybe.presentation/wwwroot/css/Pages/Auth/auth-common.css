@@ -1,5 +1,5 @@
 ﻿* {
-    color: white;
+    
     box-sizing: border-box;
 }
 
@@ -17,6 +17,7 @@ body {
     justify-content: center;
     padding: 10px;
     min-height: 100dvh;
+    color: white;
 }
 
 .auth-border {
@@ -25,7 +26,7 @@ body {
     background: linear-gradient(360deg, #101010, #151c24, #1f2937);
     box-shadow: 1px 10px 10px rgba(1, 1, 1, 0.2);
     border-radius: 2px;
-    height: 70vh;
+    height: auto;
     width: 400px;
     padding: 20px;
 }
@@ -78,7 +79,7 @@ body {
     .auth-conteiner-input input {
         width: 100%;
         font-size: 12px;
-        min-height: 25px !important;
+        min-height: 30px !important;
         border: none;
         border-radius: 2px !important;
         padding: 5px;
@@ -93,6 +94,7 @@ body {
 .auth-button-sign {
     display: flex;
     justify-content: end;
+    margin-top: 40px;
 }
 
 .auth-button-sign button {

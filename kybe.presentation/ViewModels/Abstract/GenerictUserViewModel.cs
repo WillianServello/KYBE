@@ -1,10 +1,10 @@
-﻿using kybe.presentation.ViewModels.Abstract;
-using kybe.presentation.ViewModels.ValueObject;
+﻿using kybe.presentation.ViewModels.ValueObject;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion.Internal;
 using System.ComponentModel.DataAnnotations;
 
-namespace kybe.presentation.EntityDTO.Abstract
+namespace kybe.presentation.ViewModels.Abstract
 {
-    public abstract class GenerictEntityViewModel : GenericEntityViewModel
+    public abstract class GenerictUserViewModel : GenericEntityViewModel
     {
         [Required(ErrorMessage = "Nome é obrigatorio.")]
         [MaxLength(128, ErrorMessage = "O maximo de carecteres é 128.")]
@@ -19,6 +19,10 @@ namespace kybe.presentation.EntityDTO.Abstract
         [MaxLength(256, ErrorMessage = "O maximo de carecteres é 256.")]
         [EmailAddress(ErrorMessage = "Formato Inválido")]
         public string Email { get; set; } = string.Empty;
+
+        [Required(ErrorMessage = "CPF é obrigatorio.")]
+        public string Cpf {get; set;} = string.Empty;
+
         public AddressDTO? AddressDTO { get; set; }
     }
 }

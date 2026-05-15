@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\willianrafael\\desktop\\kybe\\kybe.presentation\\views\\pages\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\views\\pages\\auth\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\willianrafael\\desktop\\kybe\\kybe.presentation\\views\\pages\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\views\\pages\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\willianrafael\\desktop\\kybe\\kybe.presentation\\wwwroot\\css\\pages\\auth\\auth-common.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\wwwroot\\css\\pages\\auth\\auth-common.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\willianrafael\\desktop\\kybe\\kybe.presentation\\wwwroot\\css\\pages\\auth\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\wwwroot\\css\\pages\\auth\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\willianrafael\\desktop\\kybe\\kybe.presentation\\viewmodels\\abstract\\generictentityviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\viewmodels\\abstract\\generictentityviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "login.css",
-              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\wwwroot\\css\\Pages\\Auth\\login.css",
-              "RelativeDocumentMoniker": "kybe.presentation\\wwwroot\\css\\Pages\\Auth\\login.css",
-              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\wwwroot\\css\\Pages\\Auth\\login.css",
-              "RelativeToolTip": "kybe.presentation\\wwwroot\\css\\Pages\\Auth\\login.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-14T19:30:33.055Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Auth\\Login.cshtml",
-              "RelativeDocumentMoniker": "kybe.presentation\\Views\\Pages\\Auth\\Login.cshtml",
-              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Auth\\Login.cshtml",
-              "RelativeToolTip": "kybe.presentation\\Views\\Pages\\Auth\\Login.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-14T19:27:44.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Auth\\Register.cshtml",
-              "RelativeDocumentMoniker": "kybe.presentation\\Views\\Pages\\Auth\\Register.cshtml",
-              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Auth\\Register.cshtml",
-              "RelativeToolTip": "kybe.presentation\\Views\\Pages\\Auth\\Register.cshtml",
-              "ViewState": "AgIAADwAAAAAAAAAAAAAAD0AAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-14T18:29:51.557Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "auth-common.css",
-              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\wwwroot\\css\\Pages\\Auth\\auth-common.css",
-              "RelativeDocumentMoniker": "kybe.presentation\\wwwroot\\css\\Pages\\Auth\\auth-common.css",
-              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\wwwroot\\css\\Pages\\Auth\\auth-common.css",
-              "RelativeToolTip": "kybe.presentation\\wwwroot\\css\\Pages\\Auth\\auth-common.css",
-              "ViewState": "AgIAAEcAAAAAAAAAAAAYwFkAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-14T19:25:28.483Z",
+              "Title": "GenerictEntityViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\ViewModels\\Abstract\\GenerictEntityViewModel.cs",
+              "RelativeDocumentMoniker": "kybe.presentation\\ViewModels\\Abstract\\GenerictEntityViewModel.cs",
+              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\ViewModels\\Abstract\\GenerictEntityViewModel.cs",
+              "RelativeToolTip": "kybe.presentation\\ViewModels\\Abstract\\GenerictEntityViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-15T03:03:07.093Z",
               "EditorCaption": ""
             }
           ]

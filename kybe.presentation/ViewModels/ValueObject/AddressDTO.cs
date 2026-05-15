@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace kybe_domain.Entity.ValueObject
+namespace kybe.presentation.ViewModels.ValueObject
 {
     public class AddressDTO 
     {

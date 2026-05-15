@@ -38,3 +38,22 @@ a{
 a:hover{
     color: black;
 }
+.validation {
+    color: #e12a2a!important;
+    font-size: 10px;
+
+}
+.gap-inputs{
+    display: flex;
+    height: 100px !important;
+}
+.inputs {
+    line-height: 12px;
+    min-height: 60px !important;
+}
+
+@media(max-width: 575px){
+    .inputs-partial{
+        gap: 15px;
+    }
+}

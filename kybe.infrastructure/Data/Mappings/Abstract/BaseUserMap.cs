@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace kybe.infrastructure.Data.Mappings.Abstract
 {
-    internal abstract class BaseUserMap<T> : BaseEntityMap<T> where T : GenericUser
+    internal abstract class BaseUserMap<T> : BaseEntityMap<T> where T : AbstractUser
     {
         public override void Configure(EntityTypeBuilder<T> builder)
         {
@@ -33,14 +33,12 @@ namespace kybe.infrastructure.Data.Mappings.Abstract
                 address
                     .Property(a => a.Street)
                     .HasColumnName("STREET")
-                    .HasMaxLength(128)
-                    .IsRequired();
+                    .HasMaxLength(128);
 
                 address
                     .Property(a => a.City)
                     .HasColumnName("CITY")
-                    .HasMaxLength(128)
-                    .IsRequired();
+                    .HasMaxLength(128);
 
                 address
                     .Property(a => a.Neighborhood)
@@ -50,20 +48,17 @@ namespace kybe.infrastructure.Data.Mappings.Abstract
                 address
                     .Property(a => a.Number)
                     .HasColumnName("NUMBER")
-                    .HasMaxLength(10)
-                    .IsRequired();
+                    .HasMaxLength(10);
 
                 address
                     .Property(a => a.State)
                     .HasColumnName("STATE")
-                    .HasMaxLength(20)
-                    .IsRequired();
+                    .HasMaxLength(20);
 
                 address
                     .Property(a => a.ZipCode)
                     .HasColumnName("ZIPCODE")
-                    .HasMaxLength(20)
-                    .IsRequired();
+                    .HasMaxLength(20);
 
                 address
                     .Property(a => a.Complementary)

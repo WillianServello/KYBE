@@ -46,6 +46,10 @@ namespace kybe.infrastructure.Migrations
                         .HasColumnType("varchar(128)")
                         .HasColumnName("NAME");
 
+                    b.Property<string>("Password")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
                         .HasMaxLength(20)
@@ -53,9 +57,12 @@ namespace kybe.infrastructure.Migrations
                         .HasColumnName("PHONE_NUMBER");
 
                     b.Property<DateTime?>("UpdateAt")
-                        .IsRequired()
                         .HasColumnType("datetime(6)")
                         .HasColumnName("UPDATE_AT");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasColumnType("longtext");
 
                     b.HasKey("Id");
 

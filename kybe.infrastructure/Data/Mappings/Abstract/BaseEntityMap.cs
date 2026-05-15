@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace kybe.infrastructure.Data.Mappings.Abstract
 {
-    internal abstract class BaseEntityMap<T> : IEntityTypeConfiguration<T> where T : GenericEntity
+    internal abstract class BaseEntityMap<T> : IEntityTypeConfiguration<T> where T : AbstractEntity
     {
         public virtual void Configure(EntityTypeBuilder<T> builder)
         {
@@ -29,7 +29,7 @@ namespace kybe.infrastructure.Data.Mappings.Abstract
             builder
                 .Property(x => x.UpdateAt)
                 .HasColumnName("UPDATE_AT")
-                .IsRequired();
+                .IsRequired(false);
 
             builder
                 .Property(x => x.IsActive)

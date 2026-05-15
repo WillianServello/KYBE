@@ -1,0 +1,20 @@
+﻿using kybe_domain.Entity.Abstract;
+using kybe_domain.Entity.ValueObject;
+
+namespace kybe_domain.Classes.Entity
+{
+    public sealed class UserEntity : AbstractUser
+    {
+        public UserEntity(){}
+
+        public string UserName { get; private set; } = string.Empty;
+        public string Password { get; private set; } = string.Empty;
+
+        public UserEntity(string userName, string password, string name, string phoneNumber, string email, string cpf, Address address)
+            : base(name, phoneNumber, email, address)
+        {
+            UserName = userName;
+            Password = password;
+        }
+    }
+}

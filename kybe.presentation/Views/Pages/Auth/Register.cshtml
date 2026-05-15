@@ -1,4 +1,4 @@
-﻿@using kybe.presentation.ViewModels.Entity
+﻿@using kybe.presentation.ViewModels.Entity.User
 @model UserViewModel
 @{
     Layout = "~/Views/Shared/Layout/_AuthLayout.cshtml";
@@ -13,7 +13,7 @@
             </div>
 
             <div class="row inputs">
-                <div class="col-sm-12">
+                <div class="col-sm-6">
                     <label for="name" class="auth-label">
                         <span>
                             Nome
@@ -24,6 +24,18 @@
                         <input type="text" placeholder="Informe seu nome" asp-for="Name"/>
                     </div>
                     <span class="validation" asp-validation-for="Name"></span>
+                </div>
+                <div class="col-sm-6">
+                    <label for="phoneNumber" class="auth-label">
+                        <span>
+                            Telefone
+                        </span>
+                    </label>
+
+                    <div class="auth-conteiner-input">
+                        <input type="text" placeholder="Informe seu telefone" asp-for="PhoneNumber"/>
+                    </div>
+                    <span class="validation" asp-validation-for="PhoneNumber"></span>
                 </div>
             </div>
 
@@ -106,7 +118,7 @@
                     <span class="validation" asp-validation-for="PasswordConfirm"></span>
                 </div>
             </div>
-
+            <div asp-validation-summary="All" class="text-danger"></div>
             <div class="row mt-auto">
                 <div class="col-sm-8 auth-conteiner-register">
                     <span>
@@ -126,6 +138,7 @@
             </div>
         </div>
     </div>
+    
 </form>
 
 

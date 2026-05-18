@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace kybe.infrastructure.Data.Mappings.Roles
 {
-    internal class UserMap : BaseUserMap<UserEntity>
+    internal class UserMap : AbstractUserMap<UserEntity>
     {
         public override void Configure(EntityTypeBuilder<UserEntity> builder)
         {

@@ -1,12 +1,71 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.infrastructure\\data\\mappings\\abstract\\abstractusermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|solutionrelative:kybe.infrastructure\\data\\mappings\\abstract\\abstractusermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.infrastructure\\data\\mappings\\user\\usermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|solutionrelative:kybe.infrastructure\\data\\mappings\\user\\usermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774113D9-E649-4E21-919D-1EDFEF586BF3}|kybe-application\\kybe-application.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe-application\\dtos\\userdtos\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774113D9-E649-4E21-919D-1EDFEF586BF3}|kybe-application\\kybe-application.csproj|solutionrelative:kybe-application\\dtos\\userdtos\\registeruser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AbstractUserMap.cs",
+              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\Abstract\\AbstractUserMap.cs",
+              "RelativeDocumentMoniker": "kybe.infrastructure\\Data\\Mappings\\Abstract\\AbstractUserMap.cs",
+              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\Abstract\\AbstractUserMap.cs",
+              "RelativeToolTip": "kybe.infrastructure\\Data\\Mappings\\Abstract\\AbstractUserMap.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAABoAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T22:51:35.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserMap.cs",
+              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\User\\UserMap.cs",
+              "RelativeDocumentMoniker": "kybe.infrastructure\\Data\\Mappings\\User\\UserMap.cs",
+              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\User\\UserMap.cs",
+              "RelativeToolTip": "kybe.infrastructure\\Data\\Mappings\\User\\UserMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T22:51:24.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RegisterUser.cs",
+              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe-application\\DTOs\\UserDTOs\\RegisterUser.cs",
+              "RelativeDocumentMoniker": "kybe-application\\DTOs\\UserDTOs\\RegisterUser.cs",
+              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe-application\\DTOs\\UserDTOs\\RegisterUser.cs",
+              "RelativeToolTip": "kybe-application\\DTOs\\UserDTOs\\RegisterUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-18T22:43:44.795Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

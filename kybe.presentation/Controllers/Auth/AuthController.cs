@@ -1,4 +1,4 @@
-﻿using kybe.presentation.ViewModels.Entity.User;
+﻿using kybe.presentation.ViewModels.Entity.User.Register;
 using kybe_application.DTOs.SharedDTOs;
 using kybe_application.DTOs.UserDTOs;
 using kybe_application.Interface.IService.IUserServoce;

@@ -1,15 +1,10 @@
 ﻿using kybe_domain.Entity.Abstract;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace kybe.infrastructure.Data.Mappings.Abstract
 {
-    internal abstract class BaseUserMap<T> : BaseEntityMap<T> where T : AbstractUser
+    internal abstract class AbstractUserMap<T> : AbstractEntityMap<T> where T : AbstractUser
     {
         public override void Configure(EntityTypeBuilder<T> builder)
         {
@@ -19,6 +14,12 @@ namespace kybe.infrastructure.Data.Mappings.Abstract
                 .Property(x => x.Name)
                 .HasMaxLength(128)
                 .HasColumnName("NAME")
+                .IsRequired();
+
+            builder
+                .Property(x => x.LastName)
+                .HasMaxLength(128)
+                .HasColumnName("LAST_NAME")
                 .IsRequired();
 
             builder

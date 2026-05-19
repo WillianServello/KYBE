@@ -53,7 +53,7 @@ body {
 
 .auth-conteiner-image {
     display: flex;
-    justify-content: center
+    margin-left: -15px;
 }
 
 .auth-image {

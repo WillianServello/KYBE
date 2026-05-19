@@ -1,6 +1,6 @@
 ﻿using kybe_domain.Classes.Entity;
 
-namespace kybe_domain.Interface.Service.IRoles
+namespace kybe_domain.Interface.Service.IUser
 {
     public interface IUserServiceDomain
     {

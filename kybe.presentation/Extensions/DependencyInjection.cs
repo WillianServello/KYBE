@@ -1,8 +1,8 @@
-﻿using kybe.infrastructure.Repository.Roles;
+﻿using kybe.infrastructure.Repository.User;
 using kybe_application.Interface.IService.IUserServoce;
-using kybe_application.Roles;
-using kybe_domain.Interface.IRepository.IRoles;
-using kybe_domain.Interface.Service.IRoles;
+using kybe_application.Service;
+using kybe_domain.Interface.IRepository.IUser;
+using kybe_domain.Interface.Service.IUser;
 using kybe_domain.Service.User;
 
 namespace kybe.presentation.Extensions

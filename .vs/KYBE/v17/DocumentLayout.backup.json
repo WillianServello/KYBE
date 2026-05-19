@@ -3,36 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{214670AF-6B20-4178-A328-D9B8D112ACC1}|kybe-domain\\kybe-domain.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe-domain\\models\\abstract\\abstractuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{214670AF-6B20-4178-A328-D9B8D112ACC1}|kybe-domain\\kybe-domain.csproj|solutionrelative:kybe-domain\\models\\abstract\\abstractuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{214670AF-6B20-4178-A328-D9B8D112ACC1}|kybe-domain\\kybe-domain.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe-domain\\models\\entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{214670AF-6B20-4178-A328-D9B8D112ACC1}|kybe-domain\\kybe-domain.csproj|solutionrelative:kybe-domain\\models\\entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.infrastructure\\data\\mappings\\abstract\\abstractusermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|solutionrelative:kybe.infrastructure\\data\\mappings\\abstract\\abstractusermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.presentation\\viewmodels\\abstract\\abstractuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\viewmodels\\abstract\\abstractuservm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.presentation\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.presentation\\wwwroot\\css\\pages\\auth\\auth-common.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\wwwroot\\css\\pages\\auth\\auth-common.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.presentation\\views\\pages\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\views\\pages\\auth\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.presentation\\viewmodels\\entity\\user\\register\\userregistervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\viewmodels\\entity\\user\\register\\userregistervm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.presentation\\wwwroot\\css\\pages\\auth\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\wwwroot\\css\\pages\\auth\\register.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.presentation\\viewmodels\\abstract\\abstractentityvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\viewmodels\\abstract\\abstractentityvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\facec.lab04\\desktop\\kybe\\kybe.presentation\\wwwroot\\css\\pages\\auth\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\wwwroot\\css\\pages\\auth\\login.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,104 +34,69 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserEntity.cs",
-              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe-domain\\Models\\Entity\\UserEntity.cs",
-              "RelativeDocumentMoniker": "kybe-domain\\Models\\Entity\\UserEntity.cs",
-              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe-domain\\Models\\Entity\\UserEntity.cs",
-              "RelativeToolTip": "kybe-domain\\Models\\Entity\\UserEntity.cs",
+              "DocumentIndex": 3,
+              "Title": "register.css",
+              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\wwwroot\\css\\Pages\\Auth\\register.css",
+              "RelativeDocumentMoniker": "kybe.presentation\\wwwroot\\css\\Pages\\Auth\\register.css",
+              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\wwwroot\\css\\Pages\\Auth\\register.css",
+              "RelativeToolTip": "kybe.presentation\\wwwroot\\css\\Pages\\Auth\\register.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T22:42:51.194Z",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-19T00:49:16.432Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AbstractUser.cs",
-              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe-domain\\Models\\Abstract\\AbstractUser.cs",
-              "RelativeDocumentMoniker": "kybe-domain\\Models\\Abstract\\AbstractUser.cs",
-              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe-domain\\Models\\Abstract\\AbstractUser.cs",
-              "RelativeToolTip": "kybe-domain\\Models\\Abstract\\AbstractUser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T22:42:06.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AbstractUserMap.cs",
-              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\Abstract\\AbstractUserMap.cs",
-              "RelativeDocumentMoniker": "kybe.infrastructure\\Data\\Mappings\\Abstract\\AbstractUserMap.cs",
-              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\Abstract\\AbstractUserMap.cs",
-              "RelativeToolTip": "kybe.infrastructure\\Data\\Mappings\\Abstract\\AbstractUserMap.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAA0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T22:41:25.857Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "site.css",
               "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "kybe.presentation\\wwwroot\\css\\site.css",
               "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\wwwroot\\css\\site.css",
               "RelativeToolTip": "kybe.presentation\\wwwroot\\css\\site.css",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAmwEQAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2026-05-18T22:29:11.208Z",
+              "WhenOpened": "2026-05-19T00:49:58.111Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
+              "Title": "login.css",
+              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\wwwroot\\css\\Pages\\Auth\\login.css",
+              "RelativeDocumentMoniker": "kybe.presentation\\wwwroot\\css\\Pages\\Auth\\login.css",
+              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\wwwroot\\css\\Pages\\Auth\\login.css",
+              "RelativeToolTip": "kybe.presentation\\wwwroot\\css\\Pages\\Auth\\login.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-19T00:49:14.361Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "auth-common.css",
+              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\wwwroot\\css\\Pages\\Auth\\auth-common.css",
+              "RelativeDocumentMoniker": "kybe.presentation\\wwwroot\\css\\Pages\\Auth\\auth-common.css",
+              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\wwwroot\\css\\Pages\\Auth\\auth-common.css",
+              "RelativeToolTip": "kybe.presentation\\wwwroot\\css\\Pages\\Auth\\auth-common.css",
+              "ViewState": "AgIAAF4AAAAAAAAAAAAYwEcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-19T00:42:53.48Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Auth\\Register.cshtml",
               "RelativeDocumentMoniker": "kybe.presentation\\Views\\Pages\\Auth\\Register.cshtml",
               "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Auth\\Register.cshtml",
               "RelativeToolTip": "kybe.presentation\\Views\\Pages\\Auth\\Register.cshtml",
-              "ViewState": "AgIAACsAAAAAAAAAAAAUwEAAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-18T22:23:51.429Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UserRegisterVM.cs",
-              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\ViewModels\\Entity\\User\\Register\\UserRegisterVM.cs",
-              "RelativeDocumentMoniker": "kybe.presentation\\ViewModels\\Entity\\User\\Register\\UserRegisterVM.cs",
-              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\ViewModels\\Entity\\User\\Register\\UserRegisterVM.cs",
-              "RelativeToolTip": "kybe.presentation\\ViewModels\\Entity\\User\\Register\\UserRegisterVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABPAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T22:14:56.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AbstractUserVM.cs",
-              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\ViewModels\\Abstract\\AbstractUserVM.cs",
-              "RelativeDocumentMoniker": "kybe.presentation\\ViewModels\\Abstract\\AbstractUserVM.cs",
-              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\ViewModels\\Abstract\\AbstractUserVM.cs",
-              "RelativeToolTip": "kybe.presentation\\ViewModels\\Abstract\\AbstractUserVM.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAASwAsAAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T22:14:30.549Z",
+              "WhenOpened": "2026-05-19T00:27:24.323Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AbstractEntityVM.cs",
-              "DocumentMoniker": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\ViewModels\\Abstract\\AbstractEntityVM.cs",
-              "RelativeDocumentMoniker": "kybe.presentation\\ViewModels\\Abstract\\AbstractEntityVM.cs",
-              "ToolTip": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\ViewModels\\Abstract\\AbstractEntityVM.cs",
-              "RelativeToolTip": "kybe.presentation\\ViewModels\\Abstract\\AbstractEntityVM.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-05-18T22:14:21.869Z"
             }
           ]
         }

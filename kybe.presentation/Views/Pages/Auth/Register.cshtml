@@ -7,15 +7,20 @@
 }
 
 <form asp-controller="Auth" asp-action="Register" method="post">
-    <div class="auth">
-        <div class="auth-border auth-border-lg">
+    <div class="auth " >
+        <div class="auth-border auth-border-lg" >
             <div class="auth-conteiner-image">
                 <img class="auth-image" src="/img/kzbe-logo.png" />
             </div>
-
-            <div class="row inputs">
-                <div class="col-sm-6">
-                    <label for="name" class="auth-label">
+             
+            <div class="row inputs" styles="flex-direction: column!important">
+                <div class="col-md-5 mt-3" styles="flex-direction: column!important">
+                    <span class="auth-create-design"  style="font-size: 28px; display: block">Crie sua Conta</span>
+                    <span class="auth-create-design" style="font-size: 28px; opacity: 55%; display: block ">Crie sua Conta</span>
+                    <span class="auth-create-design" style="font-size: 28px; opacity: 35%;">Crie sua Conta</span>
+                </div>
+                <div class="col-md-7">
+                    <label for="lastName" class="auth-label">
                         <span>
                             Nome
                         </span>
@@ -26,99 +31,39 @@
                     </div>
                     <span class="validation" asp-validation-for="Name"></span>
                 </div>
-                <div class="col-sm-6">
-                    <label for="phoneNumber" class="auth-label">
-                        <span>
-                            Telefone
-                        </span>
-                    </label>
-
-                    <div class="auth-conteiner-input">
-                        <input type="text" placeholder="Informe seu telefone" asp-for="PhoneNumber"/>
-                    </div>
-                    <span class="validation" asp-validation-for="PhoneNumber"></span>
-                </div>
+                
             </div>
 
             <div class="row">
-                <div class="col-sm-6 inputs">
-                    <label for="email" class="auth-label">
-                        <span>
-                            Email
-                        </span>
-                    </label>
-
-                    <div class="auth-conteiner-input">
-                        <input type="email" placeholder="Informe seu email" asp-for="Email" />
-                    </div>
-                    <span class="validation" asp-validation-for="Email"></span>
+                <div class="col-md-5 inputs d-none-media">
+                    
                 </div>
 
-                <div class="col-sm-6 inputs">
+                <div class="col-md-7 inputs">
                     <label for="cpf" class="auth-label">
                         <span>
-                            CPF
+                            Sobrenome(opcional)
                         </span>
                     </label>
 
                     <div class="auth-conteiner-input">
-                        <input type="number" placeholder="Informe seu CPF" asp-for="Cpf"/>
+                        <input type="text" placeholder="Informe seu sobrenome" asp-for="LastName"/>
                     </div>
-                    <span class="validation" asp-validation-for="Cpf"></span>
+                    <span class="validation" asp-validation-for="LastName"></span>
+                    
                 </div>
+            
             </div>
+           
 
             <div class="row mt-2 mb-3">
-                <div class="col-sm-12" style="letter-spacing: 0.5px; line-height: 13px;">
-                    <i class="fa-solid fa-key" style="font-size: 12px; padding-left: 5px;"></i>
-                    <span style="font-size: 12px;">crendênciais</span>
+                <div class="col-sm-12">
                     <hr class="m-auto" />
                 </div>
             </div>
 
-            <div class="row inputs">
-                <div class="col-sm-12">
-                    <label for="user" class="auth-label">
-                        <span>
-                            Usuário
-                        </span>
-                    </label>
-
-                    <div class="auth-conteiner-input">
-                        <input type="text" placeholder="Informe seu usuário" asp-for="UserName" />
-                    </div>
-                    <span class="validation" asp-validation-for="UserName"></span>
-                </div>
-
-                
-            </div>
-            <div class="row">
-                <div class="col-sm-6">
-                    <label for="password" class="auth-label">
-                        <span>
-                            Senha
-                        </span>
-                    </label>
-
-                    <div class="auth-conteiner-input">
-                        <input type="password" placeholder="Informe a senha" asp-for="Password" />
-                    </div>
-                    <span class="validation" asp-validation-for="Password"></span>
-                </div>
-
-                <div class="col-sm-6">
-                    <label for="password" class="auth-label">
-                        <span>
-                            Confirmação da Senha
-                        </span>
-                    </label>
-
-                    <div class="auth-conteiner-input">
-                        <input type="password" placeholder="Informe a senha" asp-for="PasswordConfirm" />
-                    </div>
-                    <span class="validation" asp-validation-for="PasswordConfirm"></span>
-                </div>
-            </div>
+            
+            
             <div class="row mt-auto">
                 <div class="col-sm-8 auth-conteiner-register">
                     <span>

@@ -52,6 +52,20 @@ a:hover{
     min-height: 60px !important;
 }
 
+/*Arrumar gambiarra*/
+
+@media(max-width: 767px){
+    .auth-create-design{
+        display: block
+    }
+    .d-none-media{
+        display: none;
+    }
+    .inputs {
+    }
+}
+
+
 @media(max-width: 575px){
     .inputs-partial{
         gap: 15px;

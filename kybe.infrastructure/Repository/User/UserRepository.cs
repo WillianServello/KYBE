@@ -1,14 +1,9 @@
 ﻿using kybe.infrastructure.Data.Context;
 using kybe.infrastructure.Repository.Abstract;
 using kybe_domain.Classes.Entity;
-using kybe_domain.Interface.IRepository.IRoles;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using kybe_domain.Interface.IRepository.IUser;
 
-namespace kybe.infrastructure.Repository.Roles
+namespace kybe.infrastructure.Repository.User
 {
     public sealed class UserRepository : AbstractUserRepository<UserEntity>, IUserRepository
     {

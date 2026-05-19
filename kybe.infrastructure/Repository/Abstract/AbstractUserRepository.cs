@@ -4,7 +4,7 @@ using kybe_domain.Interface.Repository.Abstract;
 
 namespace kybe.infrastructure.Repository.Abstract
 {
-    public abstract class AbstractUserRepository<T> : AbstractEntityRepository<T>, IGenericUserRepository<T> where T : AbstractUser
+    public abstract class AbstractUserRepository<T> : AbstractEntityRepository<T>, IAbstractUserRepository<T> where T : AbstractUser
     {
         protected AbstractUserRepository(DatabaseContext context) : base(context){}
     }

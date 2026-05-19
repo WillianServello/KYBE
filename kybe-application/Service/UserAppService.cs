@@ -2,11 +2,10 @@
 using kybe_application.Interface.IService.IUserServoce;
 using kybe_domain.Classes.Entity;
 using kybe_domain.Entity.ValueObject;
-using kybe_domain.Interface.IRepository.IRoles;
-using kybe_domain.Interface.Service.IRoles;
+using kybe_domain.Interface.Service.IUser;
 
 
-namespace kybe_application.Roles
+namespace kybe_application.Service
 {
     public sealed class UserAppService : IUserServiceApp
     {
@@ -38,10 +37,11 @@ namespace kybe_application.Roles
                 dto.UserName,
                 dto.Password,
                 dto.Name,
+                dto.LastName,
                 dto.PhoneNumber,
                 dto.Email,
                 dto.Cpf,
-                address
+                address = null!
             );
 
             return _userServiceDomain.AddAsync(user);

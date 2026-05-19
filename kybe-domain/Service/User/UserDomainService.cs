@@ -1,6 +1,6 @@
 ﻿using kybe_domain.Classes.Entity;
-using kybe_domain.Interface.IRepository.IRoles;
-using kybe_domain.Interface.Service.IRoles;
+using kybe_domain.Interface.IRepository.IUser;
+using kybe_domain.Interface.Service.IUser;
 
 namespace kybe_domain.Service.User
 {

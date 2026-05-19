@@ -1,0 +1,43 @@
+﻿@using kybe.presentation.ViewModels.Entity.User.Register
+@model UserViewModel
+
+<div class="row inputs">
+    <div class="col-md-5 mt-3 auth-conteiner-design">
+        <partial name="~/Views/Pages/Auth/Partials/_Design.cshtml" />
+
+    </div>
+    <div class="col-md-7">
+        <label for="lastName" class="auth-label">
+            <span>
+                Nome
+            </span>
+        </label>
+
+        <div class="auth-conteiner-input">
+            <input type="text" placeholder="Informe seu nome" asp-for="Name" required />
+        </div>
+        <span class="validation" asp-validation-for="Name"></span>
+    </div>
+
+</div>
+
+<div class="row inputs">
+    <div class="col-md-5 inputs auth-label-none" style="margin-top: 10px;">
+        <span>Informe seu nome</span>
+    </div>
+
+    <div class="col-md-7 inputs">
+        <label for="cpf" class="auth-label">
+            <span>
+                Sobrenome(opcional)
+            </span>
+        </label>
+
+        <div class="auth-conteiner-input">
+            <input type="text" placeholder="Informe seu sobrenome" asp-for="LastName" />
+        </div>
+        <span class="validation" asp-validation-for="LastName"></span>
+
+    </div>
+
+</div>

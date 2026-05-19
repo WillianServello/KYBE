@@ -1,7 +1,7 @@
 ﻿using kybe.presentation.ViewModels.Entity.User.Register;
-using kybe_application.DTOs.SharedDTOs;
+using kybe_application.DTOs.CommonDTOs;
 using kybe_application.DTOs.UserDTOs;
-using kybe_application.Interface.IService.IUserServoce;
+using kybe_application.Interface.IService.IUserService;
 using Microsoft.AspNetCore.Mvc;
 
 namespace kybe.presentation.Controllers.Auth
@@ -44,7 +44,7 @@ namespace kybe.presentation.Controllers.Auth
             }
         }
 
-        private static RegisterUser MapRegister(UserViewModel viewModel) 
+        private static RegisterUser MapRegister(UserViewModel viewModel)
         {
             return new RegisterUser
             {

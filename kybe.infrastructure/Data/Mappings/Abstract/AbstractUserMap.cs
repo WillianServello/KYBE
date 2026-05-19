@@ -1,4 +1,4 @@
-﻿using kybe_domain.Entity.Abstract;
+﻿using kybe_domain.Models.Abstract;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

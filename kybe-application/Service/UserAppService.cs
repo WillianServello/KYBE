@@ -1,9 +1,8 @@
 ﻿using kybe_application.DTOs.UserDTOs;
-using kybe_application.Interface.IService.IUserServoce;
-using kybe_domain.Classes.Entity;
-using kybe_domain.Entity.ValueObject;
-using kybe_domain.Interface.Service.IUser;
-
+using kybe_application.Interface.IService.IUserService;
+using kybe_domain.Interface.IService.IUser;
+using kybe_domain.Models.Entity;
+using kybe_domain.Models.ValueObject;
 
 namespace kybe_application.Service
 {

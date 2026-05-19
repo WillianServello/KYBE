@@ -1,6 +1,6 @@
-﻿using kybe_domain.Classes.Entity;
+﻿using kybe_domain.Models.Entity;
 
-namespace kybe_domain.Interface.Service.IUser
+namespace kybe_domain.Interface.IService.IUser
 {
     public interface IUserServiceDomain
     {

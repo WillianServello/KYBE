@@ -1,0 +1,25 @@
+﻿.auth-conteiner-design {
+    line-height: 13px;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+.auth-conteiner-design:hover {
+    line-height: 17px;
+}
+
+.auth-design {
+    display: block;
+    font-size: 28px; 
+    letter-spacing: 0.5px;
+}
+
+
+@media(max-width: 767px) {
+    .auth-design {
+        display: block
+    }
+
+    .design-create {
+        gap: 15px
+    }
+}

@@ -1,0 +1,2 @@
+- Fazer um label igual ao da Google. 
+- Fazer um troca gradual das partials.

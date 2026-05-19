@@ -32,8 +32,9 @@ body {
 }
 
 .auth-border-lg {
-    width: 600px;
+    width: 650px;
 }
+
 @media (max-width: 768px) {
     .auth {
         padding: 10px;
@@ -79,7 +80,7 @@ body {
     .auth-conteiner-input input {
         width: 100%;
         font-size: 12px;
-        min-height: 35px !important;
+        min-height: 40px !important;
         border: none;
         border-radius: 5px !important;
         padding: 5px;
@@ -88,8 +89,61 @@ body {
     }
 
     input::placeholder{
+        font-weight: 400;
+        padding-left: 5px;
         font-size: 12px;
     }
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.gap-inputs {
+    display: flex;
+    height: 100px !important;
+}
+
+.inputs {
+    line-height: 12px;
+    min-height: 70px !important;
+}
+
+.auth-label-none span:hover{
+    text-decoration: underline;
+    cursor:pointer;
+}
+.auth-label-none{
+    transform: translateX(3px)
+}
+
+
+
+@media(max-width: 767px) {
+    .inputs {
+        gap: 10px;
+        margin-top: 5px;
+    }
+
+    .auth-label-none {
+        display: none;
+    }
+
+    .inputs {
+    }
+}
+
+
+@media(max-width: 575px) {
+    .inputs-partial {
+        gap: 15px;
+    }
+}
 
 .auth-button-sign {
     display: flex;
@@ -110,7 +164,7 @@ body {
     .auth-button-sign button:hover {
         transform: translateY(-1px)
     }
-
+    
 .auth-conteiner-register {
     margin-top: auto;
     font-size: 12px;
@@ -124,4 +178,12 @@ body {
     .auth-button-register:hover {
         color: lightskyblue;
         text-decoration: underline;
+    }
+
+.step {
+    display: none;
+}
+
+    .step.active {
+        display: block;
     }

@@ -1,13 +1,8 @@
 ﻿using kybe_domain.Common;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace kybe_domain.Entity.ValueObject
+namespace kybe_domain.Models.ValueObject
 {
-    public class Address 
+    public class Address
     {
         public string City { get; private set; } = string.Empty;
         public string State { get; private set; } = string.Empty;
@@ -18,7 +13,7 @@ namespace kybe_domain.Entity.ValueObject
         public string Complementary { get; private set; } = string.Empty;
 
         protected Address() { }
-        public Address(string city, string state, string street, string number, 
+        public Address(string city, string state, string street, string number,
                         string zipCode, string neighborhood, string complementary)
         {
             City = Guard.AgainstNullOrWhiteSpace(city, nameof(City));
@@ -30,6 +25,6 @@ namespace kybe_domain.Entity.ValueObject
             Complementary = Guard.AgainstNullOrWhiteSpace(complementary, nameof(Complementary));
         }
 
-        
+
     }
 }

@@ -1,4 +1,4 @@
-﻿using kybe.infrastructure.Data.Mappings.Roles;
+﻿using kybe.infrastructure.Data.Mappings.User;
 using Microsoft.EntityFrameworkCore;
 
 namespace kybe.infrastructure.Data.Context

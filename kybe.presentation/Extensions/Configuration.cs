@@ -1,6 +1,5 @@
 ﻿using kybe.infrastructure.Data.Context;
 using Microsoft.EntityFrameworkCore;
-using System;
 
 namespace kybe.presentation.Extensions;
 

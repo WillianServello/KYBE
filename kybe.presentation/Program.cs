@@ -9,14 +9,25 @@ namespace kybe.presentation
             var builder = WebApplication.CreateBuilder(args);
 
             builder.Services
-                .AddControllersWithViews()
-                .AddRazorOptions(options =>
-                {
-                    options.ViewLocationFormats.Add("/Views/Pages/{1}/{0}.cshtml");
-                });
+             .AddControllersWithViews()
+             .AddRazorOptions(options =>
+             {
+                 options.ViewLocationFormats.Add(
+                     "/Views/Pages/{1}/{0}.cshtml"
+                 );
+
+                 options.ViewLocationFormats.Add(
+                     "/Views/Pages/{1}/{0}/Index.cshtml"
+                 );
+
+                 // ESSA AQUI
+                 options.ViewLocationFormats.Add(
+                     "/Views/Pages/{1}/{0}/{0}.cshtml"
+                 );
+             });
             builder.Services.AddDatabase(builder.Configuration);
             builder.Services.AddScoped();
-            
+
 
             var app = builder.Build();
 

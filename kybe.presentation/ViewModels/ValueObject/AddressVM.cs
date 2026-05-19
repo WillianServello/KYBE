@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace kybe.presentation.ViewModels.ValueObject
 {
-    public class AddressVM 
+    public class AddressVM
     {
         [Required(ErrorMessage = "Cidade é obrigatorio.")]
         [MaxLength(128, ErrorMessage = "O maximo de carecteres é 128.")]
@@ -39,6 +34,6 @@ namespace kybe.presentation.ViewModels.ValueObject
 
         protected AddressVM() { }
 
-        
+
     }
 }

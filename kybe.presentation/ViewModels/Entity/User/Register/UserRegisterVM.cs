@@ -6,7 +6,7 @@ namespace kybe.presentation.ViewModels.Entity.User.Register
 {
     public class UserViewModel : AbstractUserVM
     {
-        [Required(ErrorMessage = "O campo 'Usuário' é obrigatorio" )]
+        [Required(ErrorMessage = "O campo 'Usuário' é obrigatorio")]
         [MinLength(3, ErrorMessage = "O campo 'Usuário' precisa ter no minímo 3 caracteres")]
         public string UserName { get; set; } = string.Empty;
 

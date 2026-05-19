@@ -1,14 +1,9 @@
 ﻿using kybe.infrastructure.Data.Mappings.Abstract;
-using kybe_domain.Classes.Entity;
+using kybe_domain.Models.Entity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace kybe.infrastructure.Data.Mappings.Roles
+namespace kybe.infrastructure.Data.Mappings.User
 {
     internal class UserMap : AbstractUserMap<UserEntity>
     {

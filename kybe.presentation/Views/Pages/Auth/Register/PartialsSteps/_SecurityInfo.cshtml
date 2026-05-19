@@ -1,0 +1,61 @@
+﻿@using kybe.presentation.ViewModels.Entity.User.Register
+@model UserViewModel
+
+<div class="row inputs">
+    <div class="col-md-5 mt-3 auth-conteiner-design">
+        <partial name="~/Views/Pages/Auth/Partials/_Design.cshtml" />
+
+    </div>
+    <div class="col-md-7">
+        <label for="lastName" class="auth-label">
+            <span>
+                Usuário
+            </span>
+        </label>
+
+        <div class="auth-conteiner-input">
+            <input type="text" placeholder="Informe seu usuário" asp-for="UserName" required />
+        </div>
+        <span class="validation" asp-validation-for="UserName"></span>
+    </div>
+
+</div>
+
+<div class="row inputs">
+    <div class="col-md-5 inputs auth-label-none">
+        <span>Informe suas credências</span>
+    </div>
+
+    <div class="col-md-7 inputs">
+        <label for="password" class="auth-label">
+            <span>
+                Senha
+            </span>
+        </label>
+
+        <div class="auth-conteiner-input">
+            <input type="text" placeholder="Informe sua senha" asp-for="Password" />
+        </div>
+        <span class="validation" asp-validation-for="Password"></span>
+
+    </div>
+
+</div>
+<div class="row inputs">
+    <div class="col-md-5 inputs auth-label-none" >
+    </div>
+    <div class="col-md-7 inputs">
+        <label for="confirmPassword" class="auth-label">
+            <span>
+                Confirme a senha
+            </span>
+        </label>
+
+        <div class="auth-conteiner-input">
+            <input type="text" placeholder="Confirme a senha" asp-for="PasswordConfirm" />
+        </div>
+        <span class="validation" asp-validation-for="PasswordConfirm"></span>
+
+    </div>
+
+</div>

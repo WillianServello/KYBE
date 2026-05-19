@@ -13,7 +13,7 @@ namespace kybe.presentation.Controllers.Entity
 
         public IActionResult Index()
         {
-                return  View();
+            return View();
         }
     }
 }

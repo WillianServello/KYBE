@@ -1,4 +1,4 @@
-﻿namespace kybe_domain.Entity.Abstract
+﻿namespace kybe_domain.Models.Abstract
 {
     public abstract class AbstractEntity
     {

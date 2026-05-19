@@ -1,6 +1,6 @@
 ﻿using kybe.infrastructure.Data.Context;
-using kybe_domain.Entity.Abstract;
-using kybe_domain.Interface.Repository.Abstract;
+using kybe_domain.Interface.IRepository.IAbstract;
+using kybe_domain.Models.Abstract;
 using Microsoft.EntityFrameworkCore;
 
 namespace kybe.infrastructure.Repository.Abstract
@@ -12,7 +12,7 @@ namespace kybe.infrastructure.Repository.Abstract
         public DbSet<T> Entity => _context.Set<T>();
 
         public AbstractEntityRepository(DatabaseContext context)
-            => _context = context ?? throw new ArgumentNullException(nameof(context)); 
+            => _context = context ?? throw new ArgumentNullException(nameof(context));
 
         public virtual async Task AddAsync(T entity)
         {
@@ -44,7 +44,7 @@ namespace kybe.infrastructure.Repository.Abstract
         }
 
         public virtual async Task<T> GetByIdAsync(Guid id)
-            => await Entity.FirstOrDefaultAsync(x => x.Id == id && x.IsActive) 
+            => await Entity.FirstOrDefaultAsync(x => x.Id == id && x.IsActive)
             ?? throw new ArgumentNullException("Registro não encotrado!");
     }
 }

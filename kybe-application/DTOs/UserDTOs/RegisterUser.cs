@@ -1,4 +1,4 @@
-﻿using kybe_application.DTOs.SharedDTOs;
+﻿using kybe_application.DTOs.CommonDTOs;
 
 namespace kybe_application.DTOs.UserDTOs
 {

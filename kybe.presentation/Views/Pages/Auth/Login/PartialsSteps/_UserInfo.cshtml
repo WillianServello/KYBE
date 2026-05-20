@@ -1,0 +1,28 @@
+﻿@using kybe.presentation.ViewModels.Entity.User.Login
+@model UserLoginVM
+<div class="row inputs">
+    <div class="col-md-5 mt-3 auth-conteiner-design">
+        <partial name="~/Views/Pages/Auth/_Partials/_DesignLogin.cshtml" />
+
+    </div>
+    <div class="col-sm-7">
+        <label for="userName" class="auth-label">
+            <span>
+                Usuário
+            </span>
+        </label>
+
+        <div class="auth-conteiner-input">
+            <input type="text" placeholder="Informe seu usuário" asp-for="UserName"/>
+        </div>
+        <span class="validation" asp-validation-for="UserName"></span>
+        <partial name="~/Views/Pages/Auth/_Partials/Common/_RecoveryAccess.cshtml" />
+    </div>
+</div>
+
+<div class="row inputs">
+    <div class="col-md-5 inputs auth-label-none" style="margin-top: 10px;">
+        <span>Informe seu usuário</span>
+    </div>
+    
+</div>

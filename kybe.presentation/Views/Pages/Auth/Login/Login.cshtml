@@ -1,0 +1,59 @@
+﻿@using kybe.presentation.ViewModels.Entity.User.Login
+@model UserLoginVM
+@{
+    Layout = "~/Views/Shared/Layout/_AuthLayout.cshtml";
+    ViewData["Title"] = "Login";
+}
+<form>
+    <div class="auth">
+        <div class="auth-border auth-border-lg">
+            <div class="auth-conteiner-image" > 
+                <img class="auth-image" src="/img/kzbe-logo.png" />
+            </div>
+
+            <div id="step1" class="step active">
+                <partial name="~/Views/Pages/Auth/Login/PartialsSteps/_UserInfo.cshtml"
+                         model="@Model" />
+            </div>
+
+            <div id="step2" class="step">
+                <partial name="~/Views/Pages/Auth/Login/PartialsSteps/_PasswordInfo.cshtml"
+                         model="@Model" />
+            </div>
+
+            <div class="row mt-2">
+                <div class="col-sm-12">
+                    <hr class="m-auto" />
+                </div>
+            </div>
+
+            <div class="row mt-auto">
+                <div class="col-sm-8 auth-conteiner-register">
+                    <span>
+                        não tem conta?
+                    </span>
+
+                    <a class="auth-button-register" asp-action="Register" asp-controller="Auth">
+                        clique aqui
+                    </a>
+                </div>
+
+                <div class="col-sm-4 auth-button-sign">
+                    <button type="button"
+                            id="nextBtn"
+                            onclick="nextStep()">
+                        Avançar
+                    </button>
+
+                    <button type="submit"
+                            id="submitBtn"
+                            style="display:none;">
+                        Criar conta
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+

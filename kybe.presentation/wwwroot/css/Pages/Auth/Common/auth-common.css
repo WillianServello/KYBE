@@ -1,5 +1,4 @@
 ﻿* {
-    
     box-sizing: border-box;
 }
 
@@ -25,7 +24,7 @@ body {
     flex-direction: column;
     background: linear-gradient(360deg, #101010, #151c24, #1f2937);
     box-shadow: 1px 10px 10px rgba(1, 1, 1, 0.2);
-    border-radius: 5px;
+    border-radius: 15px;
     height: auto;
     width: 400px;
     padding: 20px;
@@ -51,7 +50,6 @@ body {
     
 }
 
-
 .auth-conteiner-image {
     display: flex;
     margin-left: -15px;
@@ -61,58 +59,13 @@ body {
     width: 150px;
 }
 
-.auth-label {
-}
+.auth-label { }
 
     .auth-label span {
         font-size: 12px;
         font-weight: 300;
         letter-spacing: 1px;
     }
-
-.auth-conteiner-input {
-    display: flex;
-    width: 100%;
-    background: white;
-    border-radius: 5px;
-}
-
-    .auth-conteiner-input input {
-        width: 100%;
-        font-size: 12px;
-        min-height: 40px !important;
-        border: none;
-        border-radius: 5px !important;
-        padding: 5px;
-        outline: none;
-        color: black;
-    }
-
-    input::placeholder{
-        font-weight: 400;
-        padding-left: 5px;
-        font-size: 12px;
-    }
-
-input[type=number]::-webkit-inner-spin-button,
-input[type=number]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-}
-
-input[type=number] {
-    -moz-appearance: textfield;
-}
-
-.gap-inputs {
-    display: flex;
-    height: 100px !important;
-}
-
-.inputs {
-    line-height: 12px;
-    min-height: 70px !important;
-}
 
 .auth-label-none span:hover{
     text-decoration: underline;
@@ -122,26 +75,9 @@ input[type=number] {
     transform: translateX(3px)
 }
 
-
-
 @media(max-width: 767px) {
-    .inputs {
-        gap: 10px;
-        margin-top: 5px;
-    }
-
     .auth-label-none {
         display: none;
-    }
-
-    .inputs {
-    }
-}
-
-
-@media(max-width: 575px) {
-    .inputs-partial {
-        gap: 15px;
     }
 }
 

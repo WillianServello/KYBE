@@ -1,5 +1,7 @@
 ﻿.auth-conteiner-input {
     display: flex;
+    position: relative;
+    text-align: center;
     width: 100%;
     background: white;
     border-radius: 5px;

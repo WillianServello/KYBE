@@ -7,14 +7,14 @@
 
     </div>
     <div class="col-md-7">
-        <label for="lastName" class="auth-label">
-            <span>
-                Usuário
-            </span>
-        </label>
 
         <div class="auth-conteiner-input">
-            <input type="text" placeholder="Informe seu usuário" asp-for="UserName" required />
+            <input type="text" placeholder=" " asp-for="UserName" required />
+            <label for="lastName" class="auth-label">
+                <span>
+                    Usuário
+                </span>
+            </label>
         </div>
         <span class="validation" asp-validation-for="UserName"></span>
     </div>
@@ -27,14 +27,14 @@
     </div>
 
     <div class="col-md-7 inputs">
-        <label for="password" class="auth-label">
-            <span>
-                Senha
-            </span>
-        </label>
 
         <div class="auth-conteiner-input">
-            <input type="text" placeholder="Informe sua senha" asp-for="Password" />
+            <input type="text" placeholder=" " asp-for="Password" />
+            <label for="password" class="auth-label">
+                <span>
+                    Senha
+                </span>
+            </label>
         </div>
         <span class="validation" asp-validation-for="Password"></span>
 
@@ -45,14 +45,14 @@
     <div class="col-md-5 inputs auth-label-none" >
     </div>
     <div class="col-md-7 inputs">
-        <label for="confirmPassword" class="auth-label">
-            <span>
-                Confirme a senha
-            </span>
-        </label>
 
         <div class="auth-conteiner-input">
-            <input type="text" placeholder="Confirme a senha" asp-for="PasswordConfirm" />
+            <input type="text" placeholder=" " asp-for="PasswordConfirm" />
+            <label for="confirmPassword" class="auth-label">
+                <span>
+                    Confirme a senha
+                </span>
+            </label>
         </div>
         <span class="validation" asp-validation-for="PasswordConfirm"></span>
 

@@ -6,14 +6,15 @@
 
     </div>
     <div class="col-sm-7">
-        <label for="userName" class="auth-label">
-            <span>
-                Usuário
-            </span>
-        </label>
-
+       
         <div class="auth-conteiner-input">
-            <input type="text" placeholder="Informe seu usuário" asp-for="UserName"/>
+            <input type="text" placeholder=" " asp-for="UserName" required />
+            <label for="userName" class="auth-label">
+                <span>
+                    Usuário
+                </span>
+            </label>
+
         </div>
         <span class="validation" asp-validation-for="UserName"></span>
         <partial name="~/Views/Pages/Auth/_Partials/Common/_RecoveryAccess.cshtml" />

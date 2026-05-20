@@ -8,14 +8,15 @@
 
     </div>
     <div class="col-md-7">
-        <label for="lastName" class="auth-label">
-            <span>
-                Nome
-            </span>
-        </label>
+        
 
         <div class="auth-conteiner-input">
-            <input type="text" placeholder="Informe seu nome" asp-for="Name" required />
+            <input type="text" placeholder=" " asp-for="Name" required />
+            <label for="lastName" class="auth-label">
+                <span>
+                    Nome
+                </span>
+            </label>
         </div>
         <span class="validation" asp-validation-for="Name"></span>
     </div>
@@ -28,14 +29,15 @@
     </div>
 
     <div class="col-md-7 inputs">
-        <label for="cpf" class="auth-label">
-            <span>
-                Sobrenome(opcional)
-            </span>
-        </label>
+       
 
         <div class="auth-conteiner-input">
-            <input type="text" placeholder="Informe seu sobrenome" asp-for="LastName" />
+            <input type="text" placeholder=" " asp-for="LastName" />
+            <label for="cpf" class="auth-label">
+                <span>
+                    Sobrenome(opcional)
+                </span>
+            </label>
         </div>
         <span class="validation" asp-validation-for="LastName"></span>
 

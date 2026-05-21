@@ -18,6 +18,10 @@ namespace kybe_application.Service
             _passwordHasher = passwordHasher;   
         }
 
+        public async Task LoginAsync(LoginUser dto)
+        {
+            
+        }
 
         public Task RegisterAsync(RegisterUser dto)
         {
@@ -49,7 +53,7 @@ namespace kybe_application.Service
             );
 
             return _userServiceDomain.AddAsync(user);
-
         }
+
     }
 }

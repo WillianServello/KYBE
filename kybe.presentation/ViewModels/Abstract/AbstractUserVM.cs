@@ -7,10 +7,11 @@ namespace kybe.presentation.ViewModels.Abstract
     {
         [Required(ErrorMessage = "Nome é obrigatorio.")]
         [MaxLength(128, ErrorMessage = "O maximo de carecteres é 128.")]
-        [RegularExpression(@"^[a-zA-Z]*$", ErrorMessage = "Apenas letras")]
+        [RegularExpression(@"^[a-zA-Z ]*$", ErrorMessage = "Apenas letras")]
         [MinLength(3, ErrorMessage = "O minímo de carecteres é 3.")]
         public string Name { get; set; } = string.Empty;
 
+        [RegularExpression(@"^[a-zA-Z ]*$", ErrorMessage = "Apenas letras")]
         public string? LastName { get; set; } = string.Empty;
 
         [Required(ErrorMessage = "Telefone é obrigatorio.")]

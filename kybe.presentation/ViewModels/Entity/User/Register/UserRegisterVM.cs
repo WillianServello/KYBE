@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace kybe.presentation.ViewModels.Entity.User.Register
 {
-    public class UserViewModel : AbstractUserVM
+    public class UserRegisterVM : AbstractUserVM
     {
         [Required(ErrorMessage = "O campo 'Usuário' é obrigatorio")]
         [MinLength(3, ErrorMessage = "O campo 'Usuário' precisa ter no minímo 3 caracteres")]

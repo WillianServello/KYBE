@@ -7,6 +7,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="wwwroot\js\Pages\Auth\Login\Step.js" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.26">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
@@ -17,6 +21,10 @@
     <ProjectReference Include="..\kybe-application\kybe-application.csproj" />
     <ProjectReference Include="..\kybe-domain\kybe-domain.csproj" />
     <ProjectReference Include="..\kybe.infrastructure\kybe.infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\js\Pages\Auth\Login\" />
   </ItemGroup>
 
 </Project>

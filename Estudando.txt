@@ -1,0 +1,7 @@
+A camada de infraestrutura conhece a camada de aplicação e de dominio, mas ambas as duas não conhecem a camada de infraestrutura. 
+É feito por meio de interfaces (contratos)
+
+Aplicação conhece a camada de domínio, mas a camada de domínio não conhece a camada de aplicação.
+A camada de dominio não conhece nenhuma outra.
+
+A unica que conhece é de apresentação aonde faz o DI.

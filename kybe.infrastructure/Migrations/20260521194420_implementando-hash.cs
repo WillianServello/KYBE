@@ -1,11 +1,12 @@
-﻿using Microsoft.EntityFrameworkCore.Migrations;
+﻿using System;
+using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
 namespace kybe.infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class CreateUser : Migration
+    public partial class implementandohash : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,10 +19,13 @@ namespace kybe.infrastructure.Migrations
                 columns: table => new
                 {
                     ID = table.Column<Guid>(type: "char(36)", nullable: false),
+                    USER_NAME = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: false),
+                    PASSWORD = table.Column<string>(type: "varchar(255)", maxLength: 255, nullable: false),
                     CREATE_AT = table.Column<DateTime>(type: "datetime(6)", nullable: false),
-                    UPDATE_AT = table.Column<DateTime>(type: "datetime(6)", nullable: false),
+                    UPDATE_AT = table.Column<DateTime>(type: "datetime(6)", nullable: true),
                     IS_ACTIVE = table.Column<bool>(type: "tinyint(1)", nullable: false),
                     NAME = table.Column<string>(type: "varchar(128)", maxLength: 128, nullable: false),
+                    LAST_NAME = table.Column<string>(type: "varchar(128)", maxLength: 128, nullable: false),
                     PHONE_NUMBER = table.Column<string>(type: "varchar(20)", maxLength: 20, nullable: false),
                     EMAIL = table.Column<string>(type: "varchar(256)", maxLength: 256, nullable: false),
                     CITY = table.Column<string>(type: "varchar(128)", maxLength: 128, nullable: true),

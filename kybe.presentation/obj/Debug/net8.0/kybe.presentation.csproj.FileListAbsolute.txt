@@ -305,3 +305,4 @@ C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\refint\ky
 C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\kybe.presentation.pdb
 C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\kybe.presentation.genruntimeconfig.cache
 C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\ref\kybe.presentation.dll
+C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\BCrypt-Net-Next.dll

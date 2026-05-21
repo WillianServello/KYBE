@@ -1,7 +1,16 @@
 {
-  "version": 3,
+  "version": 4,
   "targets": {
     "net8.0": {
+      "BCrypt.Net-Next/4.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/BCrypt-Net-Next.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/BCrypt-Net-Next.dll": {}
+        }
+      },
       "BouncyCastle.Cryptography/2.6.2": {
         "type": "package",
         "compile": {
@@ -1051,9 +1060,11 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "BCrypt.Net-Next": "4.2.0",
           "Microsoft.EntityFrameworkCore": "8.0.26",
           "Microsoft.EntityFrameworkCore.Abstractions": "8.0.26",
           "MySql.EntityFrameworkCore": "8.0.22",
+          "kybe-application": "1.0.0",
           "kybe-domain": "1.0.0"
         },
         "compile": {
@@ -1066,6 +1077,31 @@
     }
   },
   "libraries": {
+    "BCrypt.Net-Next/4.2.0": {
+      "sha512": "gwLD2KfCuwQesP17aVh4h6lpiMPEVt5Lbpndo0ej903hNUUTtyxt3ARdDjmuydBRTAUICc7OVKVbaOvc6SQYXA==",
+      "type": "package",
+      "path": "bcrypt.net-next/4.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "bcrypt.net-next.4.2.0.nupkg.sha512",
+        "bcrypt.net-next.nuspec",
+        "ico.png",
+        "lib/net10.0/BCrypt-Net-Next.dll",
+        "lib/net10.0/BCrypt.Net-Next.xml",
+        "lib/net462/BCrypt-Net-Next.dll",
+        "lib/net462/BCrypt.Net-Next.xml",
+        "lib/net472/BCrypt-Net-Next.dll",
+        "lib/net472/BCrypt.Net-Next.xml",
+        "lib/net48/BCrypt-Net-Next.dll",
+        "lib/net48/BCrypt.Net-Next.xml",
+        "lib/netstandard2.0/BCrypt-Net-Next.dll",
+        "lib/netstandard2.0/BCrypt.Net-Next.xml",
+        "lib/netstandard2.1/BCrypt-Net-Next.dll",
+        "lib/netstandard2.1/BCrypt.Net-Next.xml",
+        "readme.md"
+      ]
+    },
     "BouncyCastle.Cryptography/2.6.2": {
       "sha512": "7oWOcvnntmMKNzDLsdxAYqApt+AjpRpP2CShjMfIa3umZ42UQMvH0tl1qAliYPNYO6vTdcGMqnRrCPmsfzTI1w==",
       "type": "package",
@@ -2670,23 +2706,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\facec.lab04\\.nuget\\packages\\": {},
+    "C:\\Users\\WillianRafael\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\kybe.presentation.csproj",
+      "projectUniqueName": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\kybe.presentation.csproj",
       "projectName": "kybe.presentation",
-      "projectPath": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\kybe.presentation.csproj",
-      "packagesPath": "C:\\Users\\facec.lab04\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.presentation\\obj\\",
+      "projectPath": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\kybe.presentation.csproj",
+      "packagesPath": "C:\\Users\\WillianRafael\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\facec.lab04\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\WillianRafael\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -2700,16 +2736,17 @@
       },
       "frameworks": {
         "net8.0": {
+          "framework": "net8.0",
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe-application\\kybe-application.csproj": {
-              "projectPath": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe-application\\kybe-application.csproj"
+            "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe-application\\kybe-application.csproj": {
+              "projectPath": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe-application\\kybe-application.csproj"
             },
-            "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe-domain\\kybe-domain.csproj": {
-              "projectPath": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe-domain\\kybe-domain.csproj"
+            "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe-domain\\kybe-domain.csproj": {
+              "projectPath": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe-domain\\kybe-domain.csproj"
             },
-            "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\kybe.infrastructure.csproj": {
-              "projectPath": "C:\\Users\\facec.lab04\\Desktop\\KYBE\\kybe.infrastructure\\kybe.infrastructure.csproj"
+            "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.infrastructure\\kybe.infrastructure.csproj": {
+              "projectPath": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.infrastructure\\kybe.infrastructure.csproj"
             }
           }
         }
@@ -2724,10 +2761,11 @@
         "auditLevel": "low",
         "auditMode": "direct"
       },
-      "SdkAnalysisLevel": "9.0.300"
+      "SdkAnalysisLevel": "10.0.300"
     },
     "frameworks": {
       "net8.0": {
+        "framework": "net8.0",
         "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": {
@@ -2756,7 +2794,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.300/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

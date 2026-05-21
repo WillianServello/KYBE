@@ -52,3 +52,5 @@ C:\Users\WillianRafael\Desktop\KYBE\kybe.infrastructure\obj\Debug\net8.0\refint\
 C:\Users\WillianRafael\Desktop\KYBE\kybe.infrastructure\obj\Debug\net8.0\kybe.infrastructure.pdb
 C:\Users\WillianRafael\Desktop\KYBE\kybe.infrastructure\obj\Debug\net8.0\kybe.infrastructure.genruntimeconfig.cache
 C:\Users\WillianRafael\Desktop\KYBE\kybe.infrastructure\obj\Debug\net8.0\ref\kybe.infrastructure.dll
+C:\Users\WillianRafael\Desktop\KYBE\kybe.infrastructure\bin\Debug\net8.0\kybe-application.dll
+C:\Users\WillianRafael\Desktop\KYBE\kybe.infrastructure\bin\Debug\net8.0\kybe-application.pdb

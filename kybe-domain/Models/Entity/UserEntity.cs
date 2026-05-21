@@ -8,13 +8,13 @@ namespace kybe_domain.Models.Entity
         public UserEntity() { }
 
         public string UserName { get; private set; } = string.Empty;
-        public string Password { get; private set; } = string.Empty;
+        public string PasswordHash { get; private set; } = null!;
 
         public UserEntity(string userName, string password, string name, string lastName, string phoneNumber, string email, string cpf, Address address)
             : base(name, lastName, phoneNumber, email, address)
         {
             UserName = userName;
-            Password = password;
+            PasswordHash = password;
         }
     }
 }

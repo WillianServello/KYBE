@@ -19,7 +19,7 @@ namespace kybe.infrastructure.Migrations
                 .HasAnnotation("ProductVersion", "8.0.26")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("kybe_domain.Classes.Entity.UserEntity", b =>
+            modelBuilder.Entity("kybe_domain.Models.Entity.UserEntity", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -52,9 +52,11 @@ namespace kybe.infrastructure.Migrations
                         .HasColumnType("varchar(128)")
                         .HasColumnName("NAME");
 
-                    b.Property<string>("Password")
+                    b.Property<string>("PasswordHash")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(255)
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("PASSWORD");
 
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
@@ -68,16 +70,18 @@ namespace kybe.infrastructure.Migrations
 
                     b.Property<string>("UserName")
                         .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)")
+                        .HasColumnName("USER_NAME");
 
                     b.HasKey("Id");
 
                     b.ToTable("USERS", (string)null);
                 });
 
-            modelBuilder.Entity("kybe_domain.Classes.Entity.UserEntity", b =>
+            modelBuilder.Entity("kybe_domain.Models.Entity.UserEntity", b =>
                 {
-                    b.OwnsOne("kybe_domain.Entity.ValueObject.Address", "Address", b1 =>
+                    b.OwnsOne("kybe_domain.Models.ValueObject.Address", "Address", b1 =>
                         {
                             b1.Property<Guid>("UserEntityId")
                                 .HasColumnType("char(36)");

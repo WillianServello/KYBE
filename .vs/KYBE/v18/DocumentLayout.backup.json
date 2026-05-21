@@ -1,7 +1,36 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.infrastructure\\Migrations\\20260521194420_implementando-hash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:kybe.infrastructure\\Migrations\\20260521194420_implementando-hash.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|c:\\users\\willianrafael\\desktop\\kybe\\kybe.infrastructure\\data\\mappings\\abstract\\abstractentitymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|solutionrelative:kybe.infrastructure\\data\\mappings\\abstract\\abstractentitymap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|c:\\users\\willianrafael\\desktop\\kybe\\kybe.infrastructure\\data\\mappings\\abstract\\abstractusermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|solutionrelative:kybe.infrastructure\\data\\mappings\\abstract\\abstractusermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|c:\\users\\willianrafael\\desktop\\kybe\\kybe.infrastructure\\data\\mappings\\user\\usermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F40FC58-FE65-4ECE-B0D0-3BC12A17D959}|kybe.infrastructure\\kybe.infrastructure.csproj|solutionrelative:kybe.infrastructure\\data\\mappings\\user\\usermap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{214670AF-6B20-4178-A328-D9B8D112ACC1}|kybe-domain\\kybe-domain.csproj|c:\\users\\willianrafael\\desktop\\kybe\\kybe-domain\\models\\entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{214670AF-6B20-4178-A328-D9B8D112ACC1}|kybe-domain\\kybe-domain.csproj|solutionrelative:kybe-domain\\models\\entity\\userentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.infrastructure\\Migrations\\20260521193956_implementando-hash-senha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:kybe.infrastructure\\Migrations\\20260521193956_implementando-hash-senha.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\willianrafael\\desktop\\kybe\\kybe.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +38,102 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20260521194420_implementando-hash.cs",
+              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.infrastructure\\Migrations\\20260521194420_implementando-hash.cs",
+              "RelativeDocumentMoniker": "kybe.infrastructure\\Migrations\\20260521194420_implementando-hash.cs",
+              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.infrastructure\\Migrations\\20260521194420_implementando-hash.cs",
+              "RelativeToolTip": "kybe.infrastructure\\Migrations\\20260521194420_implementando-hash.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T19:44:21.047Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AbstractUserMap.cs",
+              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\Abstract\\AbstractUserMap.cs",
+              "RelativeDocumentMoniker": "kybe.infrastructure\\Data\\Mappings\\Abstract\\AbstractUserMap.cs",
+              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\Abstract\\AbstractUserMap.cs",
+              "RelativeToolTip": "kybe.infrastructure\\Data\\Mappings\\Abstract\\AbstractUserMap.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAuwE0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T19:43:43.911Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AbstractEntityMap.cs",
+              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\Abstract\\AbstractEntityMap.cs",
+              "RelativeDocumentMoniker": "kybe.infrastructure\\Data\\Mappings\\Abstract\\AbstractEntityMap.cs",
+              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\Abstract\\AbstractEntityMap.cs",
+              "RelativeToolTip": "kybe.infrastructure\\Data\\Mappings\\Abstract\\AbstractEntityMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T19:43:42.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UserEntity.cs",
+              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe-domain\\Models\\Entity\\UserEntity.cs",
+              "RelativeDocumentMoniker": "kybe-domain\\Models\\Entity\\UserEntity.cs",
+              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe-domain\\Models\\Entity\\UserEntity.cs",
+              "RelativeToolTip": "kybe-domain\\Models\\Entity\\UserEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T19:42:25.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserMap.cs",
+              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\User\\UserMap.cs",
+              "RelativeDocumentMoniker": "kybe.infrastructure\\Data\\Mappings\\User\\UserMap.cs",
+              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.infrastructure\\Data\\Mappings\\User\\UserMap.cs",
+              "RelativeToolTip": "kybe.infrastructure\\Data\\Mappings\\User\\UserMap.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T19:40:45.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20260521193956_implementando-hash-senha.cs",
+              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.infrastructure\\Migrations\\20260521193956_implementando-hash-senha.cs",
+              "RelativeDocumentMoniker": "kybe.infrastructure\\Migrations\\20260521193956_implementando-hash-senha.cs",
+              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.infrastructure\\Migrations\\20260521193956_implementando-hash-senha.cs",
+              "RelativeToolTip": "kybe.infrastructure\\Migrations\\20260521193956_implementando-hash-senha.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T19:39:56.93Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\appsettings.json",
+              "RelativeDocumentMoniker": "kybe.presentation\\appsettings.json",
+              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\appsettings.json",
+              "RelativeToolTip": "kybe.presentation\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-21T19:39:10.88Z",
+              "EditorCaption": ""
             }
           ]
         }

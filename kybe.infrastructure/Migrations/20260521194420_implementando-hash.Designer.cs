@@ -11,8 +11,8 @@ using kybe.infrastructure.Data.Context;
 namespace kybe.infrastructure.Migrations
 {
     [DbContext(typeof(DatabaseContext))]
-    [Migration("20260512012307_CreateUser")]
-    partial class CreateUser
+    [Migration("20260521194420_implementando-hash")]
+    partial class implementandohash
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -22,7 +22,7 @@ namespace kybe.infrastructure.Migrations
                 .HasAnnotation("ProductVersion", "8.0.26")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
-            modelBuilder.Entity("kybe_domain.Classes.Entity.UserEntity", b =>
+            modelBuilder.Entity("kybe_domain.Models.Entity.UserEntity", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -43,11 +43,23 @@ namespace kybe.infrastructure.Migrations
                         .HasColumnType("tinyint(1)")
                         .HasColumnName("IS_ACTIVE");
 
+                    b.Property<string>("LastName")
+                        .IsRequired()
+                        .HasMaxLength(128)
+                        .HasColumnType("varchar(128)")
+                        .HasColumnName("LAST_NAME");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasMaxLength(128)
                         .HasColumnType("varchar(128)")
                         .HasColumnName("NAME");
+
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasMaxLength(255)
+                        .HasColumnType("varchar(255)")
+                        .HasColumnName("PASSWORD");
 
                     b.Property<string>("PhoneNumber")
                         .IsRequired()
@@ -56,18 +68,23 @@ namespace kybe.infrastructure.Migrations
                         .HasColumnName("PHONE_NUMBER");
 
                     b.Property<DateTime?>("UpdateAt")
-                        .IsRequired()
                         .HasColumnType("datetime(6)")
                         .HasColumnName("UPDATE_AT");
+
+                    b.Property<string>("UserName")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("varchar(100)")
+                        .HasColumnName("USER_NAME");
 
                     b.HasKey("Id");
 
                     b.ToTable("USERS", (string)null);
                 });
 
-            modelBuilder.Entity("kybe_domain.Classes.Entity.UserEntity", b =>
+            modelBuilder.Entity("kybe_domain.Models.Entity.UserEntity", b =>
                 {
-                    b.OwnsOne("kybe_domain.Entity.ValueObject.Address", "Address", b1 =>
+                    b.OwnsOne("kybe_domain.Models.ValueObject.Address", "Address", b1 =>
                         {
                             b1.Property<Guid>("UserEntityId")
                                 .HasColumnType("char(36)");

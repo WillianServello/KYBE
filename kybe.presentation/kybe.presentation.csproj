@@ -25,6 +25,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\js\Pages\Auth\Login\" />
+    <Folder Include="wwwroot\track\" />
   </ItemGroup>
 
 </Project>

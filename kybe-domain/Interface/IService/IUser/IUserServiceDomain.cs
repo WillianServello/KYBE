@@ -9,5 +9,6 @@ namespace kybe_domain.Interface.IService.IUser
         Task AddAsync(UserEntity entity);
         Task UpdateAsync(UserEntity entity);
         Task DeleteAsync(UserEntity entity);
+        Task<UserEntity?> GetByUserNameAsync(string userName);
     }
 }

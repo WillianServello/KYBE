@@ -34,47 +34,42 @@
                     <hr class="m-auto" />
                 </div>
             </div>
-
             
             <div class="row mt-auto">
+                <div class="col-sm-8 auth-conteiner-register">
 
-            <div class="col-sm-8 auth-conteiner-register">
+                    <span>
+                        ja possui conta?
+                    </span>
 
-                <span>
-                    ja possui conta?
-                </span>
+                    <a class="auth-button-register"
+                       asp-action="Login"
+                       asp-controller="Auth">
+                        clique aqui
+                    </a>
 
-                <a class="auth-button-register"
-                   asp-action="Login"
-                   asp-controller="Auth">
-                    clique aqui
-                </a>
+                </div>
 
+                <div class="col-sm-4 auth-button-sign">
+
+                    <button type="button"
+                            id="nextBtn"
+                            onclick="nextStep()">
+                        Avançar
+                    </button>
+
+                    <button type="submit"
+                            id="submitBtn"
+                            style="display:none;">
+                        Criar conta
+                    </button>
+                </div>
             </div>
-
-            <div class="col-sm-4 auth-button-sign">
-
-                <button type="button"
-                        id="nextBtn"
-                        onclick="nextStep()">
-                    Avançar
-                </button>
-
-                <button type="submit"
-                        id="submitBtn"
-                        style="display:none;">
-                    Criar conta
-                </button>
-
-            </div>
-
         </div>
-            
-        </div>
-
     </div>
-    
 </form>
 
 
-
+@section Scripts {
+    <script src="~/js/pages/auth/register/register-step.js" asp-append-version="true"></script>
+}

@@ -1,39 +1,42 @@
 ﻿<!DOCTYPE html>
+
 <html lang="pt-br">
-<head>
-    <meta charset="utf-8" />
-    <title>@ViewData["Title"] - Kybe</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
-          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 
-    <link rel="stylesheet" href="~/css/Pages/Auth/Common/auth-common.css" />
-    <link rel="stylesheet" href="~/css/Pages/Auth/Common/auth-common-inputs.css" />
+    <head>
+        <meta charset="utf-8" />
+        <title>@ViewData["Title"] - Kybe</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"
+              href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/css/pages/auth/common/auth-common.css" />
+        <link rel="stylesheet" href="~/css/common/tempdata/message.css" />
+        <link rel="stylesheet" href="~/css/pages/auth/common/auth-common-inputs.css" />
+        <link rel="stylesheet" href="~/css/pages/auth/login/login.css" />
+        <link rel="stylesheet" href="~/css/pages/auth/register/register.css" />
+        <link rel="stylesheet" href="~/css/pages/auth/register/design.css" />
+    </head>
 
-    <link rel="stylesheet" href="~/css/Pages/Auth/Login/login.css" />
+    <body>
+        <main class="auth-page">
 
-    <link rel="stylesheet" href="~/css/Pages/Auth/Register/register.css" />
-    <link rel="stylesheet" href="~/css/Pages/Auth/Register/design.css" />
-</head>
-<body>
-    <main class="auth-page">
-        @RenderBody()
-    </main>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+            <partial name="~/Views/Shared/Partials/_TempData.cshtml" />
 
-    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+            @RenderBody()
+        </main>
 
-    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js"></script>
 
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="~/js/Pages/Auth/Register/Step.js" asp-append-version="true"></script>
-    <script src="~/js/Common/Input/input-mask.js" asp-append-version="true"></script>
-    <script src="~/js/Common/Input/input-validation.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
-</body>
+        <script src="~/lib/jquery/dist/jquery.min.js"></script>
+        <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.8/jquery.inputmask.min.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+        <script src="~/js/Common/Input/input-mask.js" asp-append-version="true"></script>
+        <script src="~/js/Common/Input/input-validation.js" asp-append-version="true"></script>
+        @await RenderSectionAsync("Scripts", required: false)
+    </body>
 </html>
+

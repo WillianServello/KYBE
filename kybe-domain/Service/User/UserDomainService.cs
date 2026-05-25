@@ -32,6 +32,11 @@ namespace kybe_domain.Service.User
             throw new NotImplementedException();
         }
 
+        public Task<UserEntity?> GetByUserNameAsync(string userName)
+        {
+            return _userRepository.GetByUserNameAsync(userName);
+        }
+
         public Task UpdateAsync(UserEntity entity)
         {
             throw new NotImplementedException();

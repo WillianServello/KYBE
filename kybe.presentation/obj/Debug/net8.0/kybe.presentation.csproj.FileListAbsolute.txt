@@ -307,3 +307,11 @@ C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\kybe.pres
 C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\ref\kybe.presentation.dll
 C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\BCrypt-Net-Next.dll
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\BCrypt-Net-Next.dll
+C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll

@@ -5,5 +5,6 @@ namespace kybe_domain.Interface.IRepository.IUser
 {
     public interface IUserRepository : IAbstractUserRepository<UserEntity>
     {
+        Task<UserEntity?> GetByUserNameAsync(string userName);
     }
 }

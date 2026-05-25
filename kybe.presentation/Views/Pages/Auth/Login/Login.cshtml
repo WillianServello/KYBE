@@ -4,7 +4,7 @@
     Layout = "~/Views/Shared/Layout/_AuthLayout.cshtml";
     ViewData["Title"] = "Login";
 }
-<form>
+<form asp-action="Login" asp-controller="Auth" method="post">
     <div class="auth">
         <div class="auth-border auth-border-lg">
             <a class="auth-conteiner-image" asp-action="Index" asp-controller="Home" > 
@@ -56,4 +56,8 @@
     </div>
 </form>
 
+
+@section Scripts {
+    <script src="~/js/pages/auth/login/login-step.js" asp-append-version="true"></script>
+}
 

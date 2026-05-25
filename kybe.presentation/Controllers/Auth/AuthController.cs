@@ -4,17 +4,18 @@ using kybe_application.DTOs.CommonDTOs;
 using kybe_application.DTOs.UserDTOs;
 using kybe_application.Interface.IService.IUserService;
 using Microsoft.AspNetCore.Mvc;
-using System.Xml.Linq;
 
 namespace kybe.presentation.Controllers.Auth
 {
     public sealed class AuthController : Controller
     {
         private readonly IUserServiceApp _userService;
+        private readonly IAuthServiceApp _authService;
 
-        public AuthController(IUserServiceApp userService)
+        public AuthController(IUserServiceApp userService, IAuthServiceApp authService)
         {
             _userService = userService;
+            _authService = authService;
         }
 
         [HttpGet]
@@ -32,15 +33,34 @@ namespace kybe.presentation.Controllers.Auth
             try
             {
                 var dto = SetLogin(viewModel);
-                await _userService.LoginAsync(dto);
+
+                var token = await _authService.LoginAsync(dto);
+
+                if (token is null)
+                {
+                    TempData["Error"] = "Usuário ou senha inválidos";
+                    return RedirectToAction("Login");
+                }
+
+                Response.Cookies.Append(
+                    "jwt",
+                    token,
+                    new CookieOptions
+                    {
+                        HttpOnly = true,
+                        Secure = true,
+                        SameSite = SameSiteMode.Strict,
+                        Expires = DateTime.UtcNow.AddHours(1)
+                    }
+                );
+
                 return RedirectToAction("Index", "Home");
-            }             
+            }
             catch (Exception ex)
             {
                 ModelState.AddModelError("", ex.Message);
                 return View(viewModel);
             }
-
         }
 
         [HttpGet]

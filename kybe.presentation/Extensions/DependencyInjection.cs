@@ -13,10 +13,12 @@ namespace kybe.presentation.Extensions
     {
         internal static void AddScoped(this IServiceCollection services)
         {
-            services.AddScoped<IUserServiceApp, UserAppService>();
+            services.AddScoped<IUserServiceApp, UserServiceApp>();
             services.AddScoped<IUserServiceDomain, UserDomainService>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IPasswordHasher, PasswordHasher>();
+            services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<IAuthServiceApp, AuthServiceApp>();
         }
     }
 }

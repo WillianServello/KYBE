@@ -1,26 +1,52 @@
 ﻿<div class="home-conteiner-user">
-    <div class="home-user" onclick="toggleMenuUser()">
-        <div class="home-user-name tooltips-user" data-title-user="sessão usuário">
-            Willian Servello
-        </div>
-        <div class="home-arrow-icon">
-            <i class="fa-solid fa-chevron-down " id="user-arrow"></i>
-        </div>
-    </div>
+    @if (User.Identity?.IsAuthenticated == true)
+    {
+        <div class="home-user" onclick="toggleMenuUser()">
+            <div class="home-user-name tooltips-user" data-title-user="sessão usuário">
+                @User.Identity.Name
+            </div>
 
-    <div class="home-user-menu" id="home-user-menu">
-        <a class="home-item-menu" asp-action="Index" asp-controller="User">
-            <i class="fa-regular fa-user"></i>
-            <span>Perfil</span>
-        </a>
-        <div class="home-item-menu">
-            <i class="fa-regular fa-bookmark"></i>
-            <span>Configurações</span>
+            <div class="home-arrow-icon">
+                <i class="fa-solid fa-chevron-down" id="user-arrow"></i>
+            </div>
         </div>
 
-        <a class="home-item-menu" asp-action="Login" asp-controller="Auth">
-            <img src="~/img/Icons/plug-disconnect.png" style="width: 30px; margin-left: -5px;"/>
-            <span>Login</span>
-        </a>
-    </div>
+        <div class="home-user-menu" id="home-user-menu">
+            <a class="home-item-menu" asp-action="Index" asp-controller="User">
+                <i class="fa-regular fa-user"></i>
+                <span>Perfil</span>
+            </a>
+
+            <div class="home-item-menu">
+                <i class="fa-regular fa-bookmark"></i>
+                <span>Configurações</span>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="home-user" onclick="toggleMenuUser()">
+           
+            <div class="home-user-name tooltips-user" >
+                Opções
+            </div>
+
+            <div class="home-arrow-icon">
+                <i class="fa-solid fa-chevron-down" id="user-arrow"></i>
+            </div>
+        </div>
+
+        <div class="home-user-menu" id="home-user-menu">
+            <a class="home-item-menu" asp-action="Login" asp-controller="Auth">
+                <img src="~/img/Icons/plug-disconnect.png" style="width: 30px; margin-left: -5px;" />
+                <span>Login</span>
+            </a>
+
+            <a class="home-item-menu" asp-action="Register" asp-controller="Auth">
+                <i class="fa-regular fa-bookmark"></i>
+                <span>Registrar</span>
+            </a>
+
+        </div>
+    }
 </div>

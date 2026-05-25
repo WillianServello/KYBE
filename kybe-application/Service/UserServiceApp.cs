@@ -7,21 +7,18 @@ using kybe_domain.Models.ValueObject;
 
 namespace kybe_application.Service
 {
-    public sealed class UserAppService : IUserServiceApp
+    public sealed class UserServiceApp : IUserServiceApp
     {
         private readonly IUserServiceDomain _userServiceDomain;
         private readonly IPasswordHasher _passwordHasher;
 
-        public UserAppService(IUserServiceDomain userServiceDomain, IPasswordHasher passwordHasher)
+        public UserServiceApp(IUserServiceDomain userServiceDomain, IPasswordHasher passwordHasher)
         {
             _userServiceDomain = userServiceDomain;
             _passwordHasher = passwordHasher;   
         }
 
-        public async Task LoginAsync(LoginUser dto)
-        {
-            
-        }
+        
 
         public Task RegisterAsync(RegisterUser dto)
         {

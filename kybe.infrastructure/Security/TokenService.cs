@@ -37,8 +37,10 @@ namespace kybe.infrastructure.Security
             var claims = new[]
             {
                 new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()),
-                new Claim(ClaimTypes.Name, user.UserName),
-                new Claim(ClaimTypes.Email, user.Email)
+                new Claim(ClaimTypes.Name, user.Name),
+                new Claim(ClaimTypes.Surname, user.LastName!),
+                new Claim(ClaimTypes.Email, user.Email),
+                new Claim("UserName", user.UserName)
             };
 
             var token = new JwtSecurityToken(

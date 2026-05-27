@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Mvc;
 namespace kybe.presentation.Controllers.Entity
 {
     [Authorize]
-    public sealed class UserController : Controller
+    public sealed class AccountController : Controller
     {
         //private readonly UserService _userService;
 

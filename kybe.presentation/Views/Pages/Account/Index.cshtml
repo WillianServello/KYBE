@@ -1,6 +1,20 @@
 ﻿@{
     ViewData["Title"] = "Meu dados";
 }
+@{
+    var name = User.FindFirst(
+        System.Security.Claims.ClaimTypes.Name
+    )?.Value;
+
+    var lastName = User.FindFirst(
+        System.Security.Claims.ClaimTypes.Surname
+    )?.Value;
+
+    var username = User.FindFirst(
+        "UserName"
+    )?.Value;
+}
+
 <div class="inteface-conteiner">
     <div class="info-page">
         <span class="title tootips" data-title="▲ tela de dados do usuário">
@@ -9,5 +23,9 @@
     </div>
     <div class="inteface">
         <partial name="~/Views/Shared/Partials/_NavUser.cshtml"/>
+
+       @name
+       @lastName
+       @username
     </div>
 </div>

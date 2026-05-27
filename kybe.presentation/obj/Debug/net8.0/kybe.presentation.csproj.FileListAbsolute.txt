@@ -315,3 +315,11 @@ C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\System.Id
 C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll

@@ -10,7 +10,7 @@
         System.Security.Claims.ClaimTypes.Surname
     )?.Value;
 
-    var username = User.FindFirst(
+    var userName = User.FindFirst(
         "UserName"
     )?.Value;
 }
@@ -24,8 +24,53 @@
     <div class="inteface">
         <partial name="~/Views/Shared/Partials/_NavUser.cshtml"/>
 
-       @name
-       @lastName
-       @username
+        <div class="common-box common-flex-row">
+            <div class="common-flex-row common-lheight">
+                <div class="common-font-medium">
+                    <span>@name @lastName</span>
+                </div>
+
+                <span class="common-font-small ">@@@userName</span>
+            </div>
+        </div>
     </div>
 </div>
+
+<style>
+
+    .common-flex-row{
+        display: inline-flex;
+        flex-direction: column;
+    }
+
+    .common-box{
+        border: 1px solid #d3d3d3;
+        box-shadow: 0px 0px 2px rgba(1, 1, 1, 0.1);
+        padding: 15px;
+        border-radius: 10px;
+    }
+
+    .common-font-small{
+        display: inline-block;
+        letter-spacing: 1px;
+        font-size: 12px;
+        font-weight: 300;
+        cursor: pointer;
+        transition: 0.3s all ease;
+    }
+    .common-font-medium{
+        display: inline-block;
+        letter-spacing: 1px;
+        font-size: 14px;
+        font-weight: 300;
+        cursor: pointer;
+        transition: 0.3s all ease;
+    }
+   
+    .common-lheight{
+        line-height: 15px
+    }
+    .common-font-small:hover, .common-font-medium:hover{
+        transform: translateY(-1px)
+    }
+</style>

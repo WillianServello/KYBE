@@ -96,6 +96,7 @@ namespace kybe.presentation.Controllers.Auth
                 UserName = viewModel.UserName,
                 Password = viewModel.Password,
                 Name = viewModel.Name,
+                LastName = viewModel.LastName!,
                 PhoneNumber = viewModel.PhoneNumber,
                 Email = viewModel.Email,
                 Cpf = viewModel.Cpf,

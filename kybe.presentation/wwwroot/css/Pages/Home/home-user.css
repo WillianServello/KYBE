@@ -89,6 +89,9 @@
         pointer-events: auto;
     }
 .home-item-menu {
+    display: flex;
+    align-items: center;
+    gap: 5px;
     padding: 8px;
     border-radius: 5px;
     background: #f1f2f3;

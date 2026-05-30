@@ -1,18 +1,9 @@
-﻿@{
+﻿@using kybe.presentation.Extensions
+@{
     ViewData["Title"] = "Meu dados";
 }
-@{
-    var name = User.FindFirst(
-        System.Security.Claims.ClaimTypes.Name
-    )?.Value;
-
-    var lastName = User.FindFirst(
-        System.Security.Claims.ClaimTypes.Surname
-    )?.Value;
-
-    var userName = User.FindFirst(
-        "UserName"
-    )?.Value;
+@section Styles {
+    <link rel="stylesheet" href="~/css/pages/account/left-bar/bar.css" asp-append-version="true" />
 }
 
 <div class="inteface-conteiner">
@@ -24,14 +15,53 @@
     <div class="inteface">
         <partial name="~/Views/Shared/Partials/_NavUser.cshtml"/>
 
-        <div class="common-box " style="height: 90%">
-            <div class="common-flex-row ">
-                <div class="common-flex-row common-lheight">
-                    <div class="common-font-medium">
-                        <span>@name @lastName</span>
+        <div class="common-box " style="height: 85vh">
+            <div class="common-flex-column common-gap-medium w-100">
+                <div class="common-flex-column common-lheight w-100">
+
+                    <div class="common-align-center">
+                        <div class="common-rpadding-medium">
+                            <i class="bi bi-person fs-4"></i>
+                        </div>
+                        <div class="common-flex-column w-100">
+                            <div class="common-font-medium">
+                                <span>@User.GetName() @User.GetLastName()</span>
+                            </div>
+
+                            <div>
+                                <span class="common-font-small ">@@@User.GetUserName()</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="d-flex w-100">
+
+                    @* MENU LATERAL - LEFT BAR *@
+                    <div class="d-flex flex-column account-bar">
+                        <div class="account-bar-itens">
+                            <div class="account-icon">
+                                <i class="bi bi-person-lock fs-6"></i>
+                            </div>
+                            <span class="common-font-medium">Privacidade</span>
+                        </div>
+
+                        <div class="account-bar-itens">
+                            <div class="account-icon">
+                                <i class="bi bi-clock-history fs-6"></i>
+                            </div>
+                            <span class="common-font-medium">Histórico</span>
+                        </div>
                     </div>
 
-                    <span class="common-font-small ">@@@userName</span>
+                    @* CONTEÚDO DA _PARTIALS *@
+                    <div class="account-content common-padding-medium w-100">
+                        <div>
+                            @await Html.PartialAsync("~/Views/Pages/Account/Shared/_Privacy.cshtml")
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
@@ -41,40 +71,13 @@
 </div>
 
 <style>
-
-    .common-flex-row{
-        display: inline-flex;
-        flex-direction: column;
-    }
-
-    .common-box{
+    
+    .account-content {
+        flex: 1;
+        min-width: 0;
+        height: calc(100vh - 200px);
+        border-radius: 5px;
         border: 1px solid #d3d3d3;
-        box-shadow: 0px 0px 2px rgba(1, 1, 1, 0.1);
-        padding: 15px;
-        border-radius: 10px;
     }
 
-    .common-font-small{
-        display: inline-block;
-        letter-spacing: 1px;
-        font-size: 12px;
-        font-weight: 300;
-        cursor: pointer;
-        transition: 0.3s all ease;
-    }
-    .common-font-medium{
-        display: inline-block;
-        letter-spacing: 1px;
-        font-size: 14px;
-        font-weight: 300;
-        cursor: pointer;
-        transition: 0.3s all ease;
-    }
-   
-    .common-lheight{
-        line-height: 15px
-    }
-    .common-font-small:hover, .common-font-medium:hover{
-        transform: translateY(-1px)
-    }
 </style>

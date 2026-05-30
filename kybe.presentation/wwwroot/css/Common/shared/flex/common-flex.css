@@ -1,0 +1,9 @@
+﻿.common-align-center {
+    display: flex;
+    align-items: center;
+}
+.common-flex-column {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+}

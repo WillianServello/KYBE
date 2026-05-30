@@ -17,5 +17,10 @@ namespace kybe.presentation.Controllers.Entity
         {
             return View();
         }
+
+        public IActionResult Privacy()
+        {
+            return View("~/Views/Pages/Account/Shared/_Privacy.cshtml");
+        }
     }
 }

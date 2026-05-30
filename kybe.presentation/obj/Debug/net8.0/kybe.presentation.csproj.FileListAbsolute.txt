@@ -324,3 +324,4 @@ C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.I
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\Microsoft.IdentityModel.Tokens.dll
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\libman.json
+C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\libman.json

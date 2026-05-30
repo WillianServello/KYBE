@@ -1,3 +1,0 @@
-- Fazer um label igual ao da Google.  Concluído
-- Fazer um troca gradual das partials. Concluído
-- Organizar o Codigo. 

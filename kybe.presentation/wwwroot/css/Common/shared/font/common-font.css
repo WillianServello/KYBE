@@ -1,0 +1,26 @@
+﻿.common-font-small {
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.common-font-medium {
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+    .common-font-small:hover, .common-font-medium:hover {
+        transform: translateY(-1px)
+    }
+
+
+.common-lheight {
+    line-height: 15px
+}

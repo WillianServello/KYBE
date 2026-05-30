@@ -1,0 +1,46 @@
+﻿.account-bar {
+    position: sticky;
+    top: 200px;
+    width: 60px;
+    z-index: 5;
+}
+
+.account-bar-itens {
+    position: relative;
+    left: -15px;
+    background: #fff;
+    border: 1px solid #d3d3d3;
+    padding: 10px 35px 10px 15px;
+    display: inline-flex;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 30px;
+    border-right: none;
+    border-left: none;
+    overflow: hidden;
+    cursor: pointer;
+    gap: 10px;
+    transition: 0.5s all ease;
+}
+
+    .account-bar-itens:hover,
+    .account-bar-itens:active,
+    .account-bar-itens:focus {
+        width: 160px;
+        background: #d3d3d3;
+    }
+
+    .account-bar-itens::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+        background: #fff;
+        transform: translate(50%, -50%) rotate(45deg);
+        border-left: 1px solid #d3d3d3;
+        border-bottom: 1px solid #d3d3d3;
+    }

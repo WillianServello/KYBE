@@ -11,7 +11,7 @@ namespace kybe_domain.Models.Entity
         public string PasswordHash { get; private set; } = null!;
 
         public UserEntity(string userName, string password, string name, string lastName, string phoneNumber, string email, string cpf, Address address)
-            : base(name, lastName, phoneNumber, email, address)
+            : base(name, lastName, phoneNumber, email, cpf, address)
         {
             UserName = userName;
             PasswordHash = password;

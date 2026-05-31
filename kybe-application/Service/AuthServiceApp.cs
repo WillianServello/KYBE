@@ -1,4 +1,4 @@
-﻿using kybe_application.DTOs.UserDTOs;
+﻿using kybe_application.DTOs.AuthDTOs;
 using kybe_application.Interface.ISecurity;
 using kybe_application.Interface.IService.IUserService;
 using kybe_domain.Interface.IService.IUser;

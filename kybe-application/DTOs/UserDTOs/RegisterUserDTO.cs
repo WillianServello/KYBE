@@ -2,7 +2,7 @@
 
 namespace kybe_application.DTOs.UserDTOs
 {
-    public class RegisterUser
+    public class RegisterUserDTO
     {
         public string UserName { get; set; } = string.Empty;
         public string Password { get; set; } = string.Empty;

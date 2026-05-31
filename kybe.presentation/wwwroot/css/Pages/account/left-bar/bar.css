@@ -44,3 +44,64 @@
         border-left: 1px solid #d3d3d3;
         border-bottom: 1px solid #d3d3d3;
     }
+
+.bar {
+   display: flex;
+   flex-direction:column;
+}
+
+@media(max-width: 700px) {
+    .account-page {
+        flex-direction: column !important;
+    }
+
+    .bar {
+        flex-direction: row;
+    }
+
+    .account-bar-itens {
+        transform: rotate(90deg);
+        left: -0px;
+        top: -160px;
+    }
+
+    .bar-icons {
+        transform: rotate(270deg);
+    }
+    .common-bookmark {
+        width: 350px!important;
+    }
+}
+
+
+@media(max-width: 544px) {
+    .common-border-left{
+        display: none;
+    }
+    .common-bookmark {
+    }
+}
+@media(max-width: 458px) {
+    .account-content{
+        padding: 0;
+        border: none!important;
+    }
+    .privacy-icons {
+        width: 20px !important;
+    }
+    .common-box{
+        border: none;
+        box-shadow: none;
+        padding: 0px
+    }
+    .inteface{
+        padding: 10px !important;
+    }
+    .account-bar-itens {
+        transform: rotate(90deg);
+       
+        top: -160px;
+    }
+}
+
+

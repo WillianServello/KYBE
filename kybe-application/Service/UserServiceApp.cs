@@ -1,4 +1,5 @@
-﻿using kybe_application.DTOs.UserDTOs;
+﻿using kybe_application.DTOs.CommonDTOs;
+using kybe_application.DTOs.UserDTOs;
 using kybe_application.Interface.ISecurity;
 using kybe_application.Interface.IService.IUserService;
 using kybe_domain.Interface.IService.IUser;
@@ -18,9 +19,36 @@ namespace kybe_application.Service
             _passwordHasher = passwordHasher;   
         }
 
-        
+        public async Task<UserDetailsDTO> GetByIdAsync(Guid id)
+        {
+            var user = await _userServiceDomain.GetByIdAsync(id);
 
-        public Task RegisterAsync(RegisterUser dto)
+            if (user is null)
+                throw new InvalidOperationException("Usuário não encontrado.");
+
+            return new UserDetailsDTO
+            {
+                UserName = user.UserName,
+                Name = user.Name,
+                LastName = user.LastName!,
+                PhoneNumber = user.PhoneNumber,
+                Email = user.Email,
+                Cpf = user.Cpf,
+
+                AddressDTO = user.Address is null ? null : new AddressDTO
+                {
+                    Street = user.Address.Street,
+                    Number = user.Address.Number,
+                    Complementary = user.Address.Complementary,
+                    Neighborhood = user.Address.Neighborhood,
+                    City = user.Address.City,
+                    State = user.Address.State,
+                    ZipCode = user.Address.ZipCode
+                }
+            };
+        }
+
+        public Task RegisterAsync(RegisterUserDTO dto)
         {
             Address? address = null;
 

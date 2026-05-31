@@ -1,4 +1,8 @@
-﻿.common-gap-medium {
+﻿.common-gap-small {
+    gap: 5px;
+}
+
+.common-gap-medium {
     gap: 15px;
 }
 

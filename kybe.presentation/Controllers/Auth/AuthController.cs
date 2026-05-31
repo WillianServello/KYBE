@@ -1,5 +1,6 @@
-﻿using kybe.presentation.ViewModels.Entity.User.Login;
+﻿using kybe.presentation.ViewModels.Entity.Auth.Login;
 using kybe.presentation.ViewModels.Entity.User.Register;
+using kybe_application.DTOs.AuthDTOs;
 using kybe_application.DTOs.CommonDTOs;
 using kybe_application.DTOs.UserDTOs;
 using kybe_application.Interface.IService.IUserService;
@@ -43,7 +44,7 @@ namespace kybe.presentation.Controllers.Auth
                 }
 
                 Response.Cookies.Append(
-                    "jwt",
+                    "JWT",
                     token,
                     new CookieOptions
                     {
@@ -89,9 +90,9 @@ namespace kybe.presentation.Controllers.Auth
             }
         }
 
-        private static RegisterUser SetRegister(UserRegisterVM viewModel)
+        private static RegisterUserDTO SetRegister(UserRegisterVM viewModel)
         {
-            return new RegisterUser
+            return new RegisterUserDTO
             {
                 UserName = viewModel.UserName,
                 Password = viewModel.Password,

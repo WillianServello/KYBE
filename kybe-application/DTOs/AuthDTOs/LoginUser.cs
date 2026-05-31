@@ -1,4 +1,4 @@
-﻿namespace kybe_application.DTOs.UserDTOs
+﻿namespace kybe_application.DTOs.AuthDTOs
 {
     public sealed class LoginUser
     {

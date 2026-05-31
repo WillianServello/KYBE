@@ -7,3 +7,13 @@
     display: inline-flex;
     flex-direction: column;
 }
+.common-flex-row {
+    position: relative;
+    display: inline-flex;
+    flex-direction: row;
+}
+
+.account-page {
+    display: flex;
+
+}

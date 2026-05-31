@@ -26,6 +26,12 @@ namespace kybe.infrastructure.Migrations
                         .HasColumnType("char(36)")
                         .HasColumnName("ID");
 
+                    b.Property<string>("Cpf")
+                        .IsRequired()
+                        .HasMaxLength(20)
+                        .HasColumnType("varchar(20)")
+                        .HasColumnName("CPF");
+
                     b.Property<DateTime>("CreateAt")
                         .HasColumnType("datetime(6)")
                         .HasColumnName("CREATE_AT");

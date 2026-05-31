@@ -1,4 +1,5 @@
 ﻿@using kybe.presentation.Extensions
+@using kybe.presentation.ViewModels.Entity.User.Components
 @{
     ViewData["Title"] = "Meu dados";
 }
@@ -36,29 +37,44 @@
                     
                 </div>
 
-                <div class="d-flex w-100">
+                <div class="account-page w-100 ">
 
                     @* MENU LATERAL - LEFT BAR *@
-                    <div class="d-flex flex-column account-bar">
-                        <div class="account-bar-itens">
-                            <div class="account-icon">
+                    <div class="d-flex bar account-bar">
+                        <a class="account-bar-itens" 
+                           asp-action="Index"
+                           asp-controller="Account"
+                           asp-route-tab="privacy">
+                            <div class="bar-icons">
                                 <i class="bi bi-person-lock fs-6"></i>
                             </div>
                             <span class="common-font-medium">Privacidade</span>
-                        </div>
+                        </a>
 
-                        <div class="account-bar-itens">
-                            <div class="account-icon">
+                        <a class="account-bar-itens" 
+                           asp-action="Index"
+                           asp-controller="Account"
+                           asp-route-tab="history">
+                            <div class="bar-icons">
                                 <i class="bi bi-clock-history fs-6"></i>
                             </div>
                             <span class="common-font-medium">Histórico</span>
-                        </div>
+                        </a>
                     </div>
 
                     @* CONTEÚDO DA _PARTIALS *@
-                    <div class="account-content common-padding-medium w-100">
+                    <div class="account-content common-padding-medium w-100" style="overflow: hidden">
                         <div>
-                            @await Html.PartialAsync("~/Views/Pages/Account/Shared/_Privacy.cshtml")
+                            @switch (Model.ActiveTab)
+                            {
+                                case AccountTab.History:
+                                    @await Component.InvokeAsync("History")
+                                    break;
+
+                                default:
+                                    @await Component.InvokeAsync("Privacy")
+                                    break;
+                            }
                         </div>
                     </div>
 
@@ -71,6 +87,8 @@
 </div>
 
 <style>
+    
+
     
     .account-content {
         flex: 1;

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace kybe.presentation.ViewModels.Entity.User.Login
+namespace kybe.presentation.ViewModels.Entity.Auth.Login
 {
     public sealed class UserLoginVM
     {

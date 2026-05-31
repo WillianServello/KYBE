@@ -1,0 +1,131 @@
+﻿@using kybe.presentation.ViewModels.Entity.User.Edit
+@model UserEditInformationVM
+
+<div>
+    <div class="d-flex-hvh common-gap-medium">
+
+        <div class="common-border-left"> </div>
+
+        <div class="common-flex-column common-gap-small">
+            <span class="common-font-xl">
+                <strong>Privacidade</strong>
+            </span>
+
+            <div class="d-flex flex-column common-gap-small" >
+
+                <div class="common-bookmark justify-content-between">
+                    <div class="common-flex-row">
+                        <div class="privacy-icons">
+                            <i class="bi bi-person fs-6 common-font-medium"></i>
+                        </div>
+                        <span class="common-font-medium">@Model.Name  @Model.LastName</span>
+                    </div>
+
+                    <a class="privacy-edit">
+                        <i class="bi bi-pencil-square"></i>
+                    </a>
+                </div>
+
+                <div class="common-bookmark justify-content-between">
+                    <div class="common-flex-row">
+                        <div class="privacy-icons">
+                            <span class="fs-6 common-font-medium">@@</span>
+                        </div>
+                        <span class="common-font-medium">@Model.UserName</span>
+                    </div>
+
+                    <a class="privacy-edit">
+                        <i class="bi bi-pencil-square"></i>
+                    </a>
+                </div>
+
+                <div class="common-bookmark justify-content-between">
+                    <div class="common-flex-row" style="overflow: hidden">
+                        <div class="privacy-icons">
+                            <i class="bi bi-envelope-at fs-6 common-font-medium "></i>
+                        </div>
+                        <span class="common-font-medium">@Model.Email</span>
+                    </div>
+                    
+                    <a class="privacy-edit">
+                        <i class="bi bi-pencil-square"></i>
+                    </a>
+                </div>
+
+                <div class="common-bookmark justify-content-between">
+                    <div class="common-flex-row">
+                        <div class="privacy-icons">
+                            <i class="bi bi-telephone fs-6 common-font-medium"></i>
+                        </div>
+                        <span class="common-font-medium">@Model.PhoneNumber</span>
+                    </div>
+
+                    <a class="privacy-edit">
+                        <i class="bi bi-pencil-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</div>
+
+
+<style>
+    .d-flex-hvh{
+        display: flex;
+        height: calc(100vh - 240px)
+        
+    }
+
+    .privacy-edit{
+        color: transparent;
+        pointer-events: none;
+        transition: 0.3s all ease;
+    }
+
+    .common-bookmark:hover .privacy-edit{
+        color: black;
+        pointer-events: auto;
+        cursor: pointer;
+    }
+
+    .common-border-left {
+        border-left: 1px solid #d3d3d3;
+        height: 100%;
+    }
+
+    .privacy-icons {
+        width: 30px ;
+    }
+
+    .common-bookmark{
+        position: relative;
+        left: -15px;
+        background: #fff;
+        border: 1px solid #d3d3d3;
+        padding: 10px 45px 10px 15px;
+        display: inline-flex;
+        align-items: center;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        width: 450px;
+        border-right: none;
+        border-left: none;
+        gap: 10px;
+        transition: 0.5s all ease;
+    }
+    .common-bookmark::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+        background: #fff;
+        transform: translate(50%, -50%) rotate(45deg);
+        border-left: 1px solid #d3d3d3;
+        border-bottom: 1px solid #d3d3d3;
+    }
+</style>

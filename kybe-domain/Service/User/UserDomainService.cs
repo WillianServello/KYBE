@@ -27,9 +27,9 @@ namespace kybe_domain.Service.User
             throw new NotImplementedException();
         }
 
-        public Task<UserEntity> GetByIdAsync(Guid id)
+        public async Task<UserEntity> GetByIdAsync(Guid id)
         {
-            throw new NotImplementedException();
+            return await _userRepository.GetByIdAsync(id);
         }
 
         public Task<UserEntity?> GetByUserNameAsync(string userName)

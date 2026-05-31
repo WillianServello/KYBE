@@ -4,6 +4,7 @@
     font-size: 12px;
     font-weight: 300;
     cursor: pointer;
+    white-space: nowrap;
     transition: 0.3s all ease;
 }
 
@@ -13,10 +14,31 @@
     font-size: 14px;
     font-weight: 300;
     cursor: pointer;
+    white-space: nowrap;
     transition: 0.3s all ease;
 }
 
-    .common-font-small:hover, .common-font-medium:hover {
+.common-font-large {
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-weight: 300;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: 0.3s all ease;
+}
+
+.common-font-xl {
+    display: inline-block;
+    letter-spacing: 1px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    white-space: nowrap;
+    transition: 0.3s all ease;
+}
+
+    .common-font-small:hover, .common-font-medium:hover, .common-font-large:hover, .common-font-xl:hover {
         transform: translateY(-1px)
     }
 

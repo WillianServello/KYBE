@@ -27,6 +27,11 @@ namespace kybe.infrastructure.Data.Mappings.Abstract
                 .HasMaxLength(20)
                 .HasColumnName("PHONE_NUMBER")
                 .IsRequired();
+            builder
+                .Property(x => x.Cpf)
+                .HasMaxLength(20)
+                .HasColumnName("CPF")
+                .IsRequired();
 
             builder.OwnsOne(x => x.Address, address =>
             {

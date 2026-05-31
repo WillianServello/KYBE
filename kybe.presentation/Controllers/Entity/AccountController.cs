@@ -1,26 +1,28 @@
-﻿using Microsoft.AspNetCore.Authorization;
+﻿using kybe.presentation.ViewModels.Entity.User.Components;
+using kybe_application.Interface.IService.IUserService;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace kybe.presentation.Controllers.Entity
 {
     [Authorize]
     public sealed class AccountController : Controller
     {
-        //private readonly UserService _userService;
+        private readonly IUserServiceApp _userService;
 
-        //public UserController(UserService userService)
-        //{
-        //    _userService = userService ?? throw new ArgumentNullException(nameof(userService));
-        //}
-
-        public IActionResult Index()
+        public AccountController(IUserServiceApp userService)
         {
-            return View();
+            _userService = userService;
         }
 
-        public IActionResult Privacy()
+        public IActionResult Index(AccountTab tab = AccountTab.Privacy)
         {
-            return View("~/Views/Pages/Account/Shared/_Privacy.cshtml");
+            return View(new AccountViewModel
+            {
+                ActiveTab = tab
+            });
         }
+
     }
 }

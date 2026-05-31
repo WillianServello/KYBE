@@ -1,4 +1,4 @@
-﻿using kybe_application.DTOs.UserDTOs;
+﻿using kybe_application.DTOs.AuthDTOs;
 
 namespace kybe_application.Interface.IService.IUserService
 {

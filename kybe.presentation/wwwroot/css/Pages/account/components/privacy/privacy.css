@@ -1,0 +1,17 @@
+﻿.privacy-edit {
+    color: transparent;
+    pointer-events: none;
+    transition: 0.3s all ease;
+}
+
+.common-bookmark:hover .privacy-edit {
+    color: black;
+    pointer-events: auto;
+    cursor: pointer;
+}
+
+.privacy-icons {
+    width: 30px;
+    min-width: 30px;
+    flex-shrink: 0;
+}

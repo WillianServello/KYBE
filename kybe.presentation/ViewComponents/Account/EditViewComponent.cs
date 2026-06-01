@@ -5,11 +5,11 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace kybe.presentation.ViewComponents.Account
 {
-    public class HistoryViewComponent : ViewComponent
+    public class EditViewComponent : ViewComponent
     {
         private readonly IUserServiceApp _userService;
 
-        public HistoryViewComponent(IUserServiceApp userService)
+        public EditViewComponent(IUserServiceApp userService)
         {
             _userService = userService;
         }
@@ -20,16 +20,17 @@ namespace kybe.presentation.ViewComponents.Account
 
             var user = await _userService.GetByIdAsync(userId);
 
-            var viewModel = new UserEditInformationVM
+            var viewModel = new UserEditVM
             {
                 Name = user.Name,
                 LastName = user.LastName,
                 UserName = user.UserName,
                 Email = user.Email,
-                PhoneNumber = user.PhoneNumber
+                PhoneNumber = user.PhoneNumber,
+                Cpf = user.Cpf
             };
 
-            return View("~/Views/Pages/Account/Components/History/Default.cshtml", viewModel);
+            return View("~/Views/Pages/Account/Components/Edit/Default.cshtml", viewModel);
         }
     }
 }

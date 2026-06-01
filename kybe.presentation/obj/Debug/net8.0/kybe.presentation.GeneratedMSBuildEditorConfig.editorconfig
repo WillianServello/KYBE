@@ -23,16 +23,40 @@ build_property._RazorSourceGeneratorDebug =
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Account/Components/History/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWNjb3VudFxDb21wb25lbnRzXEhpc3RvcnlcRGVmYXVsdC5jc2h0bWw=
+[C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Account/Components/Delete/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWNjb3VudFxDb21wb25lbnRzXERlbGV0ZVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Account/Components/Privacy/Default.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWNjb3VudFxDb21wb25lbnRzXFByaXZhY3lcRGVmYXVsdC5jc2h0bWw=
+[C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Account/Components/Edit/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWNjb3VudFxDb21wb25lbnRzXEVkaXRcRGVmYXVsdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Account/Components/MyData/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWNjb3VudFxDb21wb25lbnRzXE15RGF0YVxEZWZhdWx0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Account/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWNjb3VudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Account/Register/PartialsSteps/_ContactInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWNjb3VudFxSZWdpc3RlclxQYXJ0aWFsc1N0ZXBzXF9Db250YWN0SW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Account/Register/PartialsSteps/_PersonalInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWNjb3VudFxSZWdpc3RlclxQYXJ0aWFsc1N0ZXBzXF9QZXJzb25hbEluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Account/Register/PartialsSteps/_SecurityInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWNjb3VudFxSZWdpc3RlclxQYXJ0aWFsc1N0ZXBzXF9TZWN1cml0eUluZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Account/Register/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWNjb3VudFxSZWdpc3RlclxSZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Account/Register/_Partials/_DesignRegister.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQWNjb3VudFxSZWdpc3RlclxfUGFydGlhbHNcX0Rlc2lnblJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Auth/Login/Login.cshtml]
@@ -47,22 +71,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQXV0aFxMb2dpblxQYXJ0aWFsc1N0ZXBzXF9Vc2VySW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Auth/Register/PartialsSteps/_ContactInfo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQXV0aFxSZWdpc3RlclxQYXJ0aWFsc1N0ZXBzXF9Db250YWN0SW5mby5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Auth/Register/PartialsSteps/_PersonalInfo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQXV0aFxSZWdpc3RlclxQYXJ0aWFsc1N0ZXBzXF9QZXJzb25hbEluZm8uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Auth/Register/PartialsSteps/_SecurityInfo.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQXV0aFxSZWdpc3RlclxQYXJ0aWFsc1N0ZXBzXF9TZWN1cml0eUluZm8uY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Auth/Register/Register.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQXV0aFxSZWdpc3RlclxSZWdpc3Rlci5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Auth/_Partials/Common/_RecoveryAccess.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQXV0aFxfUGFydGlhbHNcQ29tbW9uXF9SZWNvdmVyeUFjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -71,20 +79,12 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQXV0aFxfUGFydGlhbHNcX0Rlc2lnbkxvZ2luLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Auth/_Partials/_DesignRegister.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQXV0aFxfUGFydGlhbHNcX0Rlc2lnblJlZ2lzdGVyLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcSG9tZVxQcml2YWN5LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Pages/Track/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcVHJhY2tcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/WillianRafael/Desktop/KYBE/kybe.presentation/Views/Shared/Error/Error.cshtml]

@@ -1,0 +1,14 @@
+﻿.common-button-lightgray button {
+    color: black;
+    cursor: pointer;
+    border-radius: 8px;
+    border: none;
+    background: #e6e6e6;
+    padding: 6px 10px 6px 10px;
+    transition: 0.3s all ease;
+}
+
+    .common-button-lightgray button:hover {
+        background: lightgray;
+        transform: translateY(-1px)
+    }

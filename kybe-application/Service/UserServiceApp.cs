@@ -5,6 +5,7 @@ using kybe_application.Interface.IService.IUserService;
 using kybe_domain.Interface.IService.IUser;
 using kybe_domain.Models.Entity;
 using kybe_domain.Models.ValueObject;
+using System.Net;
 
 namespace kybe_application.Service
 {
@@ -19,14 +20,14 @@ namespace kybe_application.Service
             _passwordHasher = passwordHasher;   
         }
 
-        public async Task<UserDetailsDTO> GetByIdAsync(Guid id)
+        public async Task<InformationUserDTO> GetByIdAsync(Guid id)
         {
             var user = await _userServiceDomain.GetByIdAsync(id);
 
             if (user is null)
                 throw new InvalidOperationException("Usuário não encontrado.");
 
-            return new UserDetailsDTO
+            return new InformationUserDTO
             {
                 UserName = user.UserName,
                 Name = user.Name,
@@ -80,5 +81,24 @@ namespace kybe_application.Service
             return _userServiceDomain.AddAsync(user);
         }
 
+        public async Task UpdateAsync(Guid userId, EditUserDTO dto)
+        {
+
+           var user = await _userServiceDomain.GetByIdAsync(userId);
+
+            if (user is null)
+                throw new Exception("Usuário não encontrado.");
+
+            user.UpdateUser(
+                dto.UserName,
+                dto.Name,
+                dto.LastName,
+                dto.PhoneNumber,
+                dto.Email,
+                dto.Cpf
+            );
+
+            await _userServiceDomain.UpdateAsync(user);
+        }
     }
 }

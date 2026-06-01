@@ -47,7 +47,6 @@ namespace kybe.infrastructure.Migrations
                         .HasColumnName("IS_ACTIVE");
 
                     b.Property<string>("LastName")
-                        .IsRequired()
                         .HasMaxLength(128)
                         .HasColumnType("varchar(128)")
                         .HasColumnName("LAST_NAME");

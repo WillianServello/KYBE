@@ -37,9 +37,9 @@ namespace kybe_domain.Service.User
             return _userRepository.GetByUserNameAsync(userName);
         }
 
-        public Task UpdateAsync(UserEntity entity)
+        public async Task UpdateAsync(UserEntity entity)
         {
-            throw new NotImplementedException();
+            await _userRepository.UpdateAsync(entity);
         }
     }
 }

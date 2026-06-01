@@ -2,7 +2,7 @@
 
 namespace kybe_domain.Interface.IRepository.IAbstract
 {
-    public interface IAbstractUserRepository<T> : IGenericEntityRepository<T> where T : AbstractUser
+    public interface IAbstractUserRepository<T> : IAbstractEntityRepository<T> where T : AbstractUser
     {
     }
 }

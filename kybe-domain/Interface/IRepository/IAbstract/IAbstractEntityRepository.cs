@@ -2,7 +2,7 @@
 
 namespace kybe_domain.Interface.IRepository.IAbstract
 {
-    public interface IGenericEntityRepository<T> where T : AbstractEntity
+    public interface IAbstractEntityRepository<T> where T : AbstractEntity
     {
         Task<ICollection<T>> GetAllAsync();
         Task<T> GetByIdAsync(Guid id);

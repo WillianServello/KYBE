@@ -7,7 +7,9 @@ wwwroot\css\common\shared\padding\common-padding.css
 wwwroot\css\common\tempdata\message.css
 wwwroot\css\layout\sidebar.css
 wwwroot\css\pages\account\account.css
+wwwroot\css\pages\account\components\privacy\privacy.css
 wwwroot\css\pages\account\left-bar\bar.css
+wwwroot\css\pages\account\media\media.css
 wwwroot\css\pages\auth\common\auth-common-inputs.css
 wwwroot\css\pages\auth\common\auth-common.css
 wwwroot\css\pages\auth\login\login.css

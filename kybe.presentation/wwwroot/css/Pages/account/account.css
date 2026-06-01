@@ -1,1 +1,17 @@
-﻿
+﻿.account-page {
+    display: flex;
+}
+
+.account-content {
+    flex: 1;
+    min-width: 0;
+    height: 100vh;
+    border-radius: 5px;
+    border: 1px solid #d3d3d3;
+    overflow: hidden;
+}
+
+.account-common-hr {
+    border-left: 1px solid #d3d3d3;
+    height: 100%;
+}

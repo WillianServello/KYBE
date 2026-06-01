@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\willianrafael\\desktop\\kybe\\kybe.presentation\\views\\pages\\account\\components\\privacy\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\views\\pages\\account\\components\\privacy\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\willianrafael\\desktop\\kybe\\kybe.presentation\\views\\pages\\account\\components\\mydata\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\views\\pages\\account\\components\\mydata\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\willianrafael\\desktop\\kybe\\kybe.presentation\\views\\pages\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\views\\pages\\account\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\willianrafael\\desktop\\kybe\\kybe.presentation\\views\\pages\\account\\components\\delete\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\views\\pages\\account\\components\\delete\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\willianrafael\\desktop\\kybe\\kybe.presentation\\views\\pages\\account\\components\\edit\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\views\\pages\\account\\components\\edit\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,36 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Account\\Components\\Privacy\\Default.cshtml",
-              "RelativeDocumentMoniker": "kybe.presentation\\Views\\Pages\\Account\\Components\\Privacy\\Default.cshtml",
-              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Account\\Components\\Privacy\\Default.cshtml*",
-              "RelativeToolTip": "kybe.presentation\\Views\\Pages\\Account\\Components\\Privacy\\Default.cshtml*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Account\\Components\\MyData\\Default.cshtml",
+              "RelativeDocumentMoniker": "kybe.presentation\\Views\\Pages\\Account\\Components\\MyData\\Default.cshtml",
+              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Account\\Components\\MyData\\Default.cshtml",
+              "RelativeToolTip": "kybe.presentation\\Views\\Pages\\Account\\Components\\MyData\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-31T21:01:56.716Z",
+              "WhenOpened": "2026-06-01T19:25:28.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Account\\Components\\Edit\\Default.cshtml",
+              "RelativeDocumentMoniker": "kybe.presentation\\Views\\Pages\\Account\\Components\\Edit\\Default.cshtml",
+              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Account\\Components\\Edit\\Default.cshtml",
+              "RelativeToolTip": "kybe.presentation\\Views\\Pages\\Account\\Components\\Edit\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-01T19:25:18.59Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Account\\Index.cshtml",
-              "RelativeDocumentMoniker": "kybe.presentation\\Views\\Pages\\Account\\Index.cshtml",
-              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Account\\Index.cshtml*",
-              "RelativeToolTip": "kybe.presentation\\Views\\Pages\\Account\\Index.cshtml*",
-              "ViewState": "AgIAACQAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Account\\Components\\Delete\\Default.cshtml",
+              "RelativeDocumentMoniker": "kybe.presentation\\Views\\Pages\\Account\\Components\\Delete\\Default.cshtml",
+              "ToolTip": "C:\\Users\\WillianRafael\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Account\\Components\\Delete\\Default.cshtml",
+              "RelativeToolTip": "kybe.presentation\\Views\\Pages\\Account\\Components\\Delete\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-05-31T21:01:16.956Z",
+              "WhenOpened": "2026-06-01T19:23:33.196Z",
               "EditorCaption": ""
             }
           ]

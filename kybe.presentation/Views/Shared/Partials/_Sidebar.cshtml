@@ -1,4 +1,4 @@
-﻿<div class="sidebar active" id="sidebar">
+﻿<div class="sidebar justify-content-between active" id="sidebar">
     <div class="sidebar-conteiner">
 
         <div class="sidebar-conteiner-button">
@@ -17,5 +17,21 @@
             </span>
 
         </a>
+
+        
     </div>
+    <div>
+        <hr style="margin-left: -20px; width: 100vh!important " />
+
+        <form asp-controller="Auth" asp-action="Logout" method="post">
+            <div class="w-100">
+                <button type="submit" class="sidebar-conteiner-itens w-100 sidebar-link">
+                    <i class="bi bi-box-arrow-in-right sidebar-icone"></i>
+                    <span class="fontPoppins">Sair</span>
+                </button>
+            </div>
+            
+        </form>
+    </div>
+    
 </div>

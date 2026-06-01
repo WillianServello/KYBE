@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace kybe.infrastructure.Repository.Abstract
 {
-    public abstract class AbstractEntityRepository<T> : IGenericEntityRepository<T> where T : AbstractEntity
+    public abstract class AbstractEntityRepository<T> : IAbstractEntityRepository<T> where T : AbstractEntity
     {
         private readonly DatabaseContext _context;
 

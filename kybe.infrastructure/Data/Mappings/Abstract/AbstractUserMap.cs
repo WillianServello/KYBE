@@ -19,8 +19,7 @@ namespace kybe.infrastructure.Data.Mappings.Abstract
             builder
                 .Property(x => x.LastName)
                 .HasMaxLength(128)
-                .HasColumnName("LAST_NAME")
-                .IsRequired();
+                .HasColumnName("LAST_NAME");
 
             builder
                 .Property(x => x.PhoneNumber)

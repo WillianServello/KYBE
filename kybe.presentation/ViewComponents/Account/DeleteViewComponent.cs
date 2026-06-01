@@ -1,15 +1,15 @@
-﻿using kybe_application.Interface.IService.IUserService;
-using kybe.presentation.Extensions;
+﻿using kybe.presentation.Extensions;
 using kybe.presentation.ViewModels.Entity.User.Edit;
+using kybe_application.Interface.IService.IUserService;
 using Microsoft.AspNetCore.Mvc;
 
 namespace kybe.presentation.ViewComponents.Account
 {
-    public class PrivacyViewComponent : ViewComponent
+    public class DeleteViewComponent : ViewComponent
     {
         private readonly IUserServiceApp _userService;
 
-        public PrivacyViewComponent(IUserServiceApp userService)
+        public DeleteViewComponent(IUserServiceApp userService)
         {
             _userService = userService;
         }
@@ -20,7 +20,7 @@ namespace kybe.presentation.ViewComponents.Account
 
             var user = await _userService.GetByIdAsync(userId);
 
-            var viewModel = new UserEditInformationVM
+            var viewModel = new UserInformationVM
             {
                 Name = user.Name,
                 LastName = user.LastName,
@@ -29,7 +29,7 @@ namespace kybe.presentation.ViewComponents.Account
                 PhoneNumber = user.PhoneNumber
             };
 
-            return View("~/Views/Pages/Account/Components/Privacy/Default.cshtml", viewModel);
+            return View("~/Views/Pages/Account/Components/Delete/Default.cshtml", viewModel);
         }
     }
 }

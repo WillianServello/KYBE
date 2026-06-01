@@ -90,12 +90,19 @@ span.fontPoppins {
     font-weight: 200;
     font-style: normal;
     width: 100%;
+    justify-content: normal !important;
     transition: 0.5s all ease
 }
 
 .sidebar-conteiner-itens span {
     transition: opacity 0.8s, width 1s ease, transform 0.5s;
     white-space: nowrap;
+}
+.sidebar-link {
+    display: flex;
+    width: 100%;
+    text-align: left;
+    background: transparent;
 }
 .sidebar-link:hover{
     color: white;

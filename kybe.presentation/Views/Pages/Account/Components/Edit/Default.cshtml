@@ -1,0 +1,98 @@
+﻿@using kybe.presentation.ViewModels.Entity.User.Edit
+@model UserEditVM
+@{
+    ViewData["Title"] = "Meu dados - Editar conta";
+}
+
+<form asp-action="Edit" asp-controller="Account" method="post">
+    <div class="d-flex-hvh common-gap-medium  ">
+        <div class="account-common-hr"> </div>
+
+        <div class="w-100 common-flex-row row-media common-gap-small">
+            <div class="w-50 w100-media">
+                <span class="common-font-xl">
+                    <strong>Editar dados</strong>
+                </span>
+                
+                <div class="row">
+                    <div class="col-md-12">
+                        <span class="common-font-medium" style="white-space: wrap!important"> 
+                            Troque a informações do seu perfil com cuidado
+                            <i class="bi bi-exclamation-triangle text-danger"></i>
+                        </span>
+                    </div>
+                    
+                </div>
+            </div>
+            <div class="w-50 w100-media">
+                
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3">
+                            <input asp-for="Name" class="form-control " id="floatingInput" placeholder=" ">
+                            <label asp-for="Name">Nome</label>
+                        </div>
+                        <span asp-validation-for="Name"></span>
+                    </div>
+       
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3">
+                            <input asp-for="LastName" class="form-control" id="floatingInput" placeholder=" ">
+                            <label asp-for="LastName">
+                                <span class="common-font-medium">
+                                    Sobrenome
+                            </span></label>
+                        </div>
+                        <span asp-validation-for="LastName"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+       
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3">
+                            <input asp-for="UserName" class="form-control" id="floatingInput" placeholder=" ">
+                            <label asp-for="UserName">User</label>
+                        </div>
+                        <span asp-validation-for="UserName"></span>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3">
+                            <input asp-for="PhoneNumber" class="form-control mask-phone" id="floatingInput" placeholder=" ">
+                            <label asp-for="PhoneNumber">Telefone</label>
+                        </div>
+                        <span asp-validation-for="PhoneNumber"></span>
+                    </div>
+
+                    
+                </div>
+
+                <div>
+                    <div class="col-lg-12">
+                        <div class="form-floating mb-3">
+                            <input asp-for="Email" class="form-control" id="floatingInput" placeholder=" ">
+                            <label asp-for="Email">Email</label>
+                        </div>
+                        <span asp-validation-for="Email"></span>
+                    </div>
+                </div>
+                <div class="row d-flex align-items-center">
+                    <div class="col-md-6">
+                        <div class="form-floating mb-3">
+                            <input asp-for="Cpf" class="form-control" id="floatingInput" placeholder=" ">
+                            <label asp-for="Cpf">CPF</label>
+                        </div>
+                        <span asp-validation-for="Cpf"></span>
+                    </div>
+
+                    <div class="d-flex col-md-6 common-button-lightgray justify-content-end">
+                        <button type="submit">
+                            Salvar
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>

@@ -23,5 +23,14 @@ namespace kybe_domain.Models.Abstract
             Address = address;
 
         }
+
+        public void UpdateBasicData(string name, string? lastName, string phoneNumber, string email, string cpf)
+        {
+            Name = Guard.AgainstNullOrWhiteSpace(name, nameof(Name));
+            LastName = lastName;
+            PhoneNumber = Guard.AgainstNullOrWhiteSpace(phoneNumber, nameof(PhoneNumber));
+            Email = Guard.AgainstNullOrWhiteSpace(email, nameof(Email));
+            Cpf = Guard.AgainstNullOrWhiteSpace(cpf, nameof(Cpf));
+        }
     }
 }

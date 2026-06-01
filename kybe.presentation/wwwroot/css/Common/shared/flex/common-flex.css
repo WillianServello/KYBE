@@ -13,7 +13,9 @@
     flex-direction: row;
 }
 
-.account-page {
-    display: flex;
 
+
+.d-flex-hvh {
+    display: flex;
+    height: calc(100vh - 240px)
 }

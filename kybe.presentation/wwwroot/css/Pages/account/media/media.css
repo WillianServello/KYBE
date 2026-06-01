@@ -1,0 +1,64 @@
+﻿@media(max-width: 700px) {
+    .account-page {
+        flex-direction: column !important;
+    }
+
+    .bar {
+        flex-direction: row;
+    }
+
+    .account-bar-itens {
+        transform: rotate(90deg);
+        left: -0px;
+        top: -160px;
+    }
+
+    .bar-icons {
+        transform: rotate(270deg);
+    }
+
+    .common-bookmark {
+        width: 270px !important;
+    }
+}
+
+
+@media(max-width: 544px) {
+    .account-common-hr {
+        display: none;
+    }
+
+    .common-bookmark {
+    }
+}
+@media(max-width: 425px) {
+    .common-bookmark {
+        width: 260px !important;
+    }
+}
+
+@media(max-width: 458px) {
+    .account-content {
+        padding: 0;
+        border: none !important;
+    }
+
+    .privacy-icons {
+        width: 20px !important;
+    }
+
+    .common-box {
+        border: none;
+        box-shadow: none;
+        padding: 0px
+    }
+
+    .inteface {
+        padding: 10px !important;
+    }
+
+    .account-bar-itens {
+        transform: rotate(90deg);
+        top: -160px;
+    }
+}

@@ -2,7 +2,8 @@
 {
     public enum AccountTab
     {
-        Privacy,
-        History
+        MyData,
+        Delete,
+        Edit
     }
 }

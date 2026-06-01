@@ -5,12 +5,15 @@
 }
 @section Styles {
     <link rel="stylesheet" href="~/css/pages/account/left-bar/bar.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/pages/account/account.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/pages/account/components/privacy/privacy.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/pages/account/media/media.css" asp-append-version="true" />
 }
 
 <div class="inteface-conteiner">
     <div class="info-page">
         <span class="title tootips" data-title="▲ tela de dados do usuário">
-            dados | meu dados
+            dados | meus dados
         </span>
     </div>
     <div class="inteface">
@@ -44,35 +47,52 @@
                         <a class="account-bar-itens" 
                            asp-action="Index"
                            asp-controller="Account"
-                           asp-route-tab="privacy">
+                           asp-route-tab="mydata">
                             <div class="bar-icons">
-                                <i class="bi bi-person-lock fs-6"></i>
+                                <i class="bi bi-person fs-6"></i>
                             </div>
-                            <span class="common-font-medium">Privacidade</span>
+                            <span class="common-font-medium">Meus dados</span>
+                        </a>
+
+                        <a class="account-bar-itens"
+                           asp-action="Index"
+                           asp-controller="Account"
+                           asp-route-tab="edit">
+                            <div class="bar-icons">
+                                <i class="bi bi-pencil fs-6"></i>
+                            </div>
+                            <span class="common-font-medium">Editar Dados</span>
                         </a>
 
                         <a class="account-bar-itens" 
                            asp-action="Index"
                            asp-controller="Account"
-                           asp-route-tab="history">
+                           asp-route-tab="delete">
                             <div class="bar-icons">
-                                <i class="bi bi-clock-history fs-6"></i>
+                                <i class="bi bi-folder-minus fs-6"></i>
                             </div>
-                            <span class="common-font-medium">Histórico</span>
+                            <span class="common-font-medium">Excluir Conta</span>
                         </a>
+
+                        
                     </div>
 
                     @* CONTEÚDO DA _PARTIALS *@
-                    <div class="account-content common-padding-medium w-100" style="overflow: hidden">
+                    <div class="account-content common-padding-medium w-100">
                         <div>
                             @switch (Model.ActiveTab)
                             {
-                                case AccountTab.History:
-                                    @await Component.InvokeAsync("History")
+
+                                case AccountTab.Delete:
+                                    @await Component.InvokeAsync("Delete")
+                                    break;
+
+                                case AccountTab.Edit:
+                                    @await Component.InvokeAsync("Edit")
                                     break;
 
                                 default:
-                                    @await Component.InvokeAsync("Privacy")
+                                    @await Component.InvokeAsync("MyData")
                                     break;
                             }
                         </div>
@@ -81,21 +101,7 @@
                 </div>
             </div>
         </div>
-        
-        
     </div>
 </div>
 
-<style>
-    
 
-    
-    .account-content {
-        flex: 1;
-        min-width: 0;
-        height: calc(100vh - 200px);
-        border-radius: 5px;
-        border: 1px solid #d3d3d3;
-    }
-
-</style>

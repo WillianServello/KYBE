@@ -3,7 +3,9 @@
     {
         <div class="home-user" onclick="toggleMenuUser()">
             <div class="home-user-name tooltips-user" data-title-user="sessão usuário">
-                @User.Identity.Name
+                <span class="common-font-medium">
+                    @User.Identity.Name
+                </span>
             </div>
 
             <div class="home-arrow-icon">
@@ -14,12 +16,12 @@
         <div class="home-user-menu" id="home-user-menu">
             <a class="home-item-menu" asp-action="Index" asp-controller="Account">
                 <i class="fa-regular fa-user"></i>
-                <span>Perfil</span>
+                <span class="common-font-medium">Perfil</span>
             </a>
 
             <div class="home-item-menu">
                 <i class="fa-regular fa-bookmark"></i>
-                <span>Configurações</span>
+                <span class="common-font-medium">Configurações</span>
             </div>
         </div>
     }
@@ -28,7 +30,9 @@
         <div class="home-user" onclick="toggleMenuUser()">
            
             <div class="home-user-name tooltips-user" >
-                Opções
+                <span class="class="common-font-medium"">
+                    Opções
+                </span>
             </div>
 
             <div class="home-arrow-icon">
@@ -42,11 +46,10 @@
                 <span>Login</span>
             </a>
 
-            <a class="home-item-menu"  asp-action="Register" asp-controller="Account">
+            <a class="home-item-menu common-font-medium" asp-action="Register" asp-controller="Account">
                 <i class="bi bi-person-square"></i>
                 <span>Registrar</span>
             </a>
-
         </div>
     }
 </div>

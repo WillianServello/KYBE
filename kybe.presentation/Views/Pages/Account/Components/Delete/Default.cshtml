@@ -1,5 +1,5 @@
-﻿@using kybe.presentation.ViewModels.Entity.User.Edit
-@model UserInformationVM
+﻿@using kybe.presentation.ViewModels.Entity.User.Delete
+@model UserDeleteVM
 @{
     ViewData["Title"] = "Meu dados - Excluir conta";
 }
@@ -9,7 +9,7 @@
         <div class="common-border-left"></div>
         <div class="common-flex-column common-gap-small">
             <span class="common-font-xl text-danger">
-                <strong>Excluir conta</strong>
+                <strong>Excluir conta @Model.UserName</strong>
             </span>
         </div>
     </div>

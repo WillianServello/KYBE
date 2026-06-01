@@ -93,6 +93,11 @@ namespace kybe.presentation.Controllers.Entity
                 });
             }
         }
+
+        //public async Task<IActionResult> Delete(Guid id)
+        //{
+            
+        //}
         private static RegisterUserDTO SetRegister(UserRegisterVM viewModel)
         {
             return new RegisterUserDTO

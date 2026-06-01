@@ -1,4 +1,4 @@
-﻿using kybe.presentation.ViewModels.Abstract;
+﻿using kybe.presentation.ViewModels.Common.Abstract;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 

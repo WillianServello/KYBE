@@ -25,8 +25,6 @@ namespace kybe.presentation.ViewComponents.Account
                 Name = user.Name,
                 LastName = user.LastName,
                 UserName = user.UserName,
-                Email = user.Email,
-                PhoneNumber = user.PhoneNumber
             };
 
             return View("~/Views/Pages/Account/Components/Delete/Default.cshtml", viewModel);

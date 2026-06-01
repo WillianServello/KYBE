@@ -2,7 +2,7 @@
 @model UserLoginVM
 <div class="row inputs">
     <div class="col-md-5 mt-3 auth-conteiner-design">
-        <partial name="~/Views/Pages/Auth/_Partials/_DesignLogin.cshtml" />
+        <partial name="~/Views/Pages/Auth/_Partials/Common/_DesignLogin.cshtml" />
 
     </div>
     <div class="col-md-7">
@@ -18,7 +18,7 @@
         </div>
         <div>
             <span class="validation" asp-validation-for="UserName"></span>
-            <partial name="~/Views/Pages/Auth/_Partials/Common/_RecoveryAccess.cshtml" />
+            <partial name="~/Views/Pages/Auth/_Partials/_RecoveryAccess.cshtml" />
         </div>
     </div>
 </div>

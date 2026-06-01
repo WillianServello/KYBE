@@ -1,8 +1,5 @@
 ﻿using kybe.presentation.ViewModels.Entity.Auth.Login;
-using kybe.presentation.ViewModels.Entity.User.Register;
 using kybe_application.DTOs.AuthDTOs;
-using kybe_application.DTOs.CommonDTOs;
-using kybe_application.DTOs.UserDTOs;
 using kybe_application.Interface.IService.IUserService;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;

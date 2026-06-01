@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace kybe.presentation.ViewModels.ValueObject
+namespace kybe.presentation.ViewModels.Common.ValueObject
 {
     public class AddressVM
     {

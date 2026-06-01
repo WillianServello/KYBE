@@ -1,7 +1,7 @@
-﻿using kybe.presentation.ViewModels.ValueObject;
+﻿using kybe.presentation.ViewModels.Common.ValueObject;
 using System.ComponentModel.DataAnnotations;
 
-namespace kybe.presentation.ViewModels.Abstract
+namespace kybe.presentation.ViewModels.Common.Abstract
 {
     public abstract class AbstractUserVM : AbstractEntityVM
     {

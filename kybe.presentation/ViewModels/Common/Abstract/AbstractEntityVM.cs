@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace kybe.presentation.ViewModels.Abstract
+namespace kybe.presentation.ViewModels.Common.Abstract
 {
     public class AbstractEntityVM
     {

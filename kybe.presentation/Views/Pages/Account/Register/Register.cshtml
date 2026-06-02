@@ -1,4 +1,4 @@
-﻿@using kybe.presentation.ViewModels.Entity.User.Register
+﻿@using kybe.presentation.ViewModels.Entity.Account.Register
 @model UserRegisterVM
 @{
     Layout = "~/Views/Shared/Layout/_AuthLayout.cshtml";
@@ -6,6 +6,7 @@
 }
 
 <form asp-controller="Account" asp-action="Register" method="post">
+    @Html.AntiForgeryToken()
     <div class="auth">
         <div class="auth-border auth-border-lg">
             <a class="auth-conteiner-image" asp-action="Index" asp-controller="Home">

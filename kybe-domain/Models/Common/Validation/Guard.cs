@@ -1,0 +1,13 @@
+﻿namespace kybe_domain.Models.Common.Validation
+{
+    public static class Guard
+    {
+        public static string AgainstNullOrWhiteSpace(string value, string name)
+        {
+            if (string.IsNullOrWhiteSpace(value))
+                throw new ArgumentException($"{name} é obrigatório e não pode ser vazio");
+
+            return value;
+        }
+    }
+}

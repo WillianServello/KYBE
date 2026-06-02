@@ -1,4 +1,4 @@
-﻿@using kybe.presentation.ViewModels.Entity.User.Register
+﻿@using kybe.presentation.ViewModels.Entity.Account.Register
 @model UserRegisterVM
 
 <div class="row inputs">
@@ -10,7 +10,7 @@
        
 
         <div class="auth-conteiner-input">
-            <input type="text" placeholder=" " asp-for="PhoneNumber" id="mask-phone" />
+            <input type="text" placeholder=" " asp-for="PhoneNumber" class="mask-phone"  />
             <label for="phoneNumber" class="auth-label">
                 <span>
                     Telefone
@@ -24,7 +24,7 @@
         
 
         <div class="auth-conteiner-input">
-            <input type="text" placeholder=" " asp-for="Cpf" id="mask-cpf" />
+            <input type="text" placeholder=" " class="mask-cpf" asp-for="Cpf"  />
             <label for="cpf" class="auth-label">
                 <span>
                     CPF

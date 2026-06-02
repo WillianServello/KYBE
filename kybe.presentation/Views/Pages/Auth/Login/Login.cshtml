@@ -5,6 +5,7 @@
     ViewData["Title"] = "Login";
 }
 <form asp-action="Login" asp-controller="Auth" method="post">
+    @Html.AntiForgeryToken()
     <div class="auth">
         <div class="auth-border auth-border-lg">
             <a class="auth-conteiner-image" asp-action="Index" asp-controller="Home" > 

@@ -1,5 +1,5 @@
-﻿using kybe_domain.Models.Abstract;
-using kybe_domain.Models.ValueObject;
+﻿using kybe_domain.Models.Common.Abstract;
+using kybe_domain.Models.Common.ValueObject;
 
 namespace kybe_domain.Models.Entity
 {

@@ -1,15 +1,15 @@
-﻿using kybe_application.Interface.IService.IUserService;
-using kybe.presentation.Extensions;
-using kybe.presentation.ViewModels.Entity.User.Edit;
+﻿using kybe.presentation.Extensions;
 using Microsoft.AspNetCore.Mvc;
+using kybe_application.Interface.Service.User;
+using kybe.presentation.ViewModels.Entity.Account.Details;
 
 namespace kybe.presentation.ViewComponents.Account
 {
-    public class MyDataViewComponent : ViewComponent
+    public sealed class MyDataViewComponent : ViewComponent
     {
-        private readonly IUserServiceApp _userService;
+        private readonly IAccountServiceApp _userService;
 
-        public MyDataViewComponent(IUserServiceApp userService)
+        public MyDataViewComponent(IAccountServiceApp userService)
         {
             _userService = userService;
         }
@@ -20,7 +20,7 @@ namespace kybe.presentation.ViewComponents.Account
 
             var user = await _userService.GetByIdAsync(userId);
 
-            var viewModel = new UserInformationVM
+            var viewModel = new UserDetailsVM
             {
                 Name = user.Name,
                 LastName = user.LastName,

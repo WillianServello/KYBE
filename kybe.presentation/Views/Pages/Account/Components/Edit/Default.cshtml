@@ -1,10 +1,11 @@
-﻿@using kybe.presentation.ViewModels.Entity.User.Edit
+﻿@using kybe.presentation.ViewModels.Entity.Account.Edit
 @model UserEditVM
 @{
     ViewData["Title"] = "Meu dados - Editar conta";
 }
 
 <form asp-action="Edit" asp-controller="Account" method="post">
+    @Html.AntiForgeryToken()
     <div class="d-flex-hvh common-gap-medium  ">
         <div class="account-common-hr"> </div>
 
@@ -80,7 +81,7 @@
                 <div class="row d-flex align-items-center">
                     <div class="col-md-6">
                         <div class="form-floating mb-3">
-                            <input asp-for="Cpf" class="form-control" id="floatingInput" placeholder=" ">
+                            <input asp-for="Cpf" class="form-control mask-cpf" id="floatingInput" placeholder=" ">
                             <label asp-for="Cpf">CPF</label>
                         </div>
                         <span asp-validation-for="Cpf"></span>

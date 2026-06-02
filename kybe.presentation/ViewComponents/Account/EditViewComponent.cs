@@ -1,15 +1,15 @@
 ﻿using kybe.presentation.Extensions;
-using kybe.presentation.ViewModels.Entity.User.Edit;
-using kybe_application.Interface.IService.IUserService;
+using kybe.presentation.ViewModels.Entity.Account.Edit;
+using kybe_application.Interface.Service.User;
 using Microsoft.AspNetCore.Mvc;
 
 namespace kybe.presentation.ViewComponents.Account
 {
-    public class EditViewComponent : ViewComponent
+    public sealed class EditViewComponent : ViewComponent
     {
-        private readonly IUserServiceApp _userService;
+        private readonly IAccountServiceApp _userService;
 
-        public EditViewComponent(IUserServiceApp userService)
+        public EditViewComponent(IAccountServiceApp userService)
         {
             _userService = userService;
         }

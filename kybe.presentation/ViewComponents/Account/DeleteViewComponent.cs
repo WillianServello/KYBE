@@ -1,15 +1,15 @@
 ﻿using kybe.presentation.Extensions;
-using kybe.presentation.ViewModels.Entity.User.Edit;
-using kybe_application.Interface.IService.IUserService;
+using kybe.presentation.ViewModels.Entity.Account.Delete;
+using kybe_application.Interface.Service.User;
 using Microsoft.AspNetCore.Mvc;
 
 namespace kybe.presentation.ViewComponents.Account
 {
-    public class DeleteViewComponent : ViewComponent
+    public sealed class DeleteViewComponent : ViewComponent
     {
-        private readonly IUserServiceApp _userService;
+        private readonly IAccountServiceApp _userService;
 
-        public DeleteViewComponent(IUserServiceApp userService)
+        public DeleteViewComponent(IAccountServiceApp userService)
         {
             _userService = userService;
         }
@@ -20,10 +20,8 @@ namespace kybe.presentation.ViewComponents.Account
 
             var user = await _userService.GetByIdAsync(userId);
 
-            var viewModel = new UserInformationVM
+            var viewModel = new UserDeleteVM
             {
-                Name = user.Name,
-                LastName = user.LastName,
                 UserName = user.UserName,
             };
 

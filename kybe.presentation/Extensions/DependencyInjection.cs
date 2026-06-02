@@ -1,10 +1,10 @@
-﻿using kybe.infrastructure.Repository.User;
-using kybe.infrastructure.Security;
-using kybe_application.Interface.ISecurity;
-using kybe_application.Interface.IService.IUserService;
-using kybe_application.Service;
-using kybe_domain.Interface.IRepository.IUser;
-using kybe_domain.Interface.IService.IUser;
+﻿using kybe.infrastructure.Service.Repository.User;
+using kybe.infrastructure.Service.Security;
+using kybe_application.Interface.Security;
+using kybe_application.Interface.Service.User;
+using kybe_application.Service.User;
+using kybe_domain.Interface.Repository.IUser;
+using kybe_domain.Interface.Service.User;
 using kybe_domain.Service.User;
 
 namespace kybe.presentation.Extensions
@@ -13,9 +13,9 @@ namespace kybe.presentation.Extensions
     {
         internal static void AddScoped(this IServiceCollection services)
         {
-            services.AddScoped<IUserServiceApp, UserServiceApp>();
-            services.AddScoped<IUserServiceDomain, UserDomainService>();
-            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IAccountServiceApp, AccountServiceApp>();
+            services.AddScoped<IAccountServiceDomain, AccountDomainService>();
+            services.AddScoped<IAccountRepository, AccountRepository>();
             services.AddScoped<IPasswordHasher, PasswordHasher>();
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IAuthServiceApp, AuthServiceApp>();

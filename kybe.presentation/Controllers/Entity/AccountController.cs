@@ -1,9 +1,10 @@
-﻿using kybe.presentation.ViewModels.Entity.User.Components;
-using kybe.presentation.ViewModels.Entity.User.Edit;
-using kybe.presentation.ViewModels.Entity.User.Register;
+﻿using kybe.presentation.ViewModels.Entity.Account.Components;
+using kybe.presentation.ViewModels.Entity.Account.Edit;
+using kybe.presentation.ViewModels.Entity.Account.Register;
 using kybe_application.DTOs.CommonDTOs;
 using kybe_application.DTOs.UserDTOs;
-using kybe_application.Interface.IService.IUserService;
+using kybe_application.Interface.Service.User;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
@@ -13,14 +14,15 @@ namespace kybe.presentation.Controllers.Entity
     
     public sealed class AccountController : Controller
     {
-        private readonly IUserServiceApp _userService;
+        private readonly IAccountServiceApp _userService;
 
-        public AccountController(IUserServiceApp userService)
+        public AccountController(IAccountServiceApp userService)
         {
             _userService = userService;
         }
 
         [Authorize]
+        [ValidateAntiForgeryToken]
         [HttpGet]
         public IActionResult Index(AccountTab tab = AccountTab.MyData)
         {
@@ -37,6 +39,7 @@ namespace kybe.presentation.Controllers.Entity
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Register(UserRegisterVM viewModel)
         {
             if (!ModelState.IsValid)
@@ -57,6 +60,7 @@ namespace kybe.presentation.Controllers.Entity
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         [Authorize]
         public async Task<IActionResult> Edit(UserEditVM viewModel)
         {
@@ -94,10 +98,36 @@ namespace kybe.presentation.Controllers.Entity
             }
         }
 
-        //public async Task<IActionResult> Delete(Guid id)
-        //{
-            
-        //}
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize]
+        public async Task<IActionResult> Delete()
+        {
+            try
+            {
+                var userIdClaim = User.FindFirstValue(ClaimTypes.NameIdentifier);
+
+                if (userIdClaim is null)
+                    return RedirectToAction("Login", "Auth");
+
+                var userId = Guid.Parse(userIdClaim);
+
+                await _userService.DeleteAsync(userId);
+
+                await HttpContext.SignOutAsync();
+
+                return RedirectToAction("Login", "Auth");
+            }
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", ex.Message);
+
+                return View("Index", new AccountViewModel
+                {
+                    ActiveTab = AccountTab.MyData
+                });
+            }
+        }
         private static RegisterUserDTO SetRegister(UserRegisterVM viewModel)
         {
             return new RegisterUserDTO

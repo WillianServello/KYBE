@@ -1,6 +1,6 @@
 ﻿using kybe.presentation.ViewModels.Entity.Auth.Login;
 using kybe_application.DTOs.AuthDTOs;
-using kybe_application.Interface.IService.IUserService;
+using kybe_application.Interface.Service.User;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
@@ -8,10 +8,10 @@ namespace kybe.presentation.Controllers.Auth
 {
     public sealed class AuthController : Controller
     {
-        private readonly IUserServiceApp _userService;
+        private readonly IAccountServiceApp _userService;
         private readonly IAuthServiceApp _authService;
 
-        public AuthController(IUserServiceApp userService, IAuthServiceApp authService)
+        public AuthController(IAccountServiceApp userService, IAuthServiceApp authService)
         {
             _userService = userService;
             _authService = authService;
@@ -24,6 +24,7 @@ namespace kybe.presentation.Controllers.Auth
         }
 
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public async Task<IActionResult> Login(UserLoginVM viewModel)
         {
             if (!ModelState.IsValid)
@@ -62,6 +63,7 @@ namespace kybe.presentation.Controllers.Auth
             }
         }
         [HttpPost]
+        [ValidateAntiForgeryToken]
         [Authorize]
         public IActionResult Logout()
         {

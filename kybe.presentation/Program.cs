@@ -57,7 +57,7 @@ namespace kybe.presentation
                         IssuerSigningKey = new SymmetricSecurityKey(key)
                     };
 
-                
+
                 options.Events = new JwtBearerEvents
                 {
                     OnMessageReceived = context =>

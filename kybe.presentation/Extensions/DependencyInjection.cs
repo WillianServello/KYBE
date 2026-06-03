@@ -3,7 +3,7 @@ using kybe.infrastructure.Service.Security;
 using kybe_application.Interface.Security;
 using kybe_application.Interface.Service.User;
 using kybe_application.Service.User;
-using kybe_domain.Interface.Repository.IUser;
+using kybe_domain.Interface.Repository.User;
 using kybe_domain.Interface.Service.User;
 using kybe_domain.Service.User;
 

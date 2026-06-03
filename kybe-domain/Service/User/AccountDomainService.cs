@@ -1,4 +1,4 @@
-﻿using kybe_domain.Interface.Repository.IUser;
+﻿using kybe_domain.Interface.Repository.User;
 using kybe_domain.Interface.Service.User;
 using kybe_domain.Models.Entity;
 
@@ -23,7 +23,12 @@ namespace kybe_domain.Service.User
             await _userRepository.DeleteAsync(entity);
         }
 
-        public Task<ICollection<UserEntity>> GetAllAsync()
+        public async Task<ICollection<UserEntity>> GetAllAsync()
+        {
+            return await _userRepository.GetAllAsync();
+        }
+
+        public Task<List<string>> GetAllUserNamesAsync()
         {
             throw new NotImplementedException();
         }

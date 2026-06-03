@@ -1,0 +1,85 @@
+﻿@using kybe.presentation.ViewModels.Entity.Account.Person.User.Details
+@model AccountDetailsVM
+@{
+    ViewData["Title"] = "Meu dados - Inicial";
+}
+
+<div>
+    <div class="d-flex-hvh common-gap-medium">
+
+        <div class="account-common-hr"> </div>
+
+        <div class="common-flex-column common-gap-small">
+            <span class="common-font-xl">
+                <strong>Meus dados</strong>
+            </span>
+
+            <div class="d-flex flex-column common-gap-small" >
+
+                <div class="common-bookmark justify-content-between">
+                    <div class="common-flex-row">
+                        <div class="privacy-icons">
+                            <i class="bi bi-person fs-6 common-font-medium"></i>
+                        </div>
+                        <span class="common-font-medium">@Model.Name  @Model.LastName</span>
+                    </div>
+
+                    <a class="privacy-edit"
+                       asp-action="Index"
+                       asp-controller="Account"
+                       asp-route-tab="edit">
+                        <i class="bi bi-pencil-square"></i>
+                    </a>
+                </div>
+
+                <div class="common-bookmark justify-content-between">
+                    <div class="common-flex-row">
+                        <div class="privacy-icons">
+                            <span class="fs-6 common-font-medium">@@</span>
+                        </div>
+                        <span class="common-font-medium">@Model.UserName</span>
+                    </div>
+
+                    <a class="privacy-edit" 
+                       asp-action="Index"
+                       asp-controller="Account"
+                       asp-route-tab="edit">
+                        <i class="bi bi-pencil-square"></i>
+                    </a>
+                </div>
+
+                <div class="common-bookmark justify-content-between">
+                    <div class="common-flex-row" style="overflow: hidden">
+                        <div class="privacy-icons">
+                            <i class="bi bi-envelope-at fs-6 common-font-medium "></i>
+                        </div>
+                        <span class="common-font-medium">@Model.Email</span>
+                    </div>
+                    
+                    <a class="privacy-edit"
+                       asp-action="Index"
+                       asp-controller="Account"
+                       asp-route-tab="edit">
+                        <i class="bi bi-pencil-square"></i>
+                    </a>
+                </div>
+
+                <div class="common-bookmark justify-content-between">
+                    <div class="common-flex-row">
+                        <div class="privacy-icons">
+                            <i class="bi bi-telephone fs-6 common-font-medium"></i>
+                        </div>
+                        <span class="common-font-medium">@Model.PhoneNumber</span>
+                    </div>
+
+                    <a class="privacy-edit"
+                       asp-action="Index"
+                       asp-controller="Account"
+                       asp-route-tab="edit">
+                        <i class="bi bi-pencil-square"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

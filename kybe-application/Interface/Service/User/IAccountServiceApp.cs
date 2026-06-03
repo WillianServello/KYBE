@@ -1,12 +1,11 @@
-﻿using kybe_application.DTOs.UserDTOs;
+﻿using kybe_application.DTOs.AccountDTOs;
+using kybe_application.Interface.Service.Abstract.Crud;
 
 namespace kybe_application.Interface.Service.User
 {
-    public interface IAccountServiceApp
+    public interface IAccountServiceApp : ICrudServiceApp<AccountDetailsDTO, AccountUpdateDTO, AccountCreateDTO>
     {
-        Task RegisterAsync(RegisterUserDTO dto);
-        Task<InformationUserDTO> GetByIdAsync(Guid id);
-        Task UpdateAsync(Guid userId, EditUserDTO dto);
-        Task DeleteAsync(Guid userId);
+        Task<List<AccountAuditLogDTO>> GetAllUserNamesAsync();
+
     }
 }

@@ -74,6 +74,16 @@
                             <span class="common-font-medium">Excluir Conta</span>
                         </a>
 
+                        <a class="account-bar-itens" 
+                           asp-action="Index"
+                           asp-controller="Account"
+                           asp-route-tab="auditlog">
+                            <div class="bar-icons">
+                                <i class="bi bi-app-indicator fs-6"></i>
+                            </div>
+                            <span class="common-font-medium">Auditoria</span>
+                        </a>
+
                         
                     </div>
 
@@ -89,6 +99,10 @@
 
                                 case AccountTab.Edit:
                                     @await Component.InvokeAsync("Edit")
+                                    break;
+
+                                case AccountTab.AuditLog:
+                                    @await Component.InvokeAsync("AuditLog")
                                     break;
 
                                 default:

@@ -4,6 +4,8 @@
     {
         MyData,
         Delete,
-        Edit
+        Edit,
+        AuditLog
+
     }
 }

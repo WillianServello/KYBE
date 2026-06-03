@@ -17,11 +17,11 @@ namespace kybe_domain.Models.Entity
             PasswordHash = password;
         }
 
-        public void UpdateUser(string userName,string name,string lastName,string phoneNumber, string email,string cpf)
+        public void UpdateUser(string userName, string name, string lastName, string phoneNumber, string email, string cpf)
         {
             UserName = userName;
 
-            UpdateBasicData(name,lastName,phoneNumber,email,cpf);
+            UpdateBasicData(name, lastName, phoneNumber, email, cpf);
         }
     }
 }

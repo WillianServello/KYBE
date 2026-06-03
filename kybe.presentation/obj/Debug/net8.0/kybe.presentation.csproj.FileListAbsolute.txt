@@ -180,6 +180,7 @@ C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\System.Iden
 C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\libman.json
 C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\appsettings.json
+C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\appsettings.Umfg.json
 C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\libman.json
 C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\kybe.presentation.staticwebassets.runtime.json
 C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\kybe.presentation.staticwebassets.endpoints.json
@@ -325,4 +326,3 @@ C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\refint\ky
 C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\kybe.presentation.pdb
 C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\kybe.presentation.genruntimeconfig.cache
 C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\ref\kybe.presentation.dll
-C:\Users\WillianRafael\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\appsettings.Umfg.json

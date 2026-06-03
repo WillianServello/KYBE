@@ -1,8 +1,8 @@
 ﻿using kybe.presentation.ViewModels.Entity.Account.Components;
-using kybe.presentation.ViewModels.Entity.Account.Edit;
-using kybe.presentation.ViewModels.Entity.Account.Register;
+using kybe.presentation.ViewModels.Entity.Account.Person.User.Edit;
+using kybe.presentation.ViewModels.Entity.Account.Person.User.Register;
+using kybe_application.DTOs.AccountDTOs;
 using kybe_application.DTOs.CommonDTOs;
-using kybe_application.DTOs.UserDTOs;
 using kybe_application.Interface.Service.User;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
@@ -11,7 +11,7 @@ using System.Security.Claims;
 
 namespace kybe.presentation.Controllers.Entity
 {
-    
+
     public sealed class AccountController : Controller
     {
         private readonly IAccountServiceApp _userService;
@@ -22,7 +22,6 @@ namespace kybe.presentation.Controllers.Entity
         }
 
         [Authorize]
-        [ValidateAntiForgeryToken]
         [HttpGet]
         public IActionResult Index(AccountTab tab = AccountTab.MyData)
         {
@@ -40,7 +39,7 @@ namespace kybe.presentation.Controllers.Entity
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Register(UserRegisterVM viewModel)
+        public async Task<IActionResult> Register(AccountRegisterVM viewModel)
         {
             if (!ModelState.IsValid)
                 return View(viewModel);
@@ -48,7 +47,7 @@ namespace kybe.presentation.Controllers.Entity
             try
             {
                 var dto = SetRegister(viewModel);
-                await _userService.RegisterAsync(dto);
+                await _userService.AddAsync(dto);
 
                 return RedirectToAction("Login", "Auth");
             }
@@ -62,7 +61,7 @@ namespace kybe.presentation.Controllers.Entity
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize]
-        public async Task<IActionResult> Edit(UserEditVM viewModel)
+        public async Task<IActionResult> Edit(AccountEditVM viewModel)
         {
             if (!ModelState.IsValid)
             {
@@ -128,9 +127,9 @@ namespace kybe.presentation.Controllers.Entity
                 });
             }
         }
-        private static RegisterUserDTO SetRegister(UserRegisterVM viewModel)
+        private static AccountCreateDTO SetRegister(AccountRegisterVM viewModel)
         {
-            return new RegisterUserDTO
+            return new AccountCreateDTO
             {
                 UserName = viewModel.UserName,
                 Password = viewModel.Password,
@@ -154,9 +153,9 @@ namespace kybe.presentation.Controllers.Entity
             };
         }
 
-        private static EditUserDTO SetUpdate(UserEditVM viewModel)
+        private static AccountUpdateDTO SetUpdate(AccountEditVM viewModel)
         {
-            return new EditUserDTO
+            return new AccountUpdateDTO
             {
                 UserName = viewModel.UserName,
                 Name = viewModel.Name,

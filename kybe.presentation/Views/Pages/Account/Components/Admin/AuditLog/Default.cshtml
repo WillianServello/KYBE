@@ -1,0 +1,7 @@
+﻿@using kybe.presentation.ViewModels.Entity.Account.Person.Admin.AuditLog
+@model List<AccountAuditLogVM>
+
+@foreach (var user in Model)
+{
+    <span>@user.UserName</span>
+}

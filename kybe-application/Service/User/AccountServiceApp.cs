@@ -1,11 +1,10 @@
-﻿using kybe_application.DTOs.CommonDTOs;
-using kybe_application.DTOs.UserDTOs;
+﻿using kybe_application.DTOs.AccountDTOs;
+using kybe_application.DTOs.CommonDTOs;
 using kybe_application.Interface.Security;
 using kybe_application.Interface.Service.User;
 using kybe_domain.Interface.Service.User;
 using kybe_domain.Models.Common.ValueObject;
 using kybe_domain.Models.Entity;
-using System.Net;
 
 namespace kybe_application.Service.User
 {
@@ -17,7 +16,7 @@ namespace kybe_application.Service.User
         public AccountServiceApp(IAccountServiceDomain userServiceDomain, IPasswordHasher passwordHasher)
         {
             _userServiceDomain = userServiceDomain;
-            _passwordHasher = passwordHasher;   
+            _passwordHasher = passwordHasher;
         }
 
         public async Task DeleteAsync(Guid userId)
@@ -30,14 +29,28 @@ namespace kybe_application.Service.User
             await _userServiceDomain.DeleteAsync(user);
         }
 
-        public async Task<InformationUserDTO> GetByIdAsync(Guid id)
+        public async Task<List<AccountAuditLogDTO>> GetAllUserNamesAsync()
+        {
+            var users = await _userServiceDomain.GetAllAsync();
+
+            return users
+                .OrderBy(user => user.UserName)
+                .Select(user => new AccountAuditLogDTO
+                {
+                    Id = user.Id,
+                    UserName = user.UserName
+                })
+                .ToList();
+        }
+
+        public async Task<AccountDetailsDTO> GetByIdAsync(Guid id)
         {
             var user = await _userServiceDomain.GetByIdAsync(id);
 
             if (user is null)
                 throw new InvalidOperationException("Usuário não encontrado.");
 
-            return new InformationUserDTO
+            return new AccountDetailsDTO
             {
                 UserName = user.UserName,
                 Name = user.Name,
@@ -59,7 +72,7 @@ namespace kybe_application.Service.User
             };
         }
 
-        public Task RegisterAsync(RegisterUserDTO dto)
+        public Task AddAsync(AccountCreateDTO dto)
         {
             Address? address = null;
 
@@ -91,10 +104,10 @@ namespace kybe_application.Service.User
             return _userServiceDomain.AddAsync(user);
         }
 
-        public async Task UpdateAsync(Guid userId, EditUserDTO dto)
+        public async Task UpdateAsync(Guid userId, AccountUpdateDTO dto)
         {
 
-           var user = await _userServiceDomain.GetByIdAsync(userId);
+            var user = await _userServiceDomain.GetByIdAsync(userId);
 
             if (user is null)
                 throw new Exception("Usuário não encontrado.");
@@ -109,6 +122,11 @@ namespace kybe_application.Service.User
             );
 
             await _userServiceDomain.UpdateAsync(user);
+        }
+
+        public Task<ICollection<AccountDetailsDTO>> GetAllAsync()
+        {
+            throw new NotImplementedException();
         }
     }
 }

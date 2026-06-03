@@ -1,0 +1,23 @@
+﻿@using kybe.presentation.ViewModels.Entity.Account.Person.User.Delete
+@model AccountDeleteVM
+@{
+    ViewData["Title"] = "Meu dados - Excluir conta";
+}
+
+<div>
+    <div class="d-flex justify-content-center align-items-center " style="height: 70vh">
+        <div class="common-border-left"></div>
+        
+        <form asp-controller="Account" asp-action="Delete" method="post">
+            @Html.AntiForgeryToken()
+            <button class="common-box common-font-large">
+                <span class="text-danger">
+                    <strong>Excluir conta @@@Model.UserName</strong>
+                </span>
+            </button>
+        </form>
+        
+    </div>
+</div>
+
+

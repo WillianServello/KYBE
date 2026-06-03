@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("kybe.presentation")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+74a2eeda822d20d1081972f4ef60ed7efdd581a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc5411ad5898bd019fe4c67fb9df3b3249f9c997")]
 [assembly: System.Reflection.AssemblyProductAttribute("kybe.presentation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("kybe.presentation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

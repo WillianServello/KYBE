@@ -26,10 +26,21 @@ namespace kybe.infrastructure.Data.Mappings.Abstract
                 .HasMaxLength(20)
                 .HasColumnName("PHONE_NUMBER")
                 .IsRequired();
+
+            builder
+                .Property(x => x.Email)
+                .HasMaxLength(256)
+                .HasColumnName("EMAIL")
+                .IsRequired();
+
             builder
                 .Property(x => x.Cpf)
                 .HasMaxLength(20)
                 .HasColumnName("CPF")
+                .IsRequired();
+
+            builder
+                .Property(x => x.Profile)
                 .IsRequired();
 
             builder.OwnsOne(x => x.Address, address =>
@@ -71,11 +82,7 @@ namespace kybe.infrastructure.Data.Mappings.Abstract
                     .HasMaxLength(128);
             });
 
-            builder
-                .Property(x => x.Email)
-                .HasMaxLength(256)
-                .HasColumnName("EMAIL")
-                .IsRequired();
+            
         }
     }
 }

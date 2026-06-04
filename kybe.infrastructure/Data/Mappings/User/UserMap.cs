@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace kybe.infrastructure.Data.Mappings.User
 {
-    internal class UserMap : AbstractUserMap<UserEntity>
+    internal class UserMap : AbstractPersonMap<UserEntity>
     {
         public override void Configure(EntityTypeBuilder<UserEntity> builder)
         {

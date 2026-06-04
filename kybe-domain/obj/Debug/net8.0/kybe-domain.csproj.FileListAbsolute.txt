@@ -34,3 +34,15 @@ C:\Users\WillianRafael\Desktop\KYBE\kybe-domain\obj\Debug\net8.0\kybe-domain.dll
 C:\Users\WillianRafael\Desktop\KYBE\kybe-domain\obj\Debug\net8.0\refint\kybe-domain.dll
 C:\Users\WillianRafael\Desktop\KYBE\kybe-domain\obj\Debug\net8.0\kybe-domain.pdb
 C:\Users\WillianRafael\Desktop\KYBE\kybe-domain\obj\Debug\net8.0\ref\kybe-domain.dll
+C:\Users\biaa\Desktop\KYBE\kybe-domain\bin\Debug\net8.0\kybe-domain.deps.json
+C:\Users\biaa\Desktop\KYBE\kybe-domain\bin\Debug\net8.0\kybe-domain.dll
+C:\Users\biaa\Desktop\KYBE\kybe-domain\bin\Debug\net8.0\kybe-domain.pdb
+C:\Users\biaa\Desktop\KYBE\kybe-domain\obj\Debug\net8.0\kybe-domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\biaa\Desktop\KYBE\kybe-domain\obj\Debug\net8.0\kybe-domain.AssemblyInfoInputs.cache
+C:\Users\biaa\Desktop\KYBE\kybe-domain\obj\Debug\net8.0\kybe-domain.AssemblyInfo.cs
+C:\Users\biaa\Desktop\KYBE\kybe-domain\obj\Debug\net8.0\kybe-domain.csproj.CoreCompileInputs.cache
+C:\Users\biaa\Desktop\KYBE\kybe-domain\obj\Debug\net8.0\kybe-domain.sourcelink.json
+C:\Users\biaa\Desktop\KYBE\kybe-domain\obj\Debug\net8.0\kybe-domain.dll
+C:\Users\biaa\Desktop\KYBE\kybe-domain\obj\Debug\net8.0\refint\kybe-domain.dll
+C:\Users\biaa\Desktop\KYBE\kybe-domain\obj\Debug\net8.0\kybe-domain.pdb
+C:\Users\biaa\Desktop\KYBE\kybe-domain\obj\Debug\net8.0\ref\kybe-domain.dll

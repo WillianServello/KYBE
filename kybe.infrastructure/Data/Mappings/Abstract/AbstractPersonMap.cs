@@ -4,7 +4,7 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace kybe.infrastructure.Data.Mappings.Abstract
 {
-    internal abstract class AbstractUserMap<T> : AbstractEntityMap<T> where T : AbstractUser
+    internal abstract class AbstractPersonMap<T> : AbstractEntityMap<T> where T : AbstractPerson
     {
         public override void Configure(EntityTypeBuilder<T> builder)
         {
@@ -41,6 +41,7 @@ namespace kybe.infrastructure.Data.Mappings.Abstract
 
             builder
                 .Property(x => x.Profile)
+                .HasColumnName("PROFILE")
                 .IsRequired();
 
             builder.OwnsOne(x => x.Address, address =>

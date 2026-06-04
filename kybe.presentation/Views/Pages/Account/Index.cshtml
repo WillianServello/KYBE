@@ -74,17 +74,19 @@
                             <span class="common-font-medium">Excluir Conta</span>
                         </a>
 
-                        <a class="account-bar-itens" 
-                           asp-action="Index"
-                           asp-controller="Account"
-                           asp-route-tab="auditlog">
-                            <div class="bar-icons">
-                                <i class="bi bi-app-indicator fs-6"></i>
-                            </div>
-                            <span class="common-font-medium">Auditoria</span>
-                        </a>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <a class="account-bar-itens" 
+                            asp-action="Index"
+                            asp-controller="Account"
+                            asp-route-tab="auditlog">
+                                <div class="bar-icons">
+                                    <i class="bi bi-app-indicator fs-6"></i>
+                                </div>
+                                <span class="common-font-medium">Auditoria</span>
+                            </a>
+                        }
 
-                        
                     </div>
 
                     @* CONTEÚDO DA _PARTIALS *@
@@ -102,7 +104,11 @@
                                     break;
 
                                 case AccountTab.AuditLog:
-                                    @await Component.InvokeAsync("AuditLog")
+                                    @if (User.IsInRole("Admin"))
+                                    {
+                                        @await Component.InvokeAsync("AuditLog")
+                                        
+                                    }
                                     break;
 
                                 default:

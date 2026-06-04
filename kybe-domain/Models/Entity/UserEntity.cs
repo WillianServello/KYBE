@@ -3,7 +3,7 @@ using kybe_domain.Models.Common.ValueObject;
 
 namespace kybe_domain.Models.Entity
 {
-    public sealed class UserEntity : AbstractUser
+    public sealed class UserEntity : AbstractPerson
     {
         public UserEntity() { }
 

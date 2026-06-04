@@ -1,5 +1,7 @@
-﻿using kybe.presentation.ViewModels.Entity.Account.Person.Admin.AuditLog;
+﻿using kybe.presentation.ViewModels.Entity.Account.Components;
+using kybe.presentation.ViewModels.Entity.Account.Person.Admin.AuditLog;
 using kybe_application.Interface.Service.User;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace kybe.presentation.ViewComponents.Account.Admin
@@ -15,6 +17,12 @@ namespace kybe.presentation.ViewComponents.Account.Admin
 
         public async Task<IViewComponentResult> InvokeAsync()
         {
+
+            if (!User.IsInRole("Admin"))
+            {
+                return Content("Unauthorized");
+            }
+
             var usersDto = await _accountService.GetAllUserNamesAsync();
 
             var usersVm = usersDto

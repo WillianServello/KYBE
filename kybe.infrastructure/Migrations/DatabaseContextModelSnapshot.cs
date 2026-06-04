@@ -69,6 +69,10 @@ namespace kybe.infrastructure.Migrations
                         .HasColumnType("varchar(20)")
                         .HasColumnName("PHONE_NUMBER");
 
+                    b.Property<int>("Profile")
+                        .HasColumnType("int")
+                        .HasColumnName("PROFILE");
+
                     b.Property<DateTime?>("UpdateAt")
                         .HasColumnType("datetime(6)")
                         .HasColumnName("UPDATE_AT");
@@ -86,7 +90,7 @@ namespace kybe.infrastructure.Migrations
 
             modelBuilder.Entity("kybe_domain.Models.Entity.UserEntity", b =>
                 {
-                    b.OwnsOne("kybe_domain.Models.ValueObject.Address", "Address", b1 =>
+                    b.OwnsOne("kybe_domain.Models.Common.ValueObject.Address", "Address", b1 =>
                         {
                             b1.Property<Guid>("UserEntityId")
                                 .HasColumnType("char(36)");

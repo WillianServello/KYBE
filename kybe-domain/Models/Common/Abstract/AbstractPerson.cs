@@ -4,7 +4,7 @@ using kybe_domain.Models.Common.ValueObject;
 
 namespace kybe_domain.Models.Common.Abstract
 {
-    public abstract class AbstractUser : AbstractEntity
+    public abstract class AbstractPerson : AbstractEntity
     {
         public string Name { get; private set; } = string.Empty;
         public string? LastName { get; private set; } = string.Empty;
@@ -13,8 +13,8 @@ namespace kybe_domain.Models.Common.Abstract
         public string Cpf { get; private set; } = string.Empty;
         public ProfileEnum Profile { get; private set; } = ProfileEnum.User;
         public Address? Address { get; private set; }
-        protected AbstractUser() { }
-        protected AbstractUser(string name, string? lastName, string phoneNumber, string email, string cpf,  Address? address)
+        protected AbstractPerson() { }
+        protected AbstractPerson(string name, string? lastName, string phoneNumber, string email, string cpf,  Address? address)
         {
             Name = Guard.AgainstNullOrWhiteSpace(name, nameof(Name));
             LastName = lastName;

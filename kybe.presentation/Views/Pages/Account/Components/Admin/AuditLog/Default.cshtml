@@ -1,7 +1,17 @@
 ﻿@using kybe.presentation.ViewModels.Entity.Account.Person.Admin.AuditLog
-@model List<AccountAuditLogVM>
+@model IEnumerable<AccountAuditLogVM>
 
 @foreach (var user in Model)
 {
-    <span>@user.UserName</span>
+    <div class="d-flex common-gap-small mb-2">
+        <div class="common-box">
+            <span class="common-font-medium">
+                @user.UserName 
+                <span class="text-success">
+                    é um novo usuário!
+                </span>
+            </span>
+        </div>
+    </div>
+    
 }

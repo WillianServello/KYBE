@@ -40,7 +40,9 @@ namespace kybe.infrastructure.Service.Security
                 new Claim(ClaimTypes.Name, user.Name),
                 new Claim(ClaimTypes.Email, user.Email),
                 new Claim(ClaimTypes.Surname, user.LastName ?? " "),
-                new Claim("UserName", user.UserName)
+                new Claim("UserName", user.UserName),
+
+                new Claim(ClaimTypes.Role, user.Profile.ToString())
             };
 
             var token = new JwtSecurityToken(

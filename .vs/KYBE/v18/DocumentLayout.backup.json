@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\biaa\\Desktop\\KYBE\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|c:\\users\\biaa\\desktop\\kybe\\kybe.presentation\\views\\pages\\account\\components\\admin\\auditlog\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D0D99B42-80C3-4B69-93A8-3391E70C87F3}|kybe.presentation\\kybe.presentation.csproj|solutionrelative:kybe.presentation\\views\\pages\\account\\components\\admin\\auditlog\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{774113D9-E649-4E21-919D-1EDFEF586BF3}|kybe-application\\kybe-application.csproj|c:\\users\\biaa\\desktop\\kybe\\kybe-application\\service\\user\\accountserviceapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{774113D9-E649-4E21-919D-1EDFEF586BF3}|kybe-application\\kybe-application.csproj|solutionrelative:kybe-application\\service\\user\\accountserviceapp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\biaa\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Account\\Components\\Admin\\AuditLog\\Default.cshtml",
+              "RelativeDocumentMoniker": "kybe.presentation\\Views\\Pages\\Account\\Components\\Admin\\AuditLog\\Default.cshtml",
+              "ToolTip": "C:\\Users\\biaa\\Desktop\\KYBE\\kybe.presentation\\Views\\Pages\\Account\\Components\\Admin\\AuditLog\\Default.cshtml",
+              "RelativeToolTip": "kybe.presentation\\Views\\Pages\\Account\\Components\\Admin\\AuditLog\\Default.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-06-05T15:24:02.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountServiceApp.cs",
+              "DocumentMoniker": "C:\\Users\\biaa\\Desktop\\KYBE\\kybe-application\\Service\\User\\AccountServiceApp.cs",
+              "RelativeDocumentMoniker": "kybe-application\\Service\\User\\AccountServiceApp.cs",
+              "ToolTip": "C:\\Users\\biaa\\Desktop\\KYBE\\kybe-application\\Service\\User\\AccountServiceApp.cs",
+              "RelativeToolTip": "kybe-application\\Service\\User\\AccountServiceApp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-05T15:23:51.83Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

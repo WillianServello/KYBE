@@ -1,6 +1,7 @@
 using kybe.presentation.Extensions;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using System.Security.Claims;
 using System.Text;
 
 namespace kybe.presentation
@@ -54,7 +55,9 @@ namespace kybe.presentation
                         ValidIssuer = builder.Configuration["Jwt:Issuer"],
                         ValidAudience = builder.Configuration["Jwt:Audience"],
 
-                        IssuerSigningKey = new SymmetricSecurityKey(key)
+                        IssuerSigningKey = new SymmetricSecurityKey(key),
+
+                        RoleClaimType = ClaimTypes.Role
                     };
 
 

@@ -35,7 +35,10 @@ namespace kybe.infrastructure.Service.Abstract
         }
 
         public virtual async Task<ICollection<T>> GetAllAsync()
-           => await Entity.Where(x => x.IsActive).ToListAsync();
+           => await Entity
+            .Where(x => x.IsActive)
+            .OrderByDescending(x => x.CreateAt)
+            .ToListAsync();
 
         public virtual async Task DeleteAsync(T entity)
         {

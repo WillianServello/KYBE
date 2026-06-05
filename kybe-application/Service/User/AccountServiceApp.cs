@@ -34,7 +34,6 @@ namespace kybe_application.Service.User
             var users = await _userServiceDomain.GetAllAsync();
 
             return users
-                .OrderBy(user => user.UserName)
                 .Select(user => new AccountAuditLogDTO
                 {
                     Id = user.Id,

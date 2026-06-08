@@ -163,6 +163,7 @@ namespace kybe.presentation.Controllers.Entity
                 PhoneNumber = viewModel.PhoneNumber,
                 Email = viewModel.Email,
                 Cpf = viewModel.Cpf,
+                Profile = viewModel.Profile
             };
         }
 

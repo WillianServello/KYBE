@@ -117,7 +117,8 @@ namespace kybe_application.Service.User
                 dto.LastName,
                 dto.PhoneNumber,
                 dto.Email,
-                dto.Cpf
+                dto.Cpf,
+                dto.Profile
             );
 
             await _userServiceDomain.UpdateAsync(user);

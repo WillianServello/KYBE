@@ -1,4 +1,5 @@
 ﻿using kybe_domain.Models.Common.Abstract;
+using kybe_domain.Models.Common.Enum;
 using kybe_domain.Models.Common.ValueObject;
 
 namespace kybe_domain.Models.Entity
@@ -17,11 +18,10 @@ namespace kybe_domain.Models.Entity
             PasswordHash = password;
         }
 
-        public void UpdateUser(string userName, string name, string lastName, string phoneNumber, string email, string cpf)
+        public void UpdateUser(string userName, string name, string lastName, string phoneNumber, string email, string cpf, ProfileEnum profile)
         {
             UserName = userName;
-
-            UpdateBasicData(name, lastName, phoneNumber, email, cpf);
+            UpdateBasicData(name, lastName, phoneNumber, email, cpf, profile);
         }
     }
 }

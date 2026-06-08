@@ -26,13 +26,14 @@ namespace kybe_domain.Models.Common.Abstract
 
         }
 
-        public void UpdateBasicData(string name, string? lastName, string phoneNumber, string email, string cpf)
+        public void UpdateBasicData(string name, string? lastName, string phoneNumber, string email, string cpf, ProfileEnum profile)
         {
             Name = Guard.AgainstNullOrWhiteSpace(name, nameof(Name));
             LastName = lastName;
             PhoneNumber = Guard.AgainstNullOrWhiteSpace(phoneNumber, nameof(PhoneNumber));
             Email = Guard.AgainstNullOrWhiteSpace(email, nameof(Email));
             Cpf = Guard.AgainstNullOrWhiteSpace(cpf, nameof(Cpf));
+            Profile = profile;
         }
     }
 }

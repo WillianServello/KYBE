@@ -1,55 +1,119 @@
-﻿<div class="home-conteiner-user">
-    @if (User.Identity?.IsAuthenticated == true)
-    {
-        <div class="home-user" onclick="toggleMenuUser()">
-            <div class="home-user-name tooltips-user" data-title-user="sessão usuário">
-                <span class="common-font-medium">
-                    @User.Identity.Name
-                </span>
+﻿
+<div class="nav">
+    <div>
+        <div class="account-page w-100 ">
+
+            @* MENU LATERAL - LEFT BAR *@
+            <div class="d-flex bar account-bar">
+                <a class="account-bar-itens"
+                   asp-action="Index"
+                   asp-controller="Account"
+                   asp-route-tab="mydata">
+                    <div class="bar-icons">
+                        <i class="bi bi-person fs-6"></i>
+                    </div>
+                    <span class="common-font-medium">Meus dados</span>
+                </a>
+
+                <a class="account-bar-itens"
+                   asp-action="Index"
+                   asp-controller="Account"
+                   asp-route-tab="edit">
+                    <div class="bar-icons">
+                        <i class="bi bi-pencil fs-6"></i>
+                    </div>
+                    <span class="common-font-medium">Editar Dados</span>
+                </a>
+
+                <a class="account-bar-itens"
+                   asp-action="Index"
+                   asp-controller="Account"
+                   asp-route-tab="delete">
+                    <div class="bar-icons">
+                        <i class="bi bi-folder-minus fs-6"></i>
+                    </div>
+                    <span class="common-font-medium">Excluir Conta</span>
+                </a>
+
+                @if (User.IsInRole("Admin"))
+                {
+                    <a class="account-bar-itens"
+                       asp-action="Index"
+                       asp-controller="Account"
+                       asp-route-tab="auditlog">
+                        <div class="bar-icons">
+                            <i class="bi bi-app-indicator fs-6"></i>
+                        </div>
+                        <span class="common-font-medium">Auditoria</span>
+                    </a>
+                }
+
+            </div>
+            </div>
+    </div>
+    <div class="home-conteiner-user">
+        @if (User.Identity?.IsAuthenticated == true)
+        {
+            <div class="home-user" onclick="toggleMenuUser()">
+                <div class="home-user-name tooltips-user" data-title-user="sessão usuário">
+                    <span class="common-font-medium">
+                        @User.Identity.Name
+                    </span>
+                </div>
+
+                <div class="home-arrow-icon">
+                    <i class="fa-solid fa-chevron-down" id="user-arrow"></i>
+                </div>
             </div>
 
-            <div class="home-arrow-icon">
-                <i class="fa-solid fa-chevron-down" id="user-arrow"></i>
-            </div>
-        </div>
+            <div class="home-user-menu" id="home-user-menu">
+                <a class="home-item-menu" asp-action="Index" asp-controller="Account">
+                    <i class="bi bi-person"></i>
+                    <span class="common-font-medium">Perfil</span>
+                </a>
 
-        <div class="home-user-menu" id="home-user-menu">
-            <a class="home-item-menu" asp-action="Index" asp-controller="Account">
-                <i class="fa-regular fa-user"></i>
-                <span class="common-font-medium">Perfil</span>
-            </a>
+                <div class="home-item-menu">
+                    <i class="bi bi-bookmark"></i>
+                    <span class="common-font-medium">Configurações</span>
+                </div>
 
-            <div class="home-item-menu">
-                <i class="fa-regular fa-bookmark"></i>
-                <span class="common-font-medium">Configurações</span>
+                <form asp-controller="Auth" asp-action="Logout" method="post">
+                    @Html.AntiForgeryToken()
+                    <button class="home-item-menu w-100">
+                        <i class="bi bi-box-arrow-in-right"></i>
+                        <span class="common-font-medium">Sair</span>
+                    </button>
+                </form>
             </div>
-        </div>
-    }
-    else
-    {
-        <div class="home-user" onclick="toggleMenuUser()">
+
+        }
+        else
+        {
+            <div class="home-user" onclick="toggleMenuUser()">
            
-            <div class="home-user-name tooltips-user" >
-                <span class="class="common-font-medium"">
-                    Opções
-                </span>
+                <div class="home-user-name tooltips-user" >
+                    <span class="class="common-font-medium"">
+                        Opções
+                    </span>
+                </div>
+
+                <div class="home-arrow-icon">
+                    <i class="fa-solid fa-chevron-down" id="user-arrow"></i>
+                </div>
             </div>
 
-            <div class="home-arrow-icon">
-                <i class="fa-solid fa-chevron-down" id="user-arrow"></i>
+            <div class="home-user-menu" id="home-user-menu">
+                <a class="home-item-menu" asp-action="Login" asp-controller="Auth">
+                    <i class="bi bi-plug-fill"></i>
+                    <span>Login</span>
+                </a>
+
+                <a class="home-item-menu common-font-medium" asp-action="Register" asp-controller="Account">
+                    <i class="bi bi-person-square"></i>
+                    <span>Registrar</span>
+                </a>
             </div>
-        </div>
-
-        <div class="home-user-menu" id="home-user-menu">
-            <a class="home-item-menu" asp-action="Login" asp-controller="Auth">
-                <i class="bi bi-plug-fill"></i>
-                <span>Login</span>
-            </a>
-
-            <a class="home-item-menu common-font-medium" asp-action="Register" asp-controller="Account">
-                <i class="bi bi-person-square"></i>
-                <span>Registrar</span>
-            </a>
-        </div>
-    }
+        }
+    </div>
 </div>
+

@@ -474,3 +474,4 @@ C:\Users\biaa\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\refint\kybe.presen
 C:\Users\biaa\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\kybe.presentation.pdb
 C:\Users\biaa\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\kybe.presentation.genruntimeconfig.cache
 C:\Users\biaa\Desktop\KYBE\kybe.presentation\obj\Debug\net8.0\ref\kybe.presentation.dll
+C:\Users\facec.lab04\Desktop\KYBE\kybe.presentation\bin\Debug\net8.0\appsettings.Umfg.json

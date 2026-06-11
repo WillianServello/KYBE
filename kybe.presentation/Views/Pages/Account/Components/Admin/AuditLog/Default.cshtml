@@ -1,17 +1,23 @@
 ﻿@using kybe.presentation.ViewModels.Entity.Account.Person.Admin.AuditLog
 @model IEnumerable<AccountAuditLogVM>
 
+
+<div class="w-100 vh-100" style="margin-bottom: 40px; margin-top: 20px;" ">
+
 @foreach (var user in Model)
 {
-    <div class="d-flex common-gap-small mb-2">
-        <div class="common-box">
+    
+    <div class="w-100" style="margin-bottom: 40px; margin-top: 20px;">
+       
+        <div class="common-box d-inline">
             <span class="common-font-medium">
-                @user.UserName 
+                @user.UserName
                 <span class="text-success">
                     é um novo usuário!
                 </span>
             </span>
+
         </div>
     </div>
-    
 }
+    </div>

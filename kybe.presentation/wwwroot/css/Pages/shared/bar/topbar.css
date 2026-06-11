@@ -1,0 +1,60 @@
+﻿.topbar {
+    display: flex;
+    flex-direction: column;
+    z-index: 15;
+    rotate: 90deg !important;
+}
+
+.account-topbar {
+    position: sticky;
+    width: 60px;
+}
+
+.account-topbar-itens {
+    position: relative;
+    background: #fff;
+    border: 1px solid #d3d3d3;
+    padding: 10px 35px 10px 15px;
+    display: inline-flex;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    width: 30px;
+    border-right: none;
+    border-left: none;
+    overflow: hidden;
+    cursor: pointer;
+    gap: 15px;
+    transition: 0.5s all ease;
+}
+
+    .account-topbar-itens:hover,
+    .account-topbar-itens:active,
+    .account-topbar-itens:focus {
+        width: 150px;
+        background: #d3d3d3;
+    }
+
+    .account-topbar-itens::after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+        background: #fff;
+        transform: translate(50%, -50%) rotate(45deg);
+        border-left: 1px solid #d3d3d3;
+        border-bottom: 1px solid #d3d3d3;
+    }
+
+
+.topbar-icons {
+    rotate: -90deg !important;
+}
+.account-topbar-itens span {
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 3px;
+}

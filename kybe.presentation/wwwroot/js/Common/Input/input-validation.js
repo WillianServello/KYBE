@@ -21,5 +21,5 @@ $.validator.addMethod("cpfvalido", function (value, element) {
 }, "CPF inválido");
 
 $(function () {
-    $("#mask-cpf").rules("add", { cpfvalido: true });
+    $(".mask-cpf").rules("add", { cpfvalido: true });
 });

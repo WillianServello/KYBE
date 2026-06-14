@@ -62,6 +62,7 @@ namespace kybe.presentation.Controllers.Auth
                 return View(viewModel);
             }
         }
+
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize]
@@ -71,6 +72,7 @@ namespace kybe.presentation.Controllers.Auth
 
             return RedirectToAction("Login", "Auth");
         }
+
         private static LoginUser SetLogin(UserLoginVM viewModel)
         {
             return new LoginUser

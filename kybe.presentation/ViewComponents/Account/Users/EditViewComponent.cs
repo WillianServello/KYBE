@@ -27,7 +27,8 @@ namespace kybe.presentation.ViewComponents.Account.Users
                 UserName = user.UserName,
                 Email = user.Email,
                 PhoneNumber = user.PhoneNumber,
-                Cpf = user.Cpf
+                Cpf = user.Cpf,
+                Profile = user.ProfileDTO
             };
 
             return View("~/Views/Pages/Account/Components/Users/Edit/Default.cshtml", viewModel);

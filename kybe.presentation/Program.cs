@@ -65,7 +65,7 @@ namespace kybe.presentation
                 {
                     OnMessageReceived = context =>
                     {
-                        context.Token = context.Request.Cookies["jwt"];
+                        context.Token = context.Request.Cookies["JWT"];
 
                         return Task.CompletedTask;
                     },

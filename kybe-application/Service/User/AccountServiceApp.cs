@@ -57,6 +57,7 @@ namespace kybe_application.Service.User
                 PhoneNumber = user.PhoneNumber,
                 Email = user.Email,
                 Cpf = user.Cpf,
+                ProfileDTO = user.Profile,
 
                 AddressDTO = user.Address is null ? null : new AddressDTO
                 {

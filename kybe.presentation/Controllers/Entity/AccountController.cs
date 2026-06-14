@@ -102,30 +102,19 @@ namespace kybe.presentation.Controllers.Entity
         [Authorize]
         public async Task<IActionResult> Delete()
         {
-            try
-            {
-                var userIdClaim = User.FindFirstValue(ClaimTypes.NameIdentifier);
+            var userIdClaim = User.FindFirstValue(ClaimTypes.NameIdentifier);
 
-                if (userIdClaim is null)
-                    return RedirectToAction("Login", "Auth");
-
-                var userId = Guid.Parse(userIdClaim);
-
-                await _userService.DeleteAsync(userId);
-
-                await HttpContext.SignOutAsync();
-
+            if (string.IsNullOrWhiteSpace(userIdClaim))
                 return RedirectToAction("Login", "Auth");
-            }
-            catch (Exception ex)
-            {
-                ModelState.AddModelError("", ex.Message);
 
-                return View("Index", new AccountViewModel
-                {
-                    ActiveTab = AccountTab.MyData
-                });
-            }
+            if (!Guid.TryParse(userIdClaim, out var userId))
+                return RedirectToAction("Login", "Auth");
+
+            await _userService.DeleteAsync(userId);
+
+            Response.Cookies.Delete("JWT");
+
+            return RedirectToAction("Login", "Auth");
         }
         private static AccountCreateDTO SetRegister(AccountRegisterVM viewModel)
         {
